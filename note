@@ -1,0 +1,125 @@
+
+
+
+
+输入数据：谷歌数据
+30组关键词(函噪音和静音)，由3000多个人组成
+
+'--data_url', 数据下载地址
+'--data_dir', 数据地址
+'--background_volume', 背景噪声的大小
+'--background_frequency', 混合背景噪声的比例
+'--silence_percentage', 静音的占比
+'--unknown_percentage', 未知单词的占比
+'--time_shift_ms',
+'--testing_percentage', 测试集比例
+'--validation_percentage', 交叉验证比例
+'--sample_rate', 采样率-16000
+'--clip_duration_ms', 读取的音频时间长度-1000
+'--window_size_ms', 窗长-30
+'--window_stride_ms', 窗移-10
+'--dct_coefficient_count', 频率系数
+'--how_many_training_steps' , 训练步数
+'--eval_step_interval', 多少次评估一次
+'--learning_rate', 学习率
+'--batch_size', 批量大小-100
+'--summaries_dir', 概要保存地址
+'--wanted_words', 唤醒的关键词
+'--train_dir', 训练保存地址
+'--save_step_interval', 多少次保存一个
+'--start_checkpoint', 模型保存节点
+'--model_architecture', 模型架构选择
+'--model_size_info', 模型大小信息 -[128, 128, 128]
+'--check_nans',
+
+
+
+
+
+bidirectional = {bool} False
+dropout_prob = {Tensor} Tensor("dropout_prob:0", dtype=float32)
+
+原始语音：
+fingerprint_input = {Tensor} Tensor("fingerprint_input:0", shape=(?, 3920), dtype=float32)
+转MFCC40：
+fingerprint_4d = {Tensor} Tensor("Reshape:0", shape=(?, 98, 40, 1), dtype=float32)
+first_filter_count = {int} 128
+first_filter_height = {int} 128
+first_filter_width = {int} 128
+input_frequency_size = {int} 40
+input_time_size = {int} 98
+is_training = {bool} True
+layer_norm = {bool} False
+model_settings = {dict} {'desired_samples': 16000, 'window_size_samples': 480, 'window_stride_samples': 160, 'spectrogram_length': 98, 'dct_coefficient_count': 40, 'fingerprint_size': 3920, 'label_count': 12, 'sample_rate': 16000}
+model_size_info = {list} <class 'list'>: [128, 128, 128]
+
+
+
+关于输入缓存的问题：
+输入采样是16000
+语音总长1.0s
+mfcc采样窗口：大小30ms，滑动平均10=ms
+1s的mfcc40的参数是40*98~4k的参数
+
+
+唤醒词怎么找一个最适合的门限值？
+可以画出唤醒词与非唤醒词的得分分布，然后根据分布画出ROC曲线，然后根据需求选择合适的阈值，
+一般会选择EER点设定阈值。如果用户对误唤醒容忍度很低就把阈值设置的略高一点。
+
+
+输入的频谱特征有：
+ PLP， MFCC 和 FBK
+Mel-frequency cepstral coefficients（MFCCs）——梅尔频率倒谱系数
+梅尔，也就是前面提到的梅尔刻度；频率，也就是它是一种非线性的频率，即梅尔；倒谱，经倒谱分析后得到的特征；系数，呃，这个不用解释了吧。
+给出一个平滑频谱（smoothed spectrum）的概念：变换到倒谱域，截断，再变换回频域。
+
+Perceptual Linear Prediction（PLP）——感知线性预测
+将语音信号通过傅立叶变换得到频谱，再对幅度求平方，然后进行临界频带积分（critical-band intergration），
+接着进行等响度预加重，接着求立方根（对强度进行等响度压缩），然后是进行逆傅立叶变换，最后再经过线性预测即可得到PLP。
+已经被证明的是PLP跟MFCCs比较，其具有更好的语音识别准确度以及更好的噪声鲁棒性。
+
+Filter banks和MFCC语音特征提取，整体是相似的，MFCC只是多了一步DCT（离散余弦变换）罢了
+
+粒度单元：
+单音素 (mono-phone)、单音素状态、绑定的音素状态 (tri-phonestate)
+
+
+
+
+KWS 应用部署在基于 Cortex-M7 的 STM32F746G-DISCO 开发板上（如下图所示），
+使用包含 8 位权重和 8 位激活的 DNN 模型，KWS 在运行时每秒执行 10 次推理。
+每次推理（包括内存复制、MFCC 特征提取、DNN 执行）花费大约 12 毫秒。
+为了节省功耗，可让微控制器在余下时间处于等待中断 (WFI) 模式。
+整个 KWS 应用占用大约 70 KB 内存，包括大约 66 KB 用于权重、大约 1 KB 用于激活、大约 2 KB 用于音频 I/O 和 MFCC 特征。
+mfcc=40*[(1000-40)/20+1]=40*49~2k
+
+
+输入缓存的问题：
+输入特征为mfcc：音频流一般为1s，窗长和帧移分别为40/20,转为mfcc参数40，整个语音的缓存实际是能达到：f*t=40*49~2k参数，缓存小于2k基本和流式处理区别不大。
+模型：采用hmm模型的优势在于分数结果是可以分步得出，但是最后所出的结果还是需要整个音频流完全输入才会出结果，苹果采用的是输入0.2s
+
+
+我的理解：
+目前的方案主要是两个：
+方案一：
+基于seq2seq——端到端，输入语音片段直接输出结果。类似于分类
+特征提取为mfcc，模型为dnn/cnn/rnn等，输出结果通过softmax平滑输出结果
+
+方案二：
+DNN-HMM模型-类似于识别
+特征提取同样为音频流mfcc，模型为dnn，不同的是加入了声学模块hmm，
+将dnn输出映射到音素状态，从而找到最优路径
+
+模型大小的限制：
+seq2seq限制：输入缓存和模型大小
+输入缓存一般为1s左右，窗长和帧移分别为40/20,转为mfcc参数10，整个语音的缓存最后能达到：f*t=10*49=490参数，基本和流式处理区别不大。
+模型参数：目前最优的模型参数是23k
+模型流式处理：dnn可以流式处理，rnn部分能够流失处理，cnn不能。所以如果要达到流式，只能使用dnn，但是直接用dnn效果不好，准确率是80%-85%
+dnn-hmm直接是流式处理，后端采用了hmm，原理类似于语音识别的：需要构建语音片段和音素状态的对齐。
+
+
+
+
+
+
+

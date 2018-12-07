@@ -40,6 +40,41 @@ from tensorflow.python.ops import nn_ops
 from tensorflow.python.ops import rnn_cell_impl
 from tensorflow.python.ops import variable_scope as vs
 
+def prepare_model_settings(label_count, sample_rate, clip_duration_ms,
+                           window_size_ms, window_stride_ms,
+                           dct_coefficient_count):
+  """Calculates common settings needed for all models.
+
+  Args:
+    label_count: How many classes are to be recognized.
+    sample_rate: Number of audio samples per second.
+    clip_duration_ms: Length of each audio clip to be analyzed.
+    window_size_ms: Duration of frequency analysis window.
+    window_stride_ms: How far to move in time between frequency windows.
+    dct_coefficient_count: Number of frequency bins to use for analysis.
+
+  Returns:
+    Dictionary containing common settings.
+  """
+  desired_samples = int(sample_rate * clip_duration_ms / 1000)
+  window_size_samples = int(sample_rate * window_size_ms / 1000)
+  window_stride_samples = int(sample_rate * window_stride_ms / 1000)
+  length_minus_window = (desired_samples - window_size_samples)
+  if length_minus_window < 0:
+    spectrogram_length = 0
+  else:
+    spectrogram_length = 1 + int(length_minus_window / window_stride_samples)
+  fingerprint_size = dct_coefficient_count * spectrogram_length
+  return {
+      'desired_samples': desired_samples,
+      'window_size_samples': window_size_samples,
+      'window_stride_samples': window_stride_samples,
+      'spectrogram_length': spectrogram_length,
+      'dct_coefficient_count': dct_coefficient_count,
+      'fingerprint_size': fingerprint_size,
+      'label_count': label_count,
+      'sample_rate': sample_rate,
+  }
 
 def create_attention_model(fingerprint_input, model_settings, model_size_info,
                        is_training):
@@ -911,7 +946,6 @@ def create_lstm_model(fingerprint_input, model_settings, model_size_info,
     else:
         return logits
 
-
 class LayerNormGRUCell(rnn_cell_impl.RNNCell):
 
     def __init__(self, num_units, forget_bias=1.0,
@@ -984,7 +1018,6 @@ class LayerNormGRUCell(rnn_cell_impl.RNNCell):
         new_h = self._activation(new_c) * math_ops.sigmoid(z) + \
                 (1 - math_ops.sigmoid(z)) * h
         return new_h, new_h
-
 
 def create_gru_model(fingerprint_input, model_settings, model_size_info,
                      is_training):
