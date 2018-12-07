@@ -1,0 +1,179 @@
+
+#CRNN Models
+Total number of Parameters:  75432
+python train.py --model_architecture crnn --model_size_info 48 10 4 2 2 2 60 84 --dct_coefficient_count 10 --window_size_ms 40 --window_stride_ms 20 --learning_rate 0.0005,0.0001,0.00002 --how_many_training_steps 10000,10000,10000 --summaries_dir work/CRNN/CRNN1/retrain_logs --train_dir work/CRNN/CRNN1/training
+So far the best validation accuracy is 93.93%
+INFO:tensorflow:set_size=4890
+INFO:tensorflow:Confusion Matrix:
+ [[408   0   0   0   0   0   0   0   0   0   0   0]
+ [  0 339   3   9   4   7   5  10   8   4   4  15]
+ [  0   4 407   0   0   0   7   0   0   0   0   1]
+ [  0   3   6 378   0   9   0   0   0   1   0   8]
+ [  0   9   0   0 401   1   0   0   4   5   5   0]
+ [  0  11   1  10   1 369   1   1   1   1   2   8]
+ [  0   5   9   2   2   0 390   3   0   0   0   1]
+ [  0  12   0   0   0   1   9 372   0   0   2   0]
+ [  0  16   0   0   4   6   1   0 350  15   1   3]
+ [  0   7   0   2  15   2   2   0   4 363   3   4]
+ [  0   2   0   0  10   5   0   0   1   0 390   3]
+ [  0   9   2  17   3   3   0   0   0   2   4 362]]
+INFO:tensorflow:Final test accuracy = 92.62% (N=4890)
+
+
+#DS-CNN Models
+python train.py --model_architecture ds_cnn --model_size_info 5 64 10 4 2 2 64 3 3 1 1 64 3 3 1 1 64 3 3 1 1 64 3 3 1 1 --dct_coefficient_count 10 --window_size_ms 40 --window_stride_ms 20 --learning_rate 0.0005,0.0001,0.00002 --how_many_training_steps 10000,10000,10000 --summaries_dir work/DS_CNN/DS_CNN1/retrain_logs --train_dir work/DS_CNN/DS_CNN1/training
+Total number of Parameters:  23180
+INFO:tensorflow:So far the best validation accuracy is 93.48%
+INFO:tensorflow:set_size=4890
+INFO:tensorflow:Confusion Matrix:
+ [[408   0   0   0   0   0   0   0   0   0   0   0]
+ [  0 337   2  10   0   3   9  11   8   4   7  17]
+ [  0   2 404   4   0   3   5   0   0   0   0   1]
+ [  0   8   2 380   0   5   3   0   0   0   0   7]
+ [  0   8   0   0 390   0   0   0   4  15   4   4]
+ [  0  12   2  16   0 369   0   0   0   0   1   6]
+ [  1   4   8   0   0   1 394   2   0   0   2   0]
+ [  1   5   0   0   0   0   7 381   1   0   1   0]
+ [  1  10   0   0   1   2   0   1 371   9   0   1]
+ [  1   4   2   0   9   0   1   0  16 362   1   6]
+ [  0   3   0   2   3   1   1   0   0   2 395   4]
+ [  0   8   0  20   0   4   1   1   1   2   4 361]]
+INFO:tensorflow:Final test accuracy = 93.09% (N=4890)
+2：
+python train.py --model_architecture ds_cnn --model_size_info 6 276 10 4 2 1 276 3 3 2 2 276 3 3 1 1 276 3 3 1 1 276 3 3 1 1 276 3 3 1 1 --dct_coefficient_count 10 --window_size_ms 40 --window_stride_ms 20 --learning_rate 0.0005,0.0001,0.00002 --how_many_training_steps 10000,10000,10000 --summaries_dir work/DS_CNN/DS_CNN3/retrain_logs --train_dir work/DS_CNN/DS_CNN3/training
+Total number of Parameters:  413736
+
+
+
+
+#LSTM Models
+Total number of Parameters:  78516
+python train.py --model_architecture lstm --model_size_info 98 144 --dct_coefficient_count 10 --window_size_ms 40 --window_stride_ms 40 --learning_rate 0.0005,0.0001,0.00002 --how_many_training_steps 10000,10000,10000 --summaries_dir work/LSTM/LSTM1/retrain_logs --train_dir work/LSTM/LSTM2/training
+INFO:tensorflow:So far the best validation accuracy is 93.12%
+INFO:tensorflow:set_size=4890
+INFO:tensorflow:Confusion Matrix:
+ [[408   0   0   0   0   0   0   0   0   0   0   0]
+ [  0 337   1   5   2   7  10  10   8   8   5  15]
+ [  0   6 397   6   1   3   6   0   0   0   0   0]
+ [  0   5   2 371   0   8   6   0   0   1   0  12]
+ [  0   6   0   0 397   3   0   0   2  10   6   1]
+ [  0   7   1  19   1 362   4   0   2   0   1   9]
+ [  0   4   7   0   0   0 397   3   0   0   1   0]
+ [  0  15   0   0   0   1   9 367   2   0   1   1]
+ [  0   9   0   0   7   7   0   0 358  11   2   2]
+ [  0  11   0   0  10   0   2   0   4 372   0   3]
+ [  0   7   0   0   8   3   0   0   0   0 389   4]
+ [  0   5   0  24   3   7   3   1   0   0   2 357]]
+INFO:tensorflow:Final test accuracy = 92.27% (N=4890)
+
+
+
+#GRU Models
+Total number of Parameters:  78090
+INFO:tensorflow:Confusion Matrix:
+ [[371   0   0   0   0   0   0   0   0   0   0   0]
+ [  0 319   1   4   5   5  10   6   9   4   2   6]
+ [  1   4 382   0   0   0   6   1   0   1   0   2]
+ [  0   9   2 370   0   6   2   1   0   2   4  10]
+ [  0   5   1   0 319   0   4   1   0  15   4   1]
+ [  0   5   1   8   0 354   1   0   0   1   0   7]
+ [  0   1   9   2   0   0 337   3   0   0   0   0]
+ [  0   7   0   1   1   0   3 348   2   0   0   1]
+ [  0   4   0   2   4   0   0   0 340  13   0   0]
+ [  0   2   0   0  14   0   2   1   8 342   3   1]
+ [  2   3   0   1   7   0   0   0   1   2 333   1]
+ [  0  11   0   9   3  10   1   0   1   0   2 335]]
+INFO:tensorflow:Step 22000: Validation accuracy = 93.36% (N=4445)
+INFO:tensorflow:So far the best validation accuracy is 93.70%
+
+
+#Basic LSTM Models
+python train.py --model_architecture basic_lstm --model_size_info 118 --dct_coefficient_count 10 --window_size_ms 40 --window_stride_ms 20 --learning_rate 0.0005,0.0001,0.00002 --how_many_training_steps 10000,10000,10000 --summaries_dir work/Basic_LSTM/Basic_LSTM1/retrain_logs --train_dir work/Basic_LSTM/Basic_LSTM1/training
+Total number of Parameters:  62316
+INFO:tensorflow:So far the best validation accuracy is 92.73%
+
+
+#CNN Models
+python train.py --model_architecture cnn --model_size_info 28 10 4 1 1 30 10 4 2 1 16 128 --dct_coefficient_count 10 --window_size_ms 40 --window_stride_ms 20 --learning_rate 0.0005,0.0001,0.00002 --how_many_training_steps 10000,10000,10000 --summaries_dir work/CNN/CNN1/retrain_logs --train_dir work/CNN/CNN1/training
+Total number of Parameters:  78090
+INFO:tensorflow:So far the best validation accuracy is 91.61%
+
+
+#DNN Models
+python train.py --model_architecture dnn --model_size_info 144 144 144 --dct_coefficient_count 10 --window_size_ms 40 --window_stride_ms 40 --learning_rate 0.0005,0.0001,0.00002 --how_many_training_steps 10000,10000,10000 --summaries_dir work/DNN/DNN1/retrain_logs --train_dir work/DNN/DNN1/training
+Total number of Parameters:  79644
+INFO:tensorflow:So far the best validation accuracy is 85.06%
+INFO:tensorflow:set_size=4890
+INFO:tensorflow:Confusion Matrix:
+ [[408   0   0   0   0   0   0   0   0   0   0   0]
+ [  0 267  10  16   7  20  14  16  16   9  10  23]
+ [  0   8 378   1   1   4  20   2   1   0   1   3]
+ [  0  12   4 318   0  26   3   1   0   0   2  39]
+ [  0  12   0   3 351   3   3   1  12  17  13  10]
+ [  0  15   5  28   2 334   2   1   3   0   4  12]
+ [  0  12  25   3   3   2 347  11   1   3   3   2]
+ [  0  17   1   1   2   0   8 356   2   2   2   5]
+ [  0  20   0   0   3   8   0   2 337  23   1   2]
+ [  1   5   0   1  14   0   8   1  18 339   5  10]
+ [  0   2   1   1  22   5   3   1   2   3 365   6]
+ [  0   9   1  57   8  23   5   1   4   1   5 288]]
+INFO:tensorflow:Final test accuracy = 83.60% (N=4890)
+
+# attention
+Total number of Parameters:  79444
+INFO:tensorflow:So far the best validation accuracy is 98.60%
+INFO:tensorflow:set_size=4428
+INFO:tensorflow:Confusion Matrix:
+ [[369   0   0   0   0   0   0   0   0   0   0   0]
+ [  0 327   1   5   3   6   4   9   2   5   3   4]
+ [  0   0 375   0   0   1   0   0   0   0   0   0]
+ [  0   0   0 383   0   1   0   0   0   0   0   1]
+ [  0   2   0   0 339   0   0   1   0   3   0   2]
+ [  0   1   0   1   1 373   0   0   0   0   2   1]
+ [  0   2   1   0   0   0 373   2   0   1   0   0]
+ [  0   1   0   0   1   0   4 379   0   1   0   0]
+ [  0   0   0   0   1   1   0   0 322   1   0   0]
+ [  0   0   0   0   3   1   0   0   1 373   2   0]
+ [  1   1   0   0   0   0   0   0   1   2 372   2]
+ [  0   3   0   1   0   1   0   0   0   0   0 349]]
+INFO:tensorflow:Final test accuracy = 97.88% (N=4428)
+
+# cnn_attention
+INFO:tensorflow:So far the best validation accuracy is 90.34%
+INFO:tensorflow:set_size=4701
+INFO:tensorflow:Confusion Matrix:
+ [[392   0   0   0   0   0   0   0   0   0   0   0]
+ [  1 313   2   4   7  12   9  11  11   3   6  13]
+ [  0   4 371   2   1   4   6   0   0   0   1   2]
+ [  0   9   5 350   0   7   0   1   2   0   3  18]
+ [  0   8   1   2 315   0   1   2   1  12  16   1]
+ [  1   7   0  13   1 367   0   2   0   0   3   8]
+ [  0   8   9   3   4   1 351   6   0   2   2   6]
+ [  0  12   1   3   1   2   7 345   3   1   3   0]
+ [  0  11   0   3   5   4   1   1 344   9   1   2]
+ [  0   4   1   2  16   1   1   0  12 364   0   1]
+ [  1   6   1   0  10   5   1   3   0   3 387   5]
+ [  1  10   3  18   3  12   2   4   1   2   4 335]]
+INFO:tensorflow:Final test accuracy = 90.07% (N=4701)
+
+# 最新的数据集King-ASR-M-005-new
+ds_cnn
+
+python test.py --model_architecture ds_cnn --model_size_info 128 128 128 --checkpoint
+<checkpoint path>
+
+
+# 最新的数据集King-ASR-M-005-more
+attention
+python train.py --model_architecture attention --model_size_info 98 144 --dct_coefficient_count 10 --window_size_ms 40 --window_stride_ms 40 --learning_rate 0.0005,0.0001,0.00002 --how_many_training_steps 10000,10000,10000 --summaries_dir work/attention/attention1/retrain_logs --train_dir work/attention/attention1/training
+INFO:tensorflow:Confusion Matrix:
+ [[130   0   0   0   0   0   0]
+ [  0 130   0   0   0   0   0]
+ [  0   0 272   0   0   0   0]
+ [  0   0   0 252   0   0   0]
+ [  0   0   0   0 270   0   0]
+ [  0   0   0   0   0 248   0]
+ [  0   0   0   0   0   0 252]]
+INFO:tensorflow:Step 3600: Validation accuracy = 100.00% (N=1554)
+INFO:tensorflow:Saving best model to "work/attention/attention1/training/best/attention_9999.ckpt-3600"
+INFO:tensorflow:So far the best validation accuracy is 100.00%
