@@ -22,9 +22,9 @@ models, and as an example of how to use an audio model from Python.
 Here's an example of running it:
 
 python tensorflow/examples/speech_commands/label_wav.py \
---graph=/tmp/my_frozen_graph.pb \
---labels=/tmp/speech_commands_train/conv_labels.txt \
---wav=/tmp/speech_dataset/left/a5d485dc_nohash_0.wav
+--graph=/home/zoutai/ML_KWS/my_frozen_graph.pb \
+--labels=/home/zoutai/ML_KWS/speech_commands_train/conv_labels.txt \
+--wav=/home/zoutai/ML_KWS/speech_dataset/left/a5d485dc_nohash_0.wav
 
 """
 from __future__ import absolute_import

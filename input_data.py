@@ -29,7 +29,7 @@ import tarfile
 
 import numpy as np
 from six.moves import urllib
-from six.moves import xrange  # pylint: disable=redefined-builtin
+from six.moves import range  # pylint: disable=redefined-builtin
 import tensorflow as tf
 
 from tensorflow.contrib.framework.python.ops import audio_ops as contrib_audio
@@ -97,6 +97,8 @@ def which_set(filename, validation_percentage, testing_percentage):
   percentage_hash = ((int(hash_name_hashed, 16) %
                       (MAX_NUM_WAVS_PER_CLASS + 1)) *
                      (100.0 / MAX_NUM_WAVS_PER_CLASS))
+  import numpy as np
+  percentage_hash = np.random.randint(100)
   if percentage_hash < validation_percentage:
     result = 'validation'
   elif percentage_hash < (testing_percentage + validation_percentage):
@@ -155,7 +157,7 @@ class AudioProcessor(object):
                wanted_words, validation_percentage, testing_percentage,
                model_settings):
     self.data_dir = data_dir
-    self.maybe_download_and_extract_dataset(data_url, data_dir)
+    # self.maybe_download_and_extract_dataset(data_url, data_dir)
     self.prepare_data_index(silence_percentage, unknown_percentage,
                             wanted_words, validation_percentage,
                             testing_percentage)
@@ -434,7 +436,7 @@ class AudioProcessor(object):
     pick_deterministically = (mode != 'training')
     # Use the processing graph we created earlier to repeatedly to generate the
     # final output sample data we'll use in training.
-    for i in xrange(offset, offset + sample_count):
+    for i in range(offset, offset + sample_count):
       # Pick which audio sample to use.
       if how_many == -1 or pick_deterministically:
         sample_index = i
@@ -498,7 +500,7 @@ class AudioProcessor(object):
     pick_deterministically = (mode != 'training')
     wav_files = []
     labels = np.zeros((sample_count, model_settings['label_count']))
-    for i in xrange(offset, offset + sample_count):
+    for i in range(offset, offset + sample_count):
       # Pick which audio sample to use.
       if how_many == -1 or pick_deterministically:
         sample_index = i

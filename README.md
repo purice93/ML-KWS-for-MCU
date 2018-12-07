@@ -22,7 +22,7 @@ The training commands with all the hyperparameters to reproduce the models shown
 
 To run inference on the trained model from a checkpoint on train/val/test set, run:
 ```
-python test.py --model_architecture dnn --model_size_info 128 128 128 --checkpoint 
+python test.py --model_architecture dnn --model_size_info 5 64 10 4 2 2 64 3 3 1 1 64 3 3 1 1 64 3 3 1 1 64 3 3 1 1 --checkpoint 
 <checkpoint path>
 ```
 
