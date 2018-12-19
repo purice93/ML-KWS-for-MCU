@@ -5,14 +5,15 @@
 @description: 
 """
 
-#coding=utf-8
-import tensorflow as tf
 import numpy as np
+# coding=utf-8
+import tensorflow as tf
+
 # 创建输入数据
 X = np.random.randn(2, 10, 8)
 
 # 第二个example长度为6
-X[1,6:] = 0
+X[1, 6:] = 0
 X_lengths = [10, 6]
 
 cell = tf.contrib.rnn.BasicLSTMCell(num_units=5, state_is_tuple=True)
@@ -33,4 +34,4 @@ print(a)
 assert result[0]["outputs"].shape == (2, 10, 5)
 
 # 第二个example中的outputs超过6步(7-10步)的值应该为0
-assert (result[0]["outputs"][1,7,:] == np.zeros(cell.output_size)).all()
+assert (result[0]["outputs"][1, 7, :] == np.zeros(cell.output_size)).all()

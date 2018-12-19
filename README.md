@@ -1,4 +1,5 @@
 # Keyword spotting for Microcontrollers 
+https://github.com/ARM-software/ML-KWS-for-MCU
 
 This repository consists of the tensorflow models and training scripts used 
 in the paper: 

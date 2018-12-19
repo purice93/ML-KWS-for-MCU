@@ -40,44 +40,58 @@ from tensorflow.python.ops import nn_ops
 from tensorflow.python.ops import rnn_cell_impl
 from tensorflow.python.ops import variable_scope as vs
 
+
+def _next_power_of_two(x):
+    """Calculates the smallest enclosing power of two for an input.
+
+    Args:
+      x: Positive float or integer number.
+
+    Returns:
+      Next largest power of two integer.
+    """
+    return 1 if x == 0 else 2 ** (int(x) - 1).bit_length()
+
+
 def prepare_model_settings(label_count, sample_rate, clip_duration_ms,
                            window_size_ms, window_stride_ms,
-                           dct_coefficient_count):
-  """Calculates common settings needed for all models.
+                           dct_coefficient_count, preprocess=None):
+    """Calculates common settings needed for all models.
 
-  Args:
-    label_count: How many classes are to be recognized.
-    sample_rate: Number of audio samples per second.
-    clip_duration_ms: Length of each audio clip to be analyzed.
-    window_size_ms: Duration of frequency analysis window.
-    window_stride_ms: How far to move in time between frequency windows.
-    dct_coefficient_count: Number of frequency bins to use for analysis.
+    Args:
+      label_count: How many classes are to be recognized.
+      sample_rate: Number of audio samples per second.
+      clip_duration_ms: Length of each audio clip to be analyzed.
+      window_size_ms: Duration of frequency analysis window.
+      window_stride_ms: How far to move in time between frequency windows.
+      dct_coefficient_count: Number of frequency bins to use for analysis.
 
-  Returns:
-    Dictionary containing common settings.
-  """
-  desired_samples = int(sample_rate * clip_duration_ms / 1000)
-  window_size_samples = int(sample_rate * window_size_ms / 1000)
-  window_stride_samples = int(sample_rate * window_stride_ms / 1000)
-  length_minus_window = (desired_samples - window_size_samples)
-  if length_minus_window < 0:
-    spectrogram_length = 0
-  else:
-    spectrogram_length = 1 + int(length_minus_window / window_stride_samples)
-  fingerprint_size = dct_coefficient_count * spectrogram_length
-  return {
-      'desired_samples': desired_samples,
-      'window_size_samples': window_size_samples,
-      'window_stride_samples': window_stride_samples,
-      'spectrogram_length': spectrogram_length,
-      'dct_coefficient_count': dct_coefficient_count,
-      'fingerprint_size': fingerprint_size,
-      'label_count': label_count,
-      'sample_rate': sample_rate,
-  }
+    Returns:
+      Dictionary containing common settings.
+    """
+    desired_samples = int(sample_rate * clip_duration_ms / 1000)
+    window_size_samples = int(sample_rate * window_size_ms / 1000)
+    window_stride_samples = int(sample_rate * window_stride_ms / 1000)
+    length_minus_window = (desired_samples - window_size_samples)
+    if length_minus_window < 0:
+        spectrogram_length = 0
+    else:
+        spectrogram_length = 1 + int(length_minus_window / window_stride_samples)
+    fingerprint_size = dct_coefficient_count * spectrogram_length
+    return {
+        'desired_samples': desired_samples,
+        'window_size_samples': window_size_samples,
+        'window_stride_samples': window_stride_samples,
+        'spectrogram_length': spectrogram_length,
+        'dct_coefficient_count': dct_coefficient_count,
+        'fingerprint_size': fingerprint_size,
+        'label_count': label_count,
+        'sample_rate': sample_rate,
+    }
+
 
 def create_attention_model(fingerprint_input, model_settings, model_size_info,
-                       is_training):
+                           is_training):
     """Builds a model with a lstm layer (with output projection layer and
          peep-hole connections)
     Based on model described in https://arxiv.org/abs/1705.02411
@@ -94,7 +108,7 @@ def create_attention_model(fingerprint_input, model_settings, model_size_info,
     projection_units = model_size_info[0]
     LSTM_units = model_size_info[1]
     use_cnn = False
-    num_channel= 16
+    num_channel = 16
     cnn_dropout_keep_prob = 0.5
 
     with tf.name_scope('cnn'):
@@ -126,19 +140,19 @@ def create_attention_model(fingerprint_input, model_settings, model_size_info,
         else:
             cnn_output = fingerprint_4d
 
-    num_layers=1
-    num_units=128
-    rnn_type='gru'
+    num_layers = 1
+    num_units = 128
+    rnn_type = 'gru'
     with tf.name_scope('encoder'):
-        if rnn_type=='rnn':
+        if rnn_type == 'rnn':
             cells = [tf.nn.rnn_cell.BasicRNNCell(num_units) for _ in range(num_layers)]
-        elif rnn_type=='lstm':
+        elif rnn_type == 'lstm':
             cells = [tf.nn.rnn_cell.LSTMCell(num_units) for _ in range(num_layers)]
         else:
             cells = [tf.nn.rnn_cell.GRUCell(num_units) for _ in range(num_layers)]
 
         multi_cnn_cells = tf.nn.rnn_cell.MultiRNNCell(cells)
-        initial_state=multi_cnn_cells.zero_state(tf.shape(cnn_output)[0],tf.float32)
+        initial_state = multi_cnn_cells.zero_state(tf.shape(cnn_output)[0], tf.float32)
         rnn_output, state = tf.nn.dynamic_rnn(
             cell=multi_cnn_cells,
             inputs=cnn_output,
@@ -146,27 +160,27 @@ def create_attention_model(fingerprint_input, model_settings, model_size_info,
             dtype=tf.float32
         )
 
-    attention_type='soft'
-    att_size=100
+    attention_type = 'soft'
+    att_size = 100
     with tf.name_scope('attention'):
-        if attention_type=='average':
-            attention_output=tf.reduce_mean(rnn_output,1)
+        if attention_type == 'average':
+            attention_output = tf.reduce_mean(rnn_output, 1)
         else:
             # soft
-            att_W= tf.Variable(tf.random_normal([num_units,att_size],stddev=0.1))
-            att_b= tf.Variable(tf.random_normal([att_size],stddev=0.1))
-            att_temp = tf.tanh(tf.tensordot(rnn_output,att_W,1)+att_b)
-            att_v= tf.Variable(tf.random_normal([att_size],stddev=0.1))
-            att_et = tf.tensordot(att_temp,att_v,1,name='att_et')
-            att_alpha = tf.nn.softmax(att_et,name='att_alpha')
-            attention_output = tf.reduce_sum(tf.expand_dims(att_alpha,-1) * rnn_output,1)
+            att_W = tf.Variable(tf.random_normal([num_units, att_size], stddev=0.1))
+            att_b = tf.Variable(tf.random_normal([att_size], stddev=0.1))
+            att_temp = tf.tanh(tf.tensordot(rnn_output, att_W, 1) + att_b)
+            att_v = tf.Variable(tf.random_normal([att_size], stddev=0.1))
+            att_et = tf.tensordot(att_temp, att_v, 1, name='att_et')
+            att_alpha = tf.nn.softmax(att_et, name='att_alpha')
+            attention_output = tf.reduce_sum(tf.expand_dims(att_alpha, -1) * rnn_output, 1)
 
     with tf.name_scope('softmax'):
-        softmax_W= tf.Variable(tf.random_normal([num_units,num_classes],stddev=0.01))
-        softmax_b= tf.Variable(tf.random_normal([num_classes],stddev=0.01))
+        softmax_W = tf.Variable(tf.random_normal([num_units, num_classes], stddev=0.01))
+        softmax_b = tf.Variable(tf.random_normal([num_classes], stddev=0.01))
 
-        logits = tf.nn.xw_plus_b(attention_output,softmax_W,softmax_b,name='logits')
-        predictions =tf.argmax(logits,1,name='predictions')
+        logits = tf.nn.xw_plus_b(attention_output, softmax_W, softmax_b, name='logits')
+        predictions = tf.argmax(logits, 1, name='predictions')
 
     if is_training:
         return logits, dropout_prob
@@ -224,6 +238,12 @@ def create_model(fingerprint_input, model_settings, model_architecture,
         return create_low_latency_svdf_model(fingerprint_input, model_settings,
                                              is_training, runtime_settings)
 
+
+    elif model_architecture == 'tiny_conv':
+
+        return create_tiny_conv_model(fingerprint_input, model_settings,
+
+                                      is_training)
     elif model_architecture == 'attention':
         return create_attention_model(fingerprint_input, model_settings,
                                       model_size_info, is_training)
@@ -253,7 +273,7 @@ def create_model(fingerprint_input, model_settings, model_architecture,
                                    model_size_info, is_training)
     elif model_architecture == 'ctc':
         return create_ctc_model(fingerprint_input, model_settings,
-                                   model_size_info, is_training)
+                                model_size_info, is_training)
     else:
         raise Exception('model_architecture argument "' + model_architecture +
                         '" not recognized, should be one of "single_fc", "conv",' +
@@ -733,7 +753,6 @@ def create_dnn_model(fingerprint_input, model_settings, model_size_info,
     layer_dim.extend(model_size_info)
     flow = fingerprint_input
     tf.summary.histogram('input', flow)
-
     for i in range(1, num_layers + 1):
         with tf.variable_scope('fc' + str(i)):
             W = tf.get_variable('W', shape=[layer_dim[i - 1], layer_dim[i]],
@@ -754,6 +773,100 @@ def create_dnn_model(fingerprint_input, model_settings, model_size_info,
         return logits, dropout_prob
     else:
         return logits
+
+
+def create_tiny_conv_model(fingerprint_input, model_settings, is_training):
+    """Builds a convolutional model aimed at microcontrollers.
+
+    Devices like DSPs and microcontrollers can have very small amounts of
+    memory and limited processing power. This model is designed to use less
+
+    than 20KB of working RAM, and fit within 32KB of read-only (flash) memory.
+
+    Here's the layout of the graph:
+
+    (fingerprint_input)
+            v
+        [Conv2D]<-(weights)
+            v
+        [BiasAdd]<-(bias)
+            v
+          [Relu]
+            v
+        [MatMul]<-(weights)
+            v
+        [BiasAdd]<-(bias)
+            v
+
+    This doesn't produce particularly accurate results, but it's designed to be
+    used as the first stage of a pipeline, running on a low-energy piece of
+    hardware that can always be on, and then wake higher-power chips when a
+    possible utterance has been found, so that more accurate analysis can be done.
+
+    During training, a dropout node is introduced after the relu, controlled by a
+    placeholder.
+
+    Args:
+      fingerprint_input: TensorFlow node that will output audio feature vectors.
+      model_settings: Dictionary of information about the model.
+      is_training: Whether the model is going to be used for training.
+
+    Returns:
+      TensorFlow node outputting logits results, and optionally a dropout
+      placeholder.
+    """
+
+
+    if is_training:
+        dropout_prob = tf.placeholder(tf.float32, name='dropout_prob')
+    input_frequency_size = model_settings['fingerprint_width']
+    input_time_size = model_settings['spectrogram_length']
+    fingerprint_4d = tf.reshape(fingerprint_input,
+                                [-1, input_time_size, input_frequency_size, 1])
+    first_filter_width = 8
+    first_filter_height = 10
+    first_filter_count = 8
+    first_weights = tf.get_variable(
+        name='first_weights',
+        initializer=tf.truncated_normal_initializer(stddev=0.01),
+        shape=[first_filter_height, first_filter_width, 1, first_filter_count])
+    first_bias = tf.get_variable(
+        name='first_bias',
+        initializer=tf.zeros_initializer,
+        shape=[first_filter_count])
+    first_conv_stride_x = 2
+    first_conv_stride_y = 2
+    first_conv = tf.nn.conv2d(fingerprint_4d, first_weights,
+                              [1, first_conv_stride_y, first_conv_stride_x, 1],
+                              'SAME') + first_bias
+    first_relu = tf.nn.relu(first_conv)
+    if is_training:
+        first_dropout = tf.nn.dropout(first_relu, dropout_prob)
+    else:
+        first_dropout = first_relu
+    first_dropout_shape = first_dropout.get_shape()
+    first_dropout_output_width = first_dropout_shape[2]
+    first_dropout_output_height = first_dropout_shape[1]
+    first_dropout_element_count = int(
+        first_dropout_output_width * first_dropout_output_height *
+        first_filter_count)
+    flattened_first_dropout = tf.reshape(first_dropout,
+                                         [-1, first_dropout_element_count])
+    label_count = model_settings['label_count']
+    final_fc_weights = tf.get_variable(
+        name='final_fc_weights',
+        initializer=tf.truncated_normal_initializer(stddev=0.01),
+        shape=[first_dropout_element_count, label_count])
+    final_fc_bias = tf.get_variable(
+        name='final_fc_bias',
+        initializer=tf.zeros_initializer,
+        shape=[label_count])
+    final_fc = (
+            tf.matmul(flattened_first_dropout, final_fc_weights) + final_fc_bias)
+    if is_training:
+        return final_fc, dropout_prob
+    else:
+        return final_fc
 
 
 def create_cnn_model(fingerprint_input, model_settings, model_size_info,
@@ -946,6 +1059,7 @@ def create_lstm_model(fingerprint_input, model_settings, model_size_info,
     else:
         return logits
 
+
 class LayerNormGRUCell(rnn_cell_impl.RNNCell):
 
     def __init__(self, num_units, forget_bias=1.0,
@@ -1018,6 +1132,7 @@ class LayerNormGRUCell(rnn_cell_impl.RNNCell):
         new_h = self._activation(new_c) * math_ops.sigmoid(z) + \
                 (1 - math_ops.sigmoid(z)) * h
         return new_h, new_h
+
 
 def create_gru_model(fingerprint_input, model_settings, model_size_info,
                      is_training):
@@ -1291,10 +1406,8 @@ def create_ds_cnn_model(fingerprint_input, model_settings, model_size_info,
                                                         sc='conv_ds_' + str(layer_no))
                     t_dim = math.ceil(t_dim / float(conv_st[layer_no]))
                     f_dim = math.ceil(f_dim / float(conv_sf[layer_no]))
-
                 net = slim.avg_pool2d(net, [t_dim, f_dim], scope='avg_pool')
-
-        net = tf.squeeze(net, [1, 2], name='SpatialSqueeze')
+        net = tf.squeeze(net, [1, 2], name='SpatialSqueeze')  # 如果只是一维，则去掉表示
         logits = slim.fully_connected(net, label_count, activation_fn=None, scope='fc1')
 
     if is_training:

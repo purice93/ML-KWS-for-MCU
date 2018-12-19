@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/ML-KWS-for-MCU.iml" filepath="$PROJECT_DIR$/.idea/ML-KWS-for-MCU.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/ML-KWS-for-MCU5.iml" filepath="$PROJECT_DIR$/.idea/ML-KWS-for-MCU5.iml" />
     </modules>
   </component>

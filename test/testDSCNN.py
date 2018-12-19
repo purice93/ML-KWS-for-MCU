@@ -1,4 +1,3 @@
-
 """
 @author: zoutai
 @file: testDSCNN.py 
@@ -11,26 +10,25 @@ from __future__ import division
 from __future__ import print_function
 
 import math
-import tensorflow as tf
-import numpy as np
 
+import numpy as np
+import tensorflow as tf
 import tensorflow.contrib.slim as slim
 
-fingerprint_input = np.random.randn(100, 98, 40,1)
+fingerprint_input = np.random.randn(100, 98, 40, 1)
 fingerprint_input.dtype = 'float32'
-model_size_info = [5 ,64 ,10 ,4 ,2 ,2 ,64 ,3 ,3 ,1 ,1 ,64 ,3 ,3 ,1 ,1 ,64 ,3 ,3 ,1 ,1 ,64 ,3 ,3 ,1 ,1]
+model_size_info = [5, 64, 10, 4, 2, 2, 64, 3, 3, 1, 1, 64, 3, 3, 1, 1, 64, 3, 3, 1, 1, 64, 3, 3, 1, 1]
 
 model_settings = {
-      'desired_samples': 0,
-      'window_size_samples': 0,
-      'window_stride_samples': 0,
-      'spectrogram_length': 98,
-      'dct_coefficient_count': 40,
-      'fingerprint_size': 100,
-      'label_count': 12,
-      'sample_rate': 16000,
-  }
-
+    'desired_samples': 0,
+    'window_size_samples': 0,
+    'window_stride_samples': 0,
+    'spectrogram_length': 98,
+    'dct_coefficient_count': 40,
+    'fingerprint_size': 100,
+    'label_count': 12,
+    'sample_rate': 16000,
+}
 
 
 def create_ds_cnn_model(fingerprint_input, model_settings, model_size_info,
@@ -154,5 +152,6 @@ def create_ds_cnn_model(fingerprint_input, model_settings, model_size_info,
     else:
         return logits
 
+
 logits, dropout_prob = create_ds_cnn_model(fingerprint_input, model_settings,
-                                 model_size_info, True)
+                                           model_size_info, True)

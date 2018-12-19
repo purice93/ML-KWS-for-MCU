@@ -310,6 +310,7 @@ if __name__ == '__main__':
     import os
 
     os.environ['CUDA_VISIBLE_DEVICES'] = "-1"
+
     parser = argparse.ArgumentParser()
     parser.add_argument(
         '--data_url',
@@ -321,7 +322,7 @@ if __name__ == '__main__':
     parser.add_argument(
         '--data_dir',
         type=str,
-        default='/home/zoutai/DataSets/King-ASR-M-005-new/',
+        default='/home/zoutai/DataSets/speech_dataset/',
         help="""\
       Where to download the speech training data to.
       """)
@@ -383,12 +384,12 @@ if __name__ == '__main__':
     parser.add_argument(
         '--window_size_ms',
         type=float,
-        default=30.0,
+        default=40.0,
         help='How long each spectrogram timeslice is', )
     parser.add_argument(
         '--window_stride_ms',
         type=float,
-        default=10.0,
+        default=20.0,
         help='How long each spectrogram timeslice is', )
     parser.add_argument(
         '--dct_coefficient_count',
@@ -423,7 +424,7 @@ if __name__ == '__main__':
     parser.add_argument(
         '--wanted_words',
         type=str,
-        default='00001,00002,00003,00004,00005',
+        default='yes,no,up,down,left,right,on,off,stop,go',
         help='Words to use (others will be added to an unknown label)', )
     parser.add_argument(
         '--train_dir',
@@ -443,13 +444,13 @@ if __name__ == '__main__':
     parser.add_argument(
         '--model_architecture',
         type=str,
-        default='cnn_attention',
+        default='ds_cnn',
         help='What model architecture to use')
     parser.add_argument(
         '--model_size_info',
         type=int,
         nargs="+",
-        default=[98, 144],
+        default=[5, 64, 10, 4, 2, 1, 64, 3, 3, 1, 1, 64, 3, 3, 1, 1, 64, 3, 3, 1, 1, 64, 3, 3, 1, 1],
         help='Model dimensions - different for various models')
     parser.add_argument(
         '--check_nans',
