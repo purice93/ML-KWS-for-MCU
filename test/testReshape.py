@@ -9,4 +9,5 @@ import numpy as np
 origin=np.array([1,2,3,4,5,6,7,8,9,10,11,12])
 update = np.reshape(origin,[3,4])
 update2 = np.reshape(origin,[4,3])
-print(update,update2,sep='\n')
+update3 = np.reshape(origin,[2,2,3])
+print(update,update2,update3,sep='\n')

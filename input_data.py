@@ -71,6 +71,7 @@ def which_set(filename, validation_percentage, testing_percentage):
     spoken by the same person), so anything after '_nohash_' in a filename is
     ignored for set determination. This ensures that 'bobby_nohash_0.wav' and
     'bobby_nohash_1.wav' are always in the same set, for example.
+    通过文件名的哈希值来确定文件应该属于那个集，和时间无关。
 
     Args:
       filename: File path of the data sample.
@@ -373,6 +374,7 @@ class AudioProcessor(object):
           - background_data_placeholder_: PCM sample data for background noise.
           - background_volume_placeholder_: Loudness of mixed-in background.
           - mfcc_: Output 2D fingerprint of processed audio.
+          对语音数据进行截取、填充、增大音量、加噪
 
         Args:
           model_settings: Information about the current model being trained.
@@ -384,11 +386,12 @@ class AudioProcessor(object):
             wav_loader, desired_channels=1, desired_samples=desired_samples)
         background_clamp = wav_decoder.audio
         if self.testing_percentage != 100:
-            # Allow the audio sample's volume to be adjusted.
+            # Allow the audio sample's volume to be adjusted.调节音量
             self.foreground_volume_placeholder_ = tf.placeholder(tf.float32, [])
             scaled_foreground = tf.multiply(wav_decoder.audio,
                                             self.foreground_volume_placeholder_)
             # Shift the sample's start position, and pad any gaps with zeros.
+            # 上下左右填充
             self.time_shift_padding_placeholder_ = tf.placeholder(tf.int32, [2, 2])
             self.time_shift_offset_placeholder_ = tf.placeholder(tf.int32, [2])
             padded_foreground = tf.pad(
@@ -405,6 +408,7 @@ class AudioProcessor(object):
             background_mul = tf.multiply(self.background_data_placeholder_,
                                          self.background_volume_placeholder_)
             background_add = tf.add(background_mul, sliced_foreground)
+            # 限制数值范围
             background_clamp = tf.clip_by_value(background_add, -1.0, 1.0)
             # Run the spectrogram and MFCC ops to get a 2D 'fingerprint' of the audio.
 

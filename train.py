@@ -309,7 +309,7 @@ def main(_):
 if __name__ == '__main__':
     import os
 
-    os.environ['CUDA_VISIBLE_DEVICES'] = "-1"
+    os.environ['CUDA_VISIBLE_DEVICES'] = "3"
 
     parser = argparse.ArgumentParser()
     parser.add_argument(
@@ -389,17 +389,17 @@ if __name__ == '__main__':
     parser.add_argument(
         '--window_stride_ms',
         type=float,
-        default=20.0,
+        default=40.0,
         help='How long each spectrogram timeslice is', )
     parser.add_argument(
         '--dct_coefficient_count',
         type=int,
-        default=40,
+        default=10,
         help='How many bins to use for the MFCC fingerprint', )
     parser.add_argument(
         '--how_many_training_steps',
         type=str,
-        default='20000,20000,20000',
+        default='10000,10000,10000',
         help='How many training loops to run', )
     parser.add_argument(
         '--eval_step_interval',
@@ -419,17 +419,17 @@ if __name__ == '__main__':
     parser.add_argument(
         '--summaries_dir',
         type=str,
-        default='/home/zoutai/ML_KWS/retrain_logs',
+        default='work/DNN2D/DNN2D2/retrain_logs',
         help='Where to save summary logs for TensorBoard.')
     parser.add_argument(
         '--wanted_words',
         type=str,
-        default='yes,no,up,down,left,right,on,off,stop,go',
+        default='yes,no',
         help='Words to use (others will be added to an unknown label)', )
     parser.add_argument(
         '--train_dir',
         type=str,
-        default='',
+        default='work/DNN2D/DNN2D2/training',
         help='Directory to write event logs and checkpoint.')
     parser.add_argument(
         '--save_step_interval',
@@ -444,13 +444,15 @@ if __name__ == '__main__':
     parser.add_argument(
         '--model_architecture',
         type=str,
-        default='ds_cnn',
+        # default='ds_cnn',
+        default='dnn',
         help='What model architecture to use')
     parser.add_argument(
         '--model_size_info',
         type=int,
         nargs="+",
-        default=[5, 64, 10, 4, 2, 1, 64, 3, 3, 1, 1, 64, 3, 3, 1, 1, 64, 3, 3, 1, 1, 64, 3, 3, 1, 1],
+        # default=[5, 64, 10, 4, 2, 2, 64, 3, 3, 1, 1, 64, 3, 3, 1, 1, 64, 3, 3, 1, 1, 64, 3, 3, 1, 1],
+        default=[192,128,48],
         help='Model dimensions - different for various models')
     parser.add_argument(
         '--check_nans',

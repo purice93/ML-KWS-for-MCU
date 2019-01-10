@@ -1,5 +1,10 @@
 # Keyword Spotting on Arm Cortex-M boards.
-The first step in deploying the trained keyword spotting models on microcontrollers is quantization, which is described [here](Quant_guide.md). This directory consists of example codes and steps for running a quantized DNN model on any Cortex-M board using [mbed-cli](https://github.com/ARMmbed/mbed-cli) and [CMSIS-NN](https://github.com/ARM-software/CMSIS_5) library. It also consists of an example of integration of the KWS model onto a Cortex-M development board with an on-board microphone to demonstrate keyword spotting on live audio data. 
+The first step in deploying the trained keyword spotting models on microcontrollers is quantization, 
+which is described [here](Quant_guide.md). This directory consists of example codes and steps for 
+running a quantized DNN model on any Cortex-M board using [mbed-cli](https://github.com/ARMmbed/mbed-cli) 
+and [CMSIS-NN](https://github.com/ARM-software/CMSIS_5) library. It also consists of an example of integration
+ of the KWS model onto a Cortex-M development board with an on-board microphone to demonstrate keyword spotting
+  on live audio data. 
 
 ## Get the CMSIS-NN library and install mbed-cli
 Clone [CMSIS-5](https://github.com/ARM-software/CMSIS_5) library, which consists of the optimized neural network kernels for Cortex-M.

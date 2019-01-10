@@ -64,7 +64,7 @@ def run_graph(wav_data, labels, input_layer_name, output_layer_name,
         #   dimension represents the input image count, and the other has
         #   predictions per class
         softmax_tensor = sess.graph.get_tensor_by_name(output_layer_name)
-        predictions, = sess.run(softmax_tensor, {input_layer_name: wav_data})
+        predictions = sess.run(softmax_tensor, {input_layer_name: wav_data})
 
         # Sort to show labels in order of confidence
         top_k = predictions.argsort()[-num_top_predictions:][::-1]
@@ -75,6 +75,17 @@ def run_graph(wav_data, labels, input_layer_name, output_layer_name,
 
         return 0
 
+def load_pb(pb):
+    with tf.gfile.GFile(pb, "rb") as f:
+        graph_def = tf.GraphDef()
+        graph_def.ParseFromString(f.read())
+    with tf.Graph().as_default() as graph:
+        tf.import_graph_def(graph_def, name='')
+        return graph
+def stats_graph(graph):
+    flops = tf.profiler.profile(graph, options=tf.profiler.ProfileOptionBuilder.float_operation())
+    params = tf.profiler.profile(graph, options=tf.profiler.ProfileOptionBuilder.trainable_variables_parameter())
+    print('FLOPs: {};    Trainable params: {}'.format(flops.total_float_ops, params.total_parameters))
 
 def label_wav(wav, labels, graph, input_name, output_name, how_many_labels):
     """Loads the model and labels, and runs the inference to print predictions."""
@@ -88,6 +99,10 @@ def label_wav(wav, labels, graph, input_name, output_name, how_many_labels):
         tf.logging.fatal('Graph file does not exist %s', graph)
 
     labels_list = load_labels(labels)
+
+    graph = load_pb(graph)
+    print('stats after freezing')
+    stats_graph(graph)
 
     # load graph, which is stored in the default session
     load_graph(graph)
@@ -112,7 +127,7 @@ if __name__ == '__main__':
         '--wav', type=str, default='/home/zoutai/DataSets/speech_dataset/yes/54aecbd5_nohash_4.wav',
         help='Audio file to be identified.')
     parser.add_argument(
-        '--graph', type=str, default='/home/zoutai/code/ML-KWS-for-MCU/Pretrained_models/DNN/DNN_S.pb',
+        '--graph', type=str, default='/home/zoutai/code/ML-KWS-for-MCU/Pretrained_models/DS_CNN/DS_CNN_S.pb',
         help='Model to use for identification.')
     parser.add_argument(
         '--labels', type=str, default='/home/zoutai/code/ML-KWS-for-MCU/Pretrained_models/labels.txt',

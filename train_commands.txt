@@ -3,6 +3,13 @@ python train.py --model_architecture dnn --model_size_info 144 144 144 --dct_coe
 python train.py --model_architecture dnn --model_size_info 256 256 256 --dct_coefficient_count 10 --window_size_ms 40 --window_stride_ms 40 --learning_rate 0.0005,0.0001,0.00002 --how_many_training_steps 10000,10000,10000 --summaries_dir work/DNN/DNN2/retrain_logs --train_dir work/DNN/DNN2/training
 python train.py --model_architecture dnn --model_size_info 436 436 436 --dct_coefficient_count 10 --window_size_ms 40 --window_stride_ms 40 --learning_rate 0.0005,0.0001,0.00002 --how_many_training_steps 10000,10000,10000 --summaries_dir work/DNN/DNN3/retrain_logs --train_dir work/DNN/DNN3/training 
 
+#DNN2D Models
+
+'--wanted_words'='yes,no'
+python train.py --model_architecture dnn --model_size_info 144 144 144 --dct_coefficient_count 10 --window_size_ms 40 --window_stride_ms 40 --learning_rate 0.0005,0.0001,0.00002 --how_many_training_steps 10000,10000,10000 --summaries_dir work/DNN2D/DNN2D1/retrain_logs --train_dir work/DNN2D/DNN2D1/training
+python train.py --model_architecture dnn --model_size_info 192 128 48 --dct_coefficient_count 10 --window_size_ms 40 --window_stride_ms 40 --learning_rate 0.0005,0.0001,0.00002 --how_many_training_steps 10000,10000,10000 --summaries_dir work/DNN2D/DNN2D2/retrain_logs --train_dir work/DNN2D/DNN2D2/training
+
+
 #CNN Models
 python train.py --model_architecture cnn --model_size_info 28 10 4 1 1 30 10 4 2 1 16 128 --dct_coefficient_count 10 --window_size_ms 40 --window_stride_ms 20 --learning_rate 0.0005,0.0001,0.00002 --how_many_training_steps 10000,10000,10000 --summaries_dir work/CNN/CNN1/retrain_logs --train_dir work/CNN/CNN1/training 
 python train.py --model_architecture cnn --model_size_info 64 10 4 1 1 48 10 4 2 1 16 128 --dct_coefficient_count 10 --window_size_ms 40 --window_stride_ms 20 --learning_rate 0.0005,0.0001,0.00002 --how_many_training_steps 10000,10000,10000 --summaries_dir work/CNN/CNN2/retrain_logs --train_dir work/CNN/CNN2/training 

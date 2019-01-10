@@ -192,6 +192,45 @@ def create_ctc_model(fingerprint_input, model_settings, model_size_info, is_trai
     pass
 
 
+def create_seq2seq_model(fingerprint_input, model_settings, model_size_info, is_training):
+    """Builds a model with multiple hidden fully-connected layers.
+        model_size_info: length of the array defines the number of hidden-layers and
+                         each element in the array represent the number of neurons
+                         in that layer
+        """
+
+    if is_training:
+        dropout_prob = tf.placeholder(tf.float32, name='dropout_prob')
+    fingerprint_size = model_settings['fingerprint_size']
+    label_count = model_settings['label_count']
+    num_layers = len(model_size_info)
+    layer_dim = [fingerprint_size]
+    layer_dim.extend(model_size_info)
+    flow = fingerprint_input
+    tf.summary.histogram('input', flow)
+    for i in range(1, num_layers + 1):
+        with tf.variable_scope('fc' + str(i)):
+            W = tf.get_variable('W', shape=[layer_dim[i - 1], layer_dim[i]],
+                                initializer=tf.contrib.layers.xavier_initializer())
+            tf.summary.histogram('fc_' + str(i) + '_w', W)
+            b = tf.get_variable('b', shape=[layer_dim[i]])
+            tf.summary.histogram('fc_' + str(i) + '_b', b)
+            flow = tf.matmul(flow, W) + b
+            flow = tf.nn.relu(flow)
+            if is_training:
+                flow = tf.nn.dropout(flow, dropout_prob)
+
+    weights = tf.get_variable('final_fc', shape=[layer_dim[-1], label_count],
+                              initializer=tf.contrib.layers.xavier_initializer())
+    bias = tf.Variable(tf.zeros([label_count]))
+    logits = tf.matmul(flow, weights) + bias
+    if is_training:
+        return logits, dropout_prob
+    else:
+        return logits
+    pass
+
+
 def create_model(fingerprint_input, model_settings, model_architecture,
                  model_size_info, is_training, runtime_settings=None):
     """Builds a model of the requested architecture compatible with the settings.
@@ -238,7 +277,6 @@ def create_model(fingerprint_input, model_settings, model_architecture,
         return create_low_latency_svdf_model(fingerprint_input, model_settings,
                                              is_training, runtime_settings)
 
-
     elif model_architecture == 'tiny_conv':
 
         return create_tiny_conv_model(fingerprint_input, model_settings,
@@ -250,6 +288,11 @@ def create_model(fingerprint_input, model_settings, model_architecture,
     elif model_architecture == 'cnn_attention':
         return create_attention_model(fingerprint_input, model_settings,
                                       model_size_info, is_training)
+
+    elif model_architecture == 'seq2seq':
+        return create_seq2seq_model(fingerprint_input, model_settings, model_size_info,
+                                is_training)
+
     elif model_architecture == 'dnn':
         return create_dnn_model(fingerprint_input, model_settings, model_size_info,
                                 is_training)
@@ -1380,6 +1423,7 @@ def create_ds_cnn_model(fingerprint_input, model_settings, model_size_info,
         i += 1
 
     scope = 'DS-CNN'
+    arr = []
     with tf.variable_scope(scope) as sc:
         end_points_collection = sc.name + '_end_points'
         with slim.arg_scope([slim.convolution2d, slim.separable_convolution2d],
@@ -1394,23 +1438,27 @@ def create_ds_cnn_model(fingerprint_input, model_settings, model_size_info,
                                 activation_fn=tf.nn.relu):
                 for layer_no in range(0, num_layers):
                     if layer_no == 0:
+                        arr.append(fingerprint_4d)
                         net = slim.convolution2d(fingerprint_4d, conv_feat[layer_no], \
                                                  [conv_kt[layer_no], conv_kf[layer_no]],
                                                  stride=[conv_st[layer_no], conv_sf[layer_no]], padding='SAME',
                                                  scope='conv_1')
                         net = slim.batch_norm(net, scope='conv_1/batch_norm')
+                        arr.append(net)
                     else:
                         net = _depthwise_separable_conv(net, conv_feat[layer_no], \
                                                         kernel_size=[conv_kt[layer_no], conv_kf[layer_no]], \
                                                         stride=[conv_st[layer_no], conv_sf[layer_no]],
                                                         sc='conv_ds_' + str(layer_no))
+                        arr.append(net)
                     t_dim = math.ceil(t_dim / float(conv_st[layer_no]))
                     f_dim = math.ceil(f_dim / float(conv_sf[layer_no]))
                 net = slim.avg_pool2d(net, [t_dim, f_dim], scope='avg_pool')
+        arr.append(net)
         net = tf.squeeze(net, [1, 2], name='SpatialSqueeze')  # 如果只是一维，则去掉表示
         logits = slim.fully_connected(net, label_count, activation_fn=None, scope='fc1')
-
+        arr.append(logits)
     if is_training:
         return logits, dropout_prob
     else:
-        return logits
+        return logits, arr

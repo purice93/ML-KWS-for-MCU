@@ -1,8 +1,8 @@
 """ 
 @author: zoutai
-@file: testonewave.py 
+@file: testOnewave.py
 @time: 2018/12/19 
-@description: test.py的复制版：用于测试一个语音，便于调试
+@description: test.py的复制版：用于测试单个语音，便于调试
 """
 
 from __future__ import absolute_import
@@ -64,7 +64,7 @@ def run_inference(labels, wanted_words, sample_rate, clip_duration_ms,
     fingerprint_input = tf.placeholder(
         tf.float32, [None, fingerprint_size], name='fingerprint_input')
 
-    logits, fingerprint_input, arr = models.create_model(
+    logits,arr = models.create_model(
         fingerprint_input,
         model_settings,
         FLAGS.model_architecture,
@@ -74,13 +74,17 @@ def run_inference(labels, wanted_words, sample_rate, clip_duration_ms,
     models.load_variables_from_checkpoint(sess, FLAGS.checkpoint)
 
     training_fingerprints = audio_processor.get_onedata(sess,filename=FLAGS.data_dir)
-    fingerprint_input, arr,logits = sess.run(
-        [fingerprint_input, arr,logits],
+    print(training_fingerprints)
+    logits,arr = sess.run(
+        [logits,arr],
         feed_dict={
             fingerprint_input: training_fingerprints,
         })
     num_top_predictions=3
+
+    # dnn测试用
     predictions = logits[0]
+    # predictions = logits
     predictions = softmax(predictions)
     # Sort to show labels in order of confidence
     top_k = predictions.argsort()[-num_top_predictions:][::-1]
@@ -181,18 +185,18 @@ if __name__ == '__main__':
     parser.add_argument(
         '--checkpoint',
         type=str,
-        default='/home/zoutai/code/ML-KWS-for-MCU/work/DNN/DNN1/training/best/dnn_8490.ckpt-27600',
+        default='/home/zoutai/code/ML-KWS-for-MCU/work/DS_CNN/DS_CNN1/training/best/ds_cnn_9347.ckpt-26400',
         help='Checkpoint to load the weights from.')
     parser.add_argument(
         '--model_architecture',
         type=str,
-        default='dnn',
+        default='ds_cnn',
         help='What model architecture to use')
     parser.add_argument(
         '--model_size_info',
         type=int,
         nargs="+",
-        default=[144, 144, 144],
+        default=[5, 64, 10, 4, 2, 2, 64, 3, 3, 1, 1, 64, 3, 3, 1, 1, 64, 3, 3, 1, 1, 64, 3, 3, 1, 1],
         help='Model dimensions - different for various models')
 
     FLAGS, unparsed = parser.parse_known_args()

@@ -22,156 +22,15 @@
       <change afterPath="$PROJECT_DIR$/../ExtractLoudestSection/testReplace.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DTWSpeech/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DTWSpeech/DTW_MFCC_KNN.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DTWSpeech/DTW_simple_example.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DTWSpeech/Images/allpaths.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DTWSpeech/Images/dtw_dummy.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DTWSpeech/Images/dtw_knn_schematic.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DTWSpeech/Images/final_confmat.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DTWSpeech/Images/max_window_warping.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DTWSpeech/Images/path_differences.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DTWSpeech/Images/plug last r952 lots.jmp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DTWSpeech/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DTWSpeech/VoiceCommand.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DTWSpeech/chapter1.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DTWSpeech/dtw.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DTWSpeech/dtwTest.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DTWSpeech/note" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DTWSpeech/sounds/0.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DTWSpeech/sounds/1.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DTWSpeech/sounds/10.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DTWSpeech/sounds/100.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DTWSpeech/sounds/101.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DTWSpeech/sounds/102.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DTWSpeech/sounds/103.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DTWSpeech/sounds/104.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DTWSpeech/sounds/105.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DTWSpeech/sounds/106.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DTWSpeech/sounds/107.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DTWSpeech/sounds/108.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DTWSpeech/sounds/109.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DTWSpeech/sounds/11.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DTWSpeech/sounds/110.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DTWSpeech/sounds/111.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DTWSpeech/sounds/112.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DTWSpeech/sounds/113.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DTWSpeech/sounds/114.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DTWSpeech/sounds/115.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DTWSpeech/sounds/116.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DTWSpeech/sounds/117.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DTWSpeech/sounds/118.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DTWSpeech/sounds/119.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DTWSpeech/sounds/12.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DTWSpeech/sounds/120.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DTWSpeech/sounds/121.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DTWSpeech/sounds/122.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DTWSpeech/sounds/123.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DTWSpeech/sounds/124.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DTWSpeech/sounds/125.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DTWSpeech/sounds/126.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DTWSpeech/sounds/127.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DTWSpeech/sounds/128.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DTWSpeech/sounds/129.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DTWSpeech/sounds/13.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DTWSpeech/sounds/130.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DTWSpeech/sounds/131.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DTWSpeech/sounds/132.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DTWSpeech/sounds/133.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DTWSpeech/sounds/134.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DTWSpeech/sounds/135.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DTWSpeech/sounds/136.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DTWSpeech/sounds/137.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DTWSpeech/sounds/138.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DTWSpeech/sounds/139.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DTWSpeech/sounds/14.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DTWSpeech/sounds/140.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DTWSpeech/sounds/141.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DTWSpeech/sounds/142.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DTWSpeech/sounds/143.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DTWSpeech/sounds/144.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DTWSpeech/sounds/145.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DTWSpeech/sounds/146.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DTWSpeech/sounds/147.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DTWSpeech/sounds/148.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DTWSpeech/sounds/149.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DTWSpeech/sounds/15.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DTWSpeech/sounds/150.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DTWSpeech/sounds/151.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DTWSpeech/sounds/152.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DTWSpeech/sounds/153.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DTWSpeech/sounds/154.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DTWSpeech/sounds/155.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DTWSpeech/sounds/156.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DTWSpeech/sounds/157.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DTWSpeech/sounds/158.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DTWSpeech/sounds/159.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DTWSpeech/sounds/16.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DTWSpeech/sounds/160.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DTWSpeech/sounds/161.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DTWSpeech/sounds/162.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DTWSpeech/sounds/163.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DTWSpeech/sounds/164.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DTWSpeech/sounds/165.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DTWSpeech/sounds/166.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DTWSpeech/sounds/167.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DTWSpeech/sounds/168.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DTWSpeech/sounds/169.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DTWSpeech/sounds/17.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DTWSpeech/sounds/170.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DTWSpeech/sounds/171.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DTWSpeech/sounds/172.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DTWSpeech/sounds/173.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DTWSpeech/sounds/174.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DTWSpeech/sounds/175.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DTWSpeech/sounds/176.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DTWSpeech/sounds/177.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DTWSpeech/sounds/178.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DTWSpeech/sounds/179.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DTWSpeech/sounds/18.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DTWSpeech/sounds/180.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DTWSpeech/sounds/181.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DTWSpeech/sounds/182.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DTWSpeech/sounds/183.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DTWSpeech/sounds/184.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DTWSpeech/sounds/185.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DTWSpeech/sounds/186.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DTWSpeech/sounds/187.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DTWSpeech/sounds/78.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DTWSpeech/sounds/wavToTag.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DTWSpeech/speech-recognition.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DTWSpeech/train/fcmc0-a1-t.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DTWSpeech/train/fcmc0-b1-t.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DTWSpeech/train/fews0-a1-t.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DTWSpeech/train/fews0-b1-t.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DTWSpeech/train/fmb0-a1-t.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DTWSpeech/train/fmb0-b1-t.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DTWSpeech/train/fmbd0-a1-t.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DTWSpeech/train/fmbd0-b1-t.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DTWSpeech/train/fme0-a1-t.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DTWSpeech/train/fme0-b1-t.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DTWSpeech/train/frw0-a1-t.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DTWSpeech/train/frw0-b1-t.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DTWSpeech/train/mjp0-a1-t.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DTWSpeech/train/mjp0-b1-t.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DTWSpeech/train/mnjh0-a1-t.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DTWSpeech/train/mnjh0-b1-t.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DTWSpeech/train/mnre0-a1-t.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DTWSpeech/train/mnre0-b1-t.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DTWSpeech/train/mrmh1-a1-t.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DTWSpeech/train/mrmh1-b1-t.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DTWSpeech/train/msa0-a1-t.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DTWSpeech/train/msa0-b1-t.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DTWSpeech/train/mtdw0-a1-t.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DTWSpeech/train/mtdw0-b1-t.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/generate_streaming_test_wav.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/testArgMax.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/testReshape.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/testdnn.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/testonewave.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wav_to_features.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wav_to_features_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/remote-mappings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/webServers.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Deployment/kws_simple_test5/mbed.bld" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo01.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/batchTest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/testArr.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/testMoreDimAdd.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/testTensorflow.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_FRR.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../TTS-Win/.idea/TTS-Win.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../TTS-Win/.idea/deployment.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../TTS-Win/.idea/misc.xml" afterDir="false" />
@@ -201,26 +60,10 @@
       <change afterPath="$PROJECT_DIR$/../WebScrapingWithPython/action02/links/__init__.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../WebScrapingWithPython/action02/links/busan.txt" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../WebScrapingWithPython/action02/links/dict.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WebScrapingWithPython/action03/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WebScrapingWithPython/action03/getStudentInfo.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../WebScrapingWithPython/action_csdnFlush/__init__.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../WebScrapingWithPython/action_csdnFlush/flushCSDN.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../djProJ/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../djProJ/polls/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../djdemo02/static/css/bootstrap-theme.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../djdemo02/static/css/bootstrap-theme.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../djdemo02/static/css/bootstrap.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../djdemo02/static/css/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../djdemo02/static/css/help-styles.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../djdemo02/static/css/prism.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../djdemo02/static/img/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../djdemo02/static/img/favicons.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../djdemo02/static/img/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../djdemo02/static/img/logo2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../djdemo02/static/img/logo3 (2).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../djdemo02/static/scripts/bootstrap.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../djdemo02/static/scripts/bootstrap.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../djdemo02/static/scripts/prism.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../djdemo02/static/scripts/script.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../djdemo02/templates/index.html" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../flaskDemo/.idea/deployment.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../flaskDemo/.idea/vcs.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../flaskWeb/.idea/deployment.xml" afterDir="false" />
@@ -256,7 +99,6 @@
       <change afterPath="$PROJECT_DIR$/../python2scap/.idea/vcs.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../python2scap/openPkl.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../python2scap/readme.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../qwe/templates/index.html" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../speech_commands/.idea/deployment.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../speech_commands/.idea/vcs.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../speech_commands/inception_utils.py" afterDir="false" />
@@ -376,30 +218,24 @@
       <change beforePath="$PROJECT_DIR$/../FlaskForHu/部分项目文件/分数部分/six_nine/msyh.ttc" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../FlaskForHu/部分项目文件/分数部分/six_nine/six_nine.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/ML-KWS-for-MCU5.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/ML-KWS-for-MCU5.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/deployment.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Deployment/Examples/simple_test_k64f_gcc/mbed/TARGET_K64F/mbed_lib.json" beforeDir="false" afterPath="$PROJECT_DIR$/Deployment/Examples/simple_test_k64f_gcc/mbed/TARGET_K64F/mbed_lib.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Deployment/Examples/simple_test_k64f_gcc/mbed/targets.json" beforeDir="false" afterPath="$PROJECT_DIR$/Deployment/Examples/simple_test_k64f_gcc/mbed/targets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Deployment/Quant_guide.md" beforeDir="false" afterPath="$PROJECT_DIR$/Deployment/Quant_guide.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Deployment/release_O3.json" beforeDir="false" afterPath="$PROJECT_DIR$/Deployment/release_O3.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fold_batchnorm.py" beforeDir="false" afterPath="$PROJECT_DIR$/fold_batchnorm.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/freeze.py" beforeDir="false" afterPath="$PROJECT_DIR$/freeze.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Deployment/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/Deployment/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/input_data.py" beforeDir="false" afterPath="$PROJECT_DIR$/input_data.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/label_wav.py" beforeDir="false" afterPath="$PROJECT_DIR$/label_wav.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/quant_models.py" beforeDir="false" afterPath="$PROJECT_DIR$/quant_models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/note" beforeDir="false" afterPath="$PROJECT_DIR$/note" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/quant_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/quant_test.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/result" beforeDir="false" afterPath="$PROJECT_DIR$/result" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/commonTest.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/commonTest.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/helpers.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/helpers.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test/testDSCNN.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/testDSCNN.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/testRnn.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/testRnn.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/testReshape.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/testReshape.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/testdnn.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/testdnn.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/testonewave.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/testOnewave.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test_pb.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_pb.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/train.py" beforeDir="false" afterPath="$PROJECT_DIR$/train.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/train_commands.txt" beforeDir="false" afterPath="$PROJECT_DIR$/train_commands.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../TensorflowStudy/crf_hmm/hmm/hmm_demo.py" beforeDir="false" afterPath="$PROJECT_DIR$/../TensorflowStudy/crf_hmm/hmm/hmm_demo.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../TensorflowStudy/ctc/ctc_study.py" beforeDir="false" afterPath="$PROJECT_DIR$/../TensorflowStudy/ctc/ctc_study.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Tensorflow_Study/.idea/Tensorflow_Study.iml" beforeDir="false" />
@@ -428,47 +264,54 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/ML_KWS_for_MCU$testRnn.coverage" NAME="testRnn Coverage Results" MODIFIED="1542598342324" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/ML_KWS_for_MCU$testAttention.coverage" NAME="testAttention Coverage Results" MODIFIED="1542698490203" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/ML_KWS_for_MCU5$models.coverage" NAME="models Coverage Results" MODIFIED="1544152217737" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/ML_KWS_for_MCU5$DTW_simple_example.coverage" NAME="DTW_simple_example Coverage Results" MODIFIED="1544597773190" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DTWSpeech" />
-    <SUITE FILE_PATH="coverage/ML_KWS_for_MCU5$DTW_MFCC_KNN.coverage" NAME="DTW_MFCC_KNN Coverage Results" MODIFIED="1544579985990" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DTWSpeech" />
-    <SUITE FILE_PATH="coverage/ML_KWS_for_MCU$testAttention2.coverage" NAME="testAttention2 Coverage Results" MODIFIED="1542699124068" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
-    <SUITE FILE_PATH="coverage/ML_KWS_for_MCU$testAttention2__1_.coverage" NAME="testAttention2 (1) Coverage Results" MODIFIED="1542699176609" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mytest" />
-    <SUITE FILE_PATH="coverage/ML_KWS_for_MCU5$ML_KWS_for_MCU5.coverage" NAME="ML-KWS-for-MCU5 Coverage Results" MODIFIED="1544444401881" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
-    <SUITE FILE_PATH="coverage/ML_KWS_for_MCU5$python_remote.coverage" NAME="python remote Coverage Results" MODIFIED="1544597388253" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/.." />
-    <SUITE FILE_PATH="coverage/ML_KWS_for_MCU$wav_to_features.coverage" NAME="wav_to_features Coverage Results" MODIFIED="1545124771167" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/ML_KWS_for_MCU$testDSCNN.coverage" NAME="testDSCNN Coverage Results" MODIFIED="1542614886600" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/ML_KWS_for_MCU$testArgMax.coverage" NAME="testArgMax Coverage Results" MODIFIED="1545048055063" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
-    <SUITE FILE_PATH="coverage/ML_KWS_for_MCU$wav_to_features__1_.coverage" NAME="wav_to_features (1) Coverage Results" MODIFIED="1545124723896" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/Desktop" />
-    <SUITE FILE_PATH="coverage/ML_KWS_for_MCU$testdnn.coverage" NAME="testdnn Coverage Results" MODIFIED="1545187450519" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
-    <SUITE FILE_PATH="coverage/ML_KWS_for_MCU5$generate_streaming_test_wav.coverage" NAME="generate_streaming_test_wav Coverage Results" MODIFIED="1544416955400" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/ML_KWS_for_MCU$testReshape.coverage" NAME="testReshape Coverage Results" MODIFIED="1545187800924" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
-    <SUITE FILE_PATH="coverage/ML_KWS_for_MCU5$quant_test.coverage" NAME="quant_test Coverage Results" MODIFIED="1544779675445" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/ML_KWS_for_MCU5$train.coverage" NAME="train Coverage Results" MODIFIED="1544762139191" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/ML_KWS_for_MCU5$speech_recognition.coverage" NAME="speech-recognition Coverage Results" MODIFIED="1544580032679" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DTWSpeech" />
-    <SUITE FILE_PATH="coverage/ML_KWS_for_MCU$word_to_num.coverage" NAME="word_to_num Coverage Results" MODIFIED="1544087067549" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/ML_KWS_for_MCU$label_wav__1_.coverage" NAME="label_wav (1) Coverage Results" MODIFIED="1545121373228" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/ML_KWS_for_MCU5$VoiceCommand.coverage" NAME="VoiceCommand Coverage Results" MODIFIED="1544580119533" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DTWSpeech" />
-    <SUITE FILE_PATH="coverage/ML_KWS_for_MCU$quant_models.coverage" NAME="quant_models Coverage Results" MODIFIED="1545016141182" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/ML_KWS_for_MCU$train__1_.coverage" NAME="train (1) Coverage Results" MODIFIED="1542863702729" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/ML_KWS_for_MCU5$train__1_.coverage" NAME="train (1) Coverage Results" MODIFIED="1544152851107" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/ML_KWS_for_MCU5$label_wav.coverage" NAME="label_wav Coverage Results" MODIFIED="1544773102804" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/ML_KWS_for_MCU$commonTest.coverage" NAME="commonTest Coverage Results" MODIFIED="1542792469259" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mytest" />
-    <SUITE FILE_PATH="coverage/ML_KWS_for_MCU$input_data.coverage" NAME="input_data Coverage Results" MODIFIED="1545183506648" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/ML_KWS_for_MCU5$label_wav__1_.coverage" NAME="label_wav (1) Coverage Results" MODIFIED="1544779704119" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/ML_KWS_for_MCU$train.coverage" NAME="train Coverage Results" MODIFIED="1545039230993" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/ML_KWS_for_MCU$test.coverage" NAME="test Coverage Results" MODIFIED="1545202842261" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/ML_KWS_for_MCU5$fastdtw_test.coverage" NAME="fastdtw_test Coverage Results" MODIFIED="1544598035525" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DTWSpeech" />
-    <SUITE FILE_PATH="coverage/ML_KWS_for_MCU$testonewave.coverage" NAME="testonewave Coverage Results" MODIFIED="1545202178817" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
-    <SUITE FILE_PATH="coverage/ML_KWS_for_MCU$pytest_for_wav_to_features_test_WavToFeaturesTest.coverage" NAME="pytest for wav_to_features_test.WavToFeaturesTest Coverage Results" MODIFIED="1545123260596" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/ML_KWS_for_MCU5$pytest_for_dtwTest_Test_test_distance.coverage" NAME="pytest for dtwTest.Test.test_distance Coverage Results" MODIFIED="1544582621445" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DTWSpeech" />
-    <SUITE FILE_PATH="coverage/ML_KWS_for_MCU5$test.coverage" NAME="test Coverage Results" MODIFIED="1545007778174" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/ML_KWS_for_MCU5$dtw.coverage" NAME="dtw Coverage Results" MODIFIED="1544584682519" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DTWSpeech" />
-    <SUITE FILE_PATH="coverage/ML_KWS_for_MCU$quant_test.coverage" NAME="quant_test Coverage Results" MODIFIED="1545116596530" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/ML_KWS_for_MCU$label_wav.coverage" NAME="label_wav Coverage Results" MODIFIED="1545189650184" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/ML_KWS_for_MCU$quant_test.coverage" NAME="quant_test Coverage Results" MODIFIED="1545918522022" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/ML_KWS_for_MCU$label_wav.coverage" NAME="label_wav Coverage Results" MODIFIED="1547001354109" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/ML_KWS_for_MCU5$quant_test.coverage" NAME="quant_test Coverage Results" MODIFIED="1544779675445" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/ML_KWS_for_MCU$testTensorflow.coverage" NAME="testTensorflow Coverage Results" MODIFIED="1547089546091" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/ML_KWS_for_MCU$wav_to_features__1_.coverage" NAME="wav_to_features (1) Coverage Results" MODIFIED="1545124723896" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/Desktop" />
     <SUITE FILE_PATH="coverage/ML_KWS_for_MCU5$pytest_for_dtwTest_Test.coverage" NAME="pytest for dtwTest.Test Coverage Results" MODIFIED="1544582277038" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DTWSpeech" />
+    <SUITE FILE_PATH="coverage/ML_KWS_for_MCU$testReshape.coverage" NAME="testReshape Coverage Results" MODIFIED="1545727427403" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/ML_KWS_for_MCU5$label_wav__1_.coverage" NAME="label_wav (1) Coverage Results" MODIFIED="1544779704119" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/ML_KWS_for_MCU$models.coverage" NAME="models Coverage Results" MODIFIED="1546589887409" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/ML_KWS_for_MCU$test__1_.coverage" NAME="test (1) Coverage Results" MODIFIED="1547127300245" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/ML_KWS_for_MCU5$fastdtw_test.coverage" NAME="fastdtw_test Coverage Results" MODIFIED="1544598035525" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DTWSpeech" />
+    <SUITE FILE_PATH="coverage/ML_KWS_for_MCU$testAttention.coverage" NAME="testAttention Coverage Results" MODIFIED="1542698490203" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/ML_KWS_for_MCU5$python_remote.coverage" NAME="python remote Coverage Results" MODIFIED="1544597388253" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/.." />
+    <SUITE FILE_PATH="coverage/ML_KWS_for_MCU5$train__1_.coverage" NAME="train (1) Coverage Results" MODIFIED="1544152851107" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/ML_KWS_for_MCU5$dtw.coverage" NAME="dtw Coverage Results" MODIFIED="1544584682519" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DTWSpeech" />
+    <SUITE FILE_PATH="coverage/ML_KWS_for_MCU$testAttention2__1_.coverage" NAME="testAttention2 (1) Coverage Results" MODIFIED="1542699176609" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mytest" />
+    <SUITE FILE_PATH="coverage/ML_KWS_for_MCU$input_data.coverage" NAME="input_data Coverage Results" MODIFIED="1545183506648" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/ML_KWS_for_MCU$wav_to_features.coverage" NAME="wav_to_features Coverage Results" MODIFIED="1545124771167" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/ML_KWS_for_MCU5$speech_recognition.coverage" NAME="speech-recognition Coverage Results" MODIFIED="1544580032679" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DTWSpeech" />
+    <SUITE FILE_PATH="coverage/ML_KWS_for_MCU$testDSCNN.coverage" NAME="testDSCNN Coverage Results" MODIFIED="1545817872585" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/ML_KWS_for_MCU$testOnewave.coverage" NAME="testOnewave Coverage Results" MODIFIED="1547103676708" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/ML_KWS_for_MCU5$ML_KWS_for_MCU5.coverage" NAME="ML-KWS-for-MCU5 Coverage Results" MODIFIED="1544444401881" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/ML_KWS_for_MCU$pytest_for_wav_to_features_test_WavToFeaturesTest.coverage" NAME="pytest for wav_to_features_test.WavToFeaturesTest Coverage Results" MODIFIED="1545123260596" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/ML_KWS_for_MCU$testArr.coverage" NAME="testArr Coverage Results" MODIFIED="1545921455237" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/ML_KWS_for_MCU$commonTest.coverage" NAME="commonTest Coverage Results" MODIFIED="1542792469259" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mytest" />
+    <SUITE FILE_PATH="coverage/ML_KWS_for_MCU5$DTW_simple_example.coverage" NAME="DTW_simple_example Coverage Results" MODIFIED="1544597773190" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DTWSpeech" />
+    <SUITE FILE_PATH="coverage/ML_KWS_for_MCU5$test.coverage" NAME="test Coverage Results" MODIFIED="1545007778174" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/ML_KWS_for_MCU5$train.coverage" NAME="train Coverage Results" MODIFIED="1544762139191" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/ML_KWS_for_MCU$testdnn.coverage" NAME="testdnn Coverage Results" MODIFIED="1545958947140" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/ML_KWS_for_MCU5$DTW_MFCC_KNN.coverage" NAME="DTW_MFCC_KNN Coverage Results" MODIFIED="1544579985990" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DTWSpeech" />
+    <SUITE FILE_PATH="coverage/ML_KWS_for_MCU$word_to_num.coverage" NAME="word_to_num Coverage Results" MODIFIED="1544087067549" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/ML_KWS_for_MCU5$generate_streaming_test_wav.coverage" NAME="generate_streaming_test_wav Coverage Results" MODIFIED="1544416955400" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/ML_KWS_for_MCU5$fastdtw.coverage" NAME="fastdtw Coverage Results" MODIFIED="1544597807571" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DTWSpeech" />
+    <SUITE FILE_PATH="coverage/ML_KWS_for_MCU5$VoiceCommand.coverage" NAME="VoiceCommand Coverage Results" MODIFIED="1544580119533" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DTWSpeech" />
+    <SUITE FILE_PATH="coverage/ML_KWS_for_MCU$testRnn.coverage" NAME="testRnn Coverage Results" MODIFIED="1542598342324" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/ML_KWS_for_MCU$testArgMax.coverage" NAME="testArgMax Coverage Results" MODIFIED="1545048055063" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/ML_KWS_for_MCU$quant_models.coverage" NAME="quant_models Coverage Results" MODIFIED="1545016141182" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/ML_KWS_for_MCU5$label_wav.coverage" NAME="label_wav Coverage Results" MODIFIED="1544773102804" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/ML_KWS_for_MCU$testonewave.coverage" NAME="testonewave Coverage Results" MODIFIED="1545202178817" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/ML_KWS_for_MCU5$pytest_for_dtwTest_Test_test_distance.coverage" NAME="pytest for dtwTest.Test.test_distance Coverage Results" MODIFIED="1544582621445" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DTWSpeech" />
+    <SUITE FILE_PATH="coverage/ML_KWS_for_MCU$testMoreDimAdd.coverage" NAME="testMoreDimAdd Coverage Results" MODIFIED="1545229913985" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/ML_KWS_for_MCU$demo01.coverage" NAME="demo01 Coverage Results" MODIFIED="1545574839425" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/ML_KWS_for_MCU$test.coverage" NAME="test Coverage Results" MODIFIED="1546593432783" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/ML_KWS_for_MCU$train.coverage" NAME="train Coverage Results" MODIFIED="1547103823190" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/ML_KWS_for_MCU5$models.coverage" NAME="models Coverage Results" MODIFIED="1544152217737" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/ML_KWS_for_MCU$label_wav__1_.coverage" NAME="label_wav (1) Coverage Results" MODIFIED="1545121373228" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/ML_KWS_for_MCU$testAttention2.coverage" NAME="testAttention2 Coverage Results" MODIFIED="1542699124068" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
   </component>
   <component name="DatabaseView">
     <option name="SHOW_INTERMEDIATE" value="true" />
@@ -488,8 +331,9 @@
     <session id="-583703885">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="9" />
+          <entry key="project.closed" value="11" />
           <entry key="project.open.time.1" value="1" />
+          <entry key="project.open.time.10" value="1" />
           <entry key="project.open.time.151" value="1" />
           <entry key="project.open.time.16" value="1" />
           <entry key="project.open.time.17" value="1" />
@@ -501,60 +345,71 @@
           <entry key="project.open.time.29" value="1" />
           <entry key="project.open.time.3" value="1" />
           <entry key="project.open.time.30" value="1" />
-          <entry key="project.open.time.34" value="1" />
-          <entry key="project.open.time.37" value="1" />
+          <entry key="project.open.time.33" value="1" />
+          <entry key="project.open.time.34" value="4" />
+          <entry key="project.open.time.35" value="2" />
+          <entry key="project.open.time.36" value="3" />
+          <entry key="project.open.time.37" value="2" />
+          <entry key="project.open.time.38" value="1" />
+          <entry key="project.open.time.39" value="1" />
+          <entry key="project.open.time.4" value="1" />
+          <entry key="project.open.time.42" value="2" />
           <entry key="project.open.time.5" value="2" />
+          <entry key="project.open.time.51" value="1" />
           <entry key="project.open.time.56" value="1" />
-          <entry key="project.open.time.6" value="1" />
+          <entry key="project.open.time.6" value="2" />
           <entry key="project.open.time.65" value="1" />
           <entry key="project.open.time.8" value="1" />
           <entry key="project.open.time.9" value="2" />
-          <entry key="project.opened" value="22" />
+          <entry key="project.opened" value="40" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="Makefile" value="1" />
+          <entry key="Makefile" value="2" />
           <entry key="c" value="1" />
-          <entry key="cpp" value="26" />
-          <entry key="h" value="20" />
+          <entry key="cpp" value="47" />
+          <entry key="h" value="31" />
           <entry key="lib" value="2" />
-          <entry key="md" value="15" />
-          <entry key="note" value="7" />
+          <entry key="md" value="27" />
+          <entry key="note" value="13" />
           <entry key="pb" value="5" />
           <entry key="pbtxt" value="1" />
-          <entry key="py" value="175" />
+          <entry key="py" value="317" />
           <entry key="py___jb_tmp___" value="1" />
-          <entry key="result" value="9" />
-          <entry key="txt" value="10" />
+          <entry key="result" value="15" />
+          <entry key="txt" value="15" />
           <entry key="wav" value="1" />
           <entry key="方案" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="C++" value="42" />
-          <entry key="Markdown" value="13" />
+          <entry key="C++" value="74" />
+          <entry key="Markdown" value="25" />
           <entry key="ObjectiveC" value="5" />
-          <entry key="PLAIN_TEXT" value="40" />
-          <entry key="Python" value="175" />
+          <entry key="PLAIN_TEXT" value="58" />
+          <entry key="Python" value="317" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="cpp" value="3" />
-          <entry key="note" value="1220" />
-          <entry key="py" value="4079" />
-          <entry key="result" value="180" />
-          <entry key="txt" value="15" />
+          <entry key="cpp" value="4" />
+          <entry key="dummy" value="8" />
+          <entry key="md" value="5" />
+          <entry key="note" value="1651" />
+          <entry key="py" value="6993" />
+          <entry key="result" value="181" />
+          <entry key="txt" value="31" />
           <entry key="方案" value="19" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="C++" value="3" />
-          <entry key="PLAIN_TEXT" value="1434" />
-          <entry key="Python" value="4079" />
+          <entry key="C++" value="4" />
+          <entry key="Markdown" value="5" />
+          <entry key="PLAIN_TEXT" value="1890" />
+          <entry key="Python" value="6993" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.js.language.service.starts" />
@@ -639,63 +494,34 @@
       </usages-collector>
     </session>
   </component>
+  <component name="FavoritesManager">
+    <favorites_list name="ML-KWS-for-MCU" />
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/label_wav.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="353">
-              <caret line="65" column="22" selection-start-line="65" selection-start-column="8" selection-end-line="65" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Pretrained_models/labels.txt">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/freeze.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-484">
-              <caret line="102" column="31" selection-start-line="102" selection-start-column="24" selection-end-line="102" selection-end-column="31" />
-              <folding>
-                <element signature="e#1852#1890#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="69" column="12" selection-start-line="69" selection-start-column="12" selection-end-line="69" selection-end-column="12" />
-              <folding>
-                <element signature="e#934#972#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="4774">
+              <caret line="233" column="10" selection-start-line="233" selection-start-column="10" selection-end-line="233" selection-end-column="10" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/testonewave.py">
+        <entry file="file://$PROJECT_DIR$/train.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="116">
-              <caret line="49" column="23" lean-forward="true" selection-start-line="49" selection-start-column="23" selection-end-line="49" selection-end-column="23" />
-              <folding>
-                <element signature="e#83#121#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="180">
+              <caret line="304" column="10" selection-start-line="304" selection-start-column="7" selection-end-line="304" selection-end-column="10" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="622">
-              <caret line="86" column="43" lean-forward="true" selection-start-line="86" selection-start-column="43" selection-end-line="86" selection-end-column="43" />
+            <state relative-caret-position="180">
+              <caret line="91" column="18" lean-forward="true" selection-start-line="91" selection-start-column="18" selection-end-line="91" selection-end-column="18" />
               <folding>
                 <element signature="e#886#924#0" expanded="true" />
               </folding>
@@ -703,23 +529,62 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/input_data.py">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/pydevd.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="242">
-              <caret line="163" column="29" lean-forward="true" selection-start-line="163" selection-start-column="29" selection-end-line="163" selection-end-column="29" />
-              <folding>
-                <element signature="e#746#784#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="546">
+              <caret line="1657" selection-start-line="1657" selection-end-line="1657" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/testdnn.py">
+        <entry file="file://$PROJECT_DIR$/label_wav.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1003">
-              <caret line="158" column="45" selection-start-line="158" selection-start-column="45" selection-end-line="158" selection-end-column="45" />
+            <state relative-caret-position="1100">
+              <caret line="57" column="22" selection-start-line="57" selection-start-column="14" selection-end-line="57" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/note">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="832">
+              <caret line="132" column="41" selection-start-line="132" selection-start-column="41" selection-end-line="132" selection-end-column="41" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="682">
+                <caret line="31" column="13" selection-start-line="31" selection-start-column="7" selection-end-line="31" selection-end-column="13" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/freeze.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="311">
+              <caret line="85" column="24" selection-start-line="85" selection-start-column="4" selection-end-line="85" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/input_data.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-4120">
+              <caret line="227" column="42" lean-forward="true" selection-start-line="227" selection-start-column="42" selection-end-line="227" selection-end-column="42" />
+              <folding>
+                <element signature="e#746#784#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -735,36 +600,36 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>tf.argmax</find>
-      <find>contrib_audio.audio_spectrogram</find>
-      <find>np</find>
-      <find>audio_spectrogram</find>
-      <find>freeze.py</find>
-      <find>wav_data_placeholder</find>
-      <find>ckpt</find>
-      <find>100</find>
-      <find>tf.Print</find>
-      <find>dnn_1.pb</find>
-      <find>point</find>
-      <find>mfcc</find>
-      <find>labels_softmax</find>
-      <find>checkpoint</find>
-      <find>fingerprint_input</find>
-      <find>rnn_cell_impl</find>
-      <find>AudioProcessor</find>
-      <find>mfcc_</find>
-      <find>wav_data</find>
-      <find>114</find>
-      <find>wanted_words</find>
-      <find>score</find>
+      <find>北平</find>
+      <find>graph</find>
+      <find>load_pb</find>
+      <find>.pb</find>
+      <find>CONV1_WT</find>
+      <find>python3</find>
+      <find>softmax</find>
       <find>argsort</find>
-      <find>tf.nn.softmax</find>
-      <find>testing</find>
-      <find>model_size_info</find>
-      <find>mode</find>
+      <find>stream</find>
+      <find>frame</find>
+      <find>reduce_mean</find>
+      <find>test_accuracy</find>
+      <find>Recall</find>
+      <find>Training</find>
       <find>dnn</find>
-      <find>model_architecture</find>
+      <find>or</find>
+      <find>background_data_placeholder_</find>
+      <find>audio_processor</find>
+      <find>desired_samples</find>
       <find>clip_duration_ms</find>
+      <find>0</find>
+      <find>噪</find>
+      <find>验证</find>
+      <find>test</find>
+      <find>unknown_index</find>
+      <find>unknown_percentage</find>
+      <find>wav_data</find>
+      <find>train</find>
+      <find>print</find>
+      <find>log</find>
     </findStrings>
     <replaceStrings>
       <replace>home/zoutai/ML_KWS</replace>
@@ -773,7 +638,12 @@
       <replace>range</replace>
       <replace>float64</replace>
       <replace>home/zoutai/DataSets/speech_data</replace>
+      <replace>，</replace>
     </replaceStrings>
+    <dirStrings>
+      <dir>E:\Python_Workspace\ML-KWS-for-MCU</dir>
+      <dir>E:\Python_Workspace\ML-KWS-for-MCU\Deployment</dir>
+    </dirStrings>
   </component>
   <component name="Git.Settings">
     <option name="ROOT_SYNC" value="DONT_SYNC" />
@@ -787,19 +657,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/testRnn.py" />
-        <option value="$PROJECT_DIR$/testDSCNN.py" />
-        <option value="$PROJECT_DIR$/train_commands.txt" />
-        <option value="$PROJECT_DIR$/testAttention.py" />
-        <option value="$PROJECT_DIR$/test/testAttention2.py" />
-        <option value="$PROJECT_DIR$/mytest/commonTest.py" />
-        <option value="$PROJECT_DIR$/方案" />
-        <option value="$PROJECT_DIR$/note" />
-        <option value="$PROJECT_DIR$/word_to_num.py" />
-        <option value="$PROJECT_DIR$/test/testAttention2.py" />
-        <option value="$PROJECT_DIR$/generate_streaming_test_wav.py" />
-        <option value="$PROJECT_DIR$/dtw-master/README.md" />
-        <option value="$PROJECT_DIR$/dtw-master/dtw.py" />
         <option value="$PROJECT_DIR$/dtw-master/examples/simple example.ipynb" />
         <option value="$PROJECT_DIR$/dtw-master/examples/MFCC + DTW.ipynb" />
         <option value="$PROJECT_DIR$/speech-recognition.py" />
@@ -816,27 +673,41 @@
         <option value="$PROJECT_DIR$/test_fastdtw.py" />
         <option value="$PROJECT_DIR$/DTWSpeech/dtwTest.py" />
         <option value="$PROJECT_DIR$/DTWSpeech/README.md" />
-        <option value="$PROJECT_DIR$/Deployment/Examples/simple_test/main.cpp" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/Deployment/Quant_guide.md" />
         <option value="$PROJECT_DIR$/quant_models.py" />
         <option value="$PROJECT_DIR$/Deployment/Examples/realtime_test/main.cpp" />
         <option value="$PROJECT_DIR$/Deployment/Source/NN/DNN/dnn_weights.h" />
-        <option value="$PROJECT_DIR$/result" />
-        <option value="$PROJECT_DIR$/train.py" />
-        <option value="$PROJECT_DIR$/quant_test.py" />
         <option value="$PROJECT_DIR$/test/testArgMax.py" />
-        <option value="$PROJECT_DIR$/train.py" />
         <option value="$PROJECT_DIR$/freeze.py" />
         <option value="$PROJECT_DIR$/wav_to_features.py" />
-        <option value="$PROJECT_DIR$/test/testdnn.py" />
-        <option value="$PROJECT_DIR$/test/testReshape.py" />
         <option value="$PROJECT_DIR$/test/1.py" />
-        <option value="$PROJECT_DIR$/label_wav.py" />
         <option value="$PROJECT_DIR$/test/testonewave.py" />
-        <option value="$PROJECT_DIR$/test.py" />
-        <option value="$PROJECT_DIR$/input_data.py" />
+        <option value="$PROJECT_DIR$/Deployment/Examples/simple_test/main.cpp" />
+        <option value="$PROJECT_DIR$/demo01.py" />
+        <option value="$PROJECT_DIR$/test_pb.py" />
+        <option value="$PROJECT_DIR$/label_wav.py" />
+        <option value="$PROJECT_DIR$/result" />
+        <option value="$PROJECT_DIR$/Deployment/Source/NN/DS_CNN/ds_cnn.cpp" />
+        <option value="$PROJECT_DIR$/Deployment/README.md" />
+        <option value="$PROJECT_DIR$/test/testReshape.py" />
+        <option value="$PROJECT_DIR$/test/testOnewave.py" />
+        <option value="$PROJECT_DIR$/test/testDSCNN.py" />
+        <option value="$PROJECT_DIR$/quant_test.py" />
+        <option value="$PROJECT_DIR$/test/testArr.py" />
+        <option value="$PROJECT_DIR$/test/testdnn.py" />
+        <option value="$PROJECT_DIR$/train_commands.txt" />
         <option value="$PROJECT_DIR$/models.py" />
+        <option value="$USER_HOME$/.PyCharm2018.2/system/remote_sources/1281478169/219415825/tensorflow/python/ops/gen_audio_ops.py" />
+        <option value="$PROJECT_DIR$/test/testMoreDimAdd.py" />
+        <option value="$PROJECT_DIR$/test/testTensorflow.py" />
+        <option value="$PROJECT_DIR$/note" />
+        <option value="$PROJECT_DIR$/test/121.py" />
+        <option value="$PROJECT_DIR$/test/batchTest.py" />
+        <option value="$PROJECT_DIR$/input_data.py" />
+        <option value="$PROJECT_DIR$/train.py" />
+        <option value="$PROJECT_DIR$/train.py" />
+        <option value="$PROJECT_DIR$/test.py" />
       </list>
     </option>
   </component>
@@ -848,7 +719,8 @@
   </component>
   <component name="OCFindUsagesOptions" text="false" ivars="false" properties="false" derivedClasses="false" />
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="11" />
+    <option name="x" value="-2" />
+    <option name="y" value="11" />
     <option name="width" value="1691" />
     <option name="height" value="1021" />
   </component>
@@ -858,17 +730,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope">
-        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
-          <expand>
-            <path>
-              <item name="ML-KWS-for-MCU" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -884,6 +745,22 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope">
+        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
+          <expand>
+            <path>
+              <item name="ML-KWS-for-MCU" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+            </path>
+            <path>
+              <item name="ML-KWS-for-MCU" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="test" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -893,25 +770,25 @@
     <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/input_data.py" />
+    <property name="last_opened_file_path" value="E:/CC++_WorkSpace/kaldi" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PythonContentEntriesConfigurable" />
+    <property name="settings.editor.selected.configurable" value="fileTemplates" />
     <property name="two.files.diff.last.used.file" value="$USER_HOME$/Desktop/input_data.py" />
     <property name="two.files.diff.last.used.folder" value="$PROJECT_DIR$/../ML-KWS-for-MCU3" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\Python_Workspace\ML-KWS-for-MCU5\DTWSpeech\sounds" />
-      <recent name="E:\Python_Workspace\ML-KWS-for-MCU5\DTWSpeech" />
-      <recent name="E:\Python_Workspace\ML-KWS-for-MCU\mytest" />
-      <recent name="E:\Python_Workspace\ML-KWS-for-MCU\test" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\Python_Workspace\ML-KWS-for-MCU" />
       <recent name="E:\Python_Workspace\ML-KWS-for-MCU5\DTWSpeech" />
       <recent name="E:\Python_Workspace\ML-KWS-for-MCU5\DTWSpeech\sounds" />
       <recent name="E:\Python_Workspace\ML-KWS-for-MCU5" />
+      <recent name="E:\Python_Workspace\ML-KWS-for-MCU\test" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\Python_Workspace\ML-KWS-for-MCU5\DTWSpeech\sounds" />
+      <recent name="E:\Python_Workspace\ML-KWS-for-MCU5\DTWSpeech" />
+      <recent name="E:\Python_Workspace\ML-KWS-for-MCU\mytest" />
       <recent name="E:\Python_Workspace\ML-KWS-for-MCU\test" />
     </key>
   </component>
@@ -927,7 +804,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.test">
+  <component name="RunManager" selected="Python.test (1)">
     <configuration name="label_wav" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="ML-KWS-for-MCU5" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -972,7 +849,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="test (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="ML-KWS-for-MCU5" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -994,7 +871,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="testReshape" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="testOnewave" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="ML-KWS-for-MCU5" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -1007,7 +884,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test/testReshape.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test/testOnewave.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -1016,29 +893,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="testdnn" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="ML-KWS-for-MCU5" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="C:\Develop\Python\Anaconda3\python.exe" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test/testdnn.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="testonewave" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="testTensorflow" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="ML-KWS-for-MCU5" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -1051,7 +906,29 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test/testonewave.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test/testTensorflow.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="train" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="ML-KWS-for-MCU5" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/train.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -1062,19 +939,19 @@
     </configuration>
     <list>
       <item itemvalue="Python.python remote" />
-      <item itemvalue="Python.testdnn" />
-      <item itemvalue="Python.test" />
-      <item itemvalue="Python.testReshape" />
-      <item itemvalue="Python.testonewave" />
+      <item itemvalue="Python.train" />
       <item itemvalue="Python.label_wav" />
+      <item itemvalue="Python.testOnewave" />
+      <item itemvalue="Python.testTensorflow" />
+      <item itemvalue="Python.test (1)" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.test" />
-        <item itemvalue="Python.testonewave" />
+        <item itemvalue="Python.test (1)" />
+        <item itemvalue="Python.train" />
+        <item itemvalue="Python.testOnewave" />
+        <item itemvalue="Python.testTensorflow" />
         <item itemvalue="Python.label_wav" />
-        <item itemvalue="Python.testReshape" />
-        <item itemvalue="Python.testdnn" />
       </list>
     </recent_temporary>
   </component>
@@ -1112,7 +989,14 @@
       <option name="project" value="LOCAL" />
       <updated>1544153219948</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="空">
+      <created>1545204015540</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1545204015540</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1148,28 +1032,29 @@
     <frame x="-8" y="-8" width="1696" height="1026" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4987805" visible="true" weight="0.13731527" />
-      <window_info id="Structure" order="1" sideWeight="0.5012195" side_tool="true" weight="0.18765281" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.3295964" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49938422" weight="0.35253456" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.3248848" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info active="true" anchor="bottom" id="TODO" order="6" visible="true" weight="0.32949308" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" weight="0.34101382" />
-      <window_info anchor="bottom" id="File Transfer" order="9" sideWeight="0.49938422" weight="0.23617512" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49479166" visible="true" weight="0.18165025" />
+      <window_info id="Structure" order="1" sideWeight="0.5052083" side_tool="true" weight="0.17857143" />
+      <window_info id="Favorites" order="2" sideWeight="0.5052083" side_tool="true" weight="0.17857143" />
+      <window_info anchor="bottom" id="Concurrent Activities Diagram" order="0" weight="0.32949308" />
+      <window_info anchor="bottom" id="Message" order="1" />
+      <window_info anchor="bottom" id="Find" order="2" weight="0.3295964" />
+      <window_info active="true" anchor="bottom" id="Run" order="3" sideWeight="0.4981527" visible="true" weight="0.22676991" />
+      <window_info anchor="bottom" id="Debug" order="4" weight="0.48561946" />
+      <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="7" sideWeight="0.49938422" weight="0.24884793" />
+      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.34101382" />
       <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.32949308" />
-      <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.5006158" side_tool="true" weight="0.30645162" />
-      <window_info anchor="bottom" id="Python Console" order="13" weight="0.3295964" />
+      <window_info anchor="bottom" id="File Transfer" order="11" sideWeight="0.49938422" weight="0.15154867" />
+      <window_info anchor="bottom" id="Terminal" order="12" weight="0.32949308" />
+      <window_info anchor="bottom" id="Event Log" order="13" sideWeight="0.50184727" side_tool="true" weight="0.43548387" />
+      <window_info anchor="bottom" id="Python Console" order="14" weight="0.3295964" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Remote Host" order="3" weight="0.3294621" />
-      <window_info anchor="right" id="SciView" order="4" visible="true" weight="0.18903941" />
+      <window_info anchor="right" id="SciView" order="4" weight="0.18903941" />
       <window_info anchor="right" id="Database" order="5" />
     </layout>
   </component>
@@ -1225,24 +1110,9 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/test/testDSCNN.py</url>
-          <line>69</line>
-          <option name="timeStamp" value="17" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/generate_streaming_test_wav.py</url>
           <line>265</line>
           <option name="timeStamp" value="21" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/quant_models.py</url>
-          <line>237</line>
-          <option name="timeStamp" value="30" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/models.py</url>
-          <line>1407</line>
-          <option name="timeStamp" value="34" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/test/testdnn.py</url>
@@ -1251,13 +1121,23 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/quant_test.py</url>
-          <line>96</line>
-          <option name="timeStamp" value="77" />
+          <line>128</line>
+          <option name="timeStamp" value="151" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/test/testonewave.py</url>
-          <line>89</line>
-          <option name="timeStamp" value="106" />
+          <url>file://$PROJECT_DIR$/test/testDSCNN.py</url>
+          <line>153</line>
+          <option name="timeStamp" value="152" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/test_FRR.py</url>
+          <line>232</line>
+          <option name="timeStamp" value="161" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/test.py</url>
+          <line>113</line>
+          <option name="timeStamp" value="170" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
@@ -1306,375 +1186,372 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/.PyCharm2018.2/system/remote_sources/1281478169/219415825/tensorflow/contrib/framework/python/ops/audio_ops.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$USER_HOME$/.PyCharm2018.2/system/remote_sources/1281478169/219415825/librosa/feature/spectral.py">
+    <entry file="file://$USER_HOME$/.PyCharm2018.2/system/remote_sources/-1820347904/219415825/tensorflow/python/platform/app.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="313">
-          <caret line="1327" lean-forward="true" selection-start-line="1327" selection-end-line="1327" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.PyCharm2018.2/system/remote_sources/1281478169/219415825/librosa/core/audio.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="29" column="4" selection-start-line="29" selection-start-column="4" selection-end-line="29" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.PyCharm2018.2/system/remote_sources/1281478169/219415825/python_speech_features/base.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.PyCharm2018.2/system/remote_sources/1281478169/-834671891/codecs.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="159">
-          <caret line="308" selection-start-line="308" selection-end-line="308" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.PyCharm2018.2/system/remote_sources/1281478169/219415825/tensorflow/python/platform/app.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2552">
+        <state relative-caret-position="318">
           <caret line="124" selection-start-line="124" selection-end-line="124" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.PyCharm2018.2/system/remote_sources/1281478169/219415825/tensorflow/python/ops/math_ops.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1078">
-          <caret line="78" column="4" selection-start-line="78" selection-start-column="4" selection-end-line="78" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.PyCharm2018.2/system/remote_sources/1281478169/219415825/tensorflow/python/framework/op_def_library.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="11638">
-          <caret line="545" selection-start-line="545" selection-end-line="545" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.PyCharm2018.2/system/remote_sources/1281478169/219415825/tensorflow/python/framework/ops.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="14608">
-          <caret line="706" selection-start-line="706" selection-end-line="706" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/Develop/Python/Anaconda3/Lib/site-packages/tensorflow/python/ops/gen_array_ops.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="6194" selection-start-line="6194" selection-end-line="6194" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/Develop/Python/Anaconda3/Lib/site-packages/tensorflow/python/platform/app.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="302">
-          <caret line="124" selection-start-line="124" selection-end-line="124" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.PyCharm2018.2/system/remote_sources/1281478169/219415825/tensorflow/python/ops/gen_array_ops.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-180">
-          <caret line="6124" column="4" selection-start-line="6124" selection-start-column="4" selection-end-line="6124" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/Develop/Python/Anaconda3/Lib/site-packages/tensorflow/python/util/deprecation.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="159">
-          <caret line="424" selection-start-line="424" selection-end-line="424" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/Develop/Python/Anaconda3/Lib/site-packages/tensorflow/python/ops/logging_ops.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="159">
-          <caret line="67" selection-start-line="67" selection-end-line="67" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.PyCharm2018.2/system/remote_sources/1281478169/219415825/tensorflow/python/ops/gen_audio_ops.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="303" column="4" selection-start-line="303" selection-start-column="4" selection-end-line="303" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/train_commands.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="1" column="70" selection-start-line="1" selection-start-column="59" selection-end-line="1" selection-end-column="70" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Deployment/Examples/simple_test_k64f_gcc/mbed/platform/mbed_retarget.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="358" column="24" selection-start-line="358" selection-start-column="24" selection-end-line="358" selection-end-column="24" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Deployment/Source/NN/DNN/dnn_weights.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-60890" />
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.PyCharm2018.2/system/remote_sources/1281478169/219415825/tensorflow/python/framework/graph_util_impl.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="205" column="4" selection-start-line="205" selection-start-column="4" selection-end-line="205" selection-end-column="4" />
+        <state>
+          <caret column="18" selection-start-column="18" selection-end-column="18" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/.PyCharm2018.2/system/remote_sources/1281478169/219415825/tensorflow/python/lib/io/file_io.py">
+    <entry file="file://$PROJECT_DIR$/quant_models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="159">
-          <caret line="257" selection-start-line="257" selection-end-line="257" />
+        <state relative-caret-position="-1101">
+          <caret line="108" selection-start-line="108" selection-end-line="108" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/.PyCharm2018.2/system/remote_sources/1281478169/219415825/tensorflow/python/ops/logging_ops.py">
+    <entry file="file://$PROJECT_DIR$/test/testDSCNN.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="64" selection-start-line="64" selection-end-line="64" />
+        <state relative-caret-position="264">
+          <caret line="191" column="28" selection-start-line="191" selection-start-column="11" selection-end-line="191" selection-end-column="28" />
+          <folding>
+            <element signature="e#80#118#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/.PyCharm2018.2/system/remote_sources/1281478169/219415825/tensorflow/python/framework/graph_io.py">
+    <entry file="file://$PROJECT_DIR$/Deployment/Examples/simple_test/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-441">
-          <caret line="30" column="42" selection-start-line="30" selection-start-column="36" selection-end-line="30" selection-end-column="42" />
+        <state relative-caret-position="462">
+          <caret line="33" column="29" selection-start-line="33" selection-start-column="17" selection-end-line="33" selection-end-column="29" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/.PyCharm2018.2/system/remote_sources/1281478169/219415825/tensorflow/python/ops/variables.py">
+    <entry file="file://$PROJECT_DIR$/Deployment/Source/KWS/KWS_DNN/kws_dnn.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="118">
-          <caret line="1535" selection-start-line="1535" selection-end-line="1535" />
+        <state relative-caret-position="440">
+          <caret line="29" column="24" selection-start-line="29" selection-start-column="17" selection-end-line="29" selection-end-column="24" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/.PyCharm2018.2/system/remote_sources/1281478169/219415825/numpy/core/_methods.py">
+    <entry file="file://$PROJECT_DIR$/DTWSpeech/VoiceCommand.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="31" selection-start-line="31" selection-end-line="31" />
+        <state relative-caret-position="280">
+          <caret line="20" column="8" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="8" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/.PyCharm2018.2/system/remote_sources/1281478169/219415825/tensorflow/python/framework/constant_op.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="116" column="4" selection-start-line="116" selection-start-column="4" selection-end-line="116" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/Develop/Python/Anaconda3/Lib/site-packages/tensorflow/python/ops/math_ops.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="193">
-          <caret line="847" selection-start-line="847" selection-end-line="847" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.PyCharm2018.2/system/remote_sources/1281478169/219415825/tensorflow/python/ops/gen_nn_ops.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
-          <caret line="6766" column="37" selection-start-line="6766" selection-start-column="34" selection-end-line="6766" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
+    <entry file="file://$PROJECT_DIR$/DTWSpeech/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="22">
-            <caret line="1" selection-start-line="1" selection-end-line="1" selection-end-column="46" />
+          <first_editor relative-caret-position="132">
+            <caret line="6" column="21" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
           </first_editor>
           <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Desktop/wav_to_features.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="7" column="1" lean-forward="true" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
+    <entry file="file://$PROJECT_DIR$/Deployment/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="443">
+            <caret line="22" column="35" lean-forward="true" selection-start-line="22" selection-start-column="35" selection-end-line="22" selection-end-column="35" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wav_to_features_test.py">
+    <entry file="file://$PROJECT_DIR$/test/testArr.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="104">
-          <caret line="53" column="30" lean-forward="true" selection-start-line="53" selection-start-column="30" selection-end-line="53" selection-end-column="30" />
+        <state relative-caret-position="56">
+          <caret line="82" column="27" selection-start-line="82" selection-start-column="27" selection-end-line="82" selection-end-column="27" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/.PyCharm2018.2/system/remote_sources/1281478169/219415825/tensorflow/python/client/session.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="896" lean-forward="true" selection-start-line="896" selection-end-line="896" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test_pb.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-148">
-          <caret line="99" column="11" selection-start-line="99" selection-start-column="11" selection-end-line="99" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/train.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1025">
-          <caret line="107" column="32" selection-start-line="107" selection-start-column="22" selection-end-line="107" selection-end-column="32" />
-          <folding>
-            <element signature="e#3125#3163#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wav_to_features.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="166">
-          <caret line="70" selection-start-line="70" selection-end-line="70" />
-          <folding>
-            <element signature="e#1364#1402#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/Develop/Python/Anaconda3/Lib/site-packages/numpy/core/fromnumeric.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="164">
-          <caret line="256" selection-start-line="256" selection-end-line="256" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.PyCharm2018.2/system/remote_sources/1281478169/-834671891/os.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="219" selection-start-line="219" selection-end-line="219" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.PyCharm2018.2/system/python_stubs/1281478169/builtins.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="477" column="26" selection-start-line="477" selection-start-column="23" selection-end-line="477" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.PyCharm2018.2/system/remote_sources/1281478169/219415825/numpy/core/fromnumeric.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="551" column="4" selection-start-line="551" selection-start-column="4" selection-end-line="551" selection-end-column="4" />
+    <entry file="file://$PROJECT_DIR$/Deployment/Quant_guide.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="241">
+            <caret line="25" column="30" selection-start-line="25" selection-start-column="30" selection-end-line="25" selection-end-column="30" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Deployment/Source/NN/DNN/dnn.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="74" column="26" selection-start-line="74" selection-start-column="4" selection-end-line="74" selection-end-column="26" />
+        <state relative-caret-position="268">
+          <caret line="74" column="42" selection-start-line="74" selection-start-column="36" selection-end-line="74" selection-end-column="42" />
         </state>
       </provider>
     </entry>
+    <entry file="file://$USER_HOME$/.PyCharm2018.2/system/remote_sources/-1820347904/219415825/tensorflow/python/ops/gen_array_ops.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="6193" selection-start-line="6193" selection-end-line="6193" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharm2018.2/system/remote_sources/-1820347904/219415825/tensorflow/python/framework/ops.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="1739" selection-start-line="1739" selection-end-line="1739" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharm2018.2/system/remote_sources/1281478169/219415825/tensorflow/python/ops/gen_array_ops.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1167">
+          <caret line="6124" column="4" selection-start-line="6124" selection-start-column="4" selection-end-line="6124" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharm2018.2/system/remote_sources/-1820347904/219415825/tensorflow/python/ops/confusion_matrix.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3762">
+          <caret line="183" selection-start-line="183" selection-end-line="183" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharm2018.2/system/remote_sources/-1820347904/219415825/tensorflow/python/util/deprecation.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="8558">
+          <caret line="402" selection-start-line="402" selection-end-line="402" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharm2018.2/system/remote_sources/-1820347904/219415825/tensorflow/python/ops/array_ops.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="37510">
+          <caret line="1729" selection-start-line="1729" selection-end-line="1729" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wav_to_features.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3146" />
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharm2018.2/system/python_stubs/-1820347904/builtins.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="91608">
+          <caret line="4164" column="8" selection-start-line="4164" selection-start-column="8" selection-end-line="4164" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/train_commands.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharm2018.2/system/remote_sources/1281478169/219415825/tensorflow/python/ops/nn_ops.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="37092">
+          <caret line="1712" column="4" selection-start-line="1712" selection-start-column="4" selection-end-line="1712" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharm2018.2/system/remote_sources/1281478169/219415825/tensorflow/python/ops/gen_audio_ops.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="293">
+          <caret line="139" column="14" selection-start-line="139" selection-start-column="4" selection-end-line="139" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharm2018.2/system/remote_sources/1281478169/219415825/tensorflow/python/ops/array_ops.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="1815" column="4" selection-start-line="1815" selection-start-column="4" selection-end-line="1815" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharm2018.2/system/remote_sources/1281478169/219415825/tensorflow/python/ops/clip_ops.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="113">
+          <caret line="35" column="4" selection-start-line="35" selection-start-column="4" selection-end-line="35" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharm2018.2/system/remote_sources/1281478169/219415825/tensorflow/python/framework/op_def_library.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="338" column="41" selection-start-line="338" selection-start-column="29" selection-end-line="338" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharm2018.2/system/remote_sources/1281478169/219415825/tensorflow/python/ops/math_ops.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="263">
+          <caret line="742" column="7" lean-forward="true" selection-start-line="740" selection-start-column="5" selection-end-line="751" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/testMoreDimAdd.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="594">
+          <caret line="40" selection-start-line="40" selection-end-line="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharm2018.2/system/remote_sources/1281478169/219415825/tensorflow/python/ops/gen_math_ops.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="2513" lean-forward="true" selection-start-line="2513" selection-end-line="2513" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/testRnn.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharm2018.2/system/remote_sources/-1820347904/-834671891/codecs.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="308" selection-start-line="308" selection-end-line="308" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/testTensorflow.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="415">
+          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/result">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="701">
+          <caret line="119" column="50" selection-start-line="119" selection-start-column="50" selection-end-line="119" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/testdnn.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2316">
+          <caret line="191" column="22" selection-start-line="191" selection-start-column="22" selection-end-line="191" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/testAttention.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-66" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_pb.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/quant_test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="318">
-          <caret line="110" column="41" selection-start-line="110" selection-start-column="32" selection-end-line="110" selection-end-column="41" />
+        <state relative-caret-position="2816">
+          <caret line="128" selection-start-line="128" selection-end-line="128" />
           <folding>
             <element signature="e#901#939#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/1.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/testReshape.py">
+    <entry file="file://$PROJECT_DIR$/test/testOnewave.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="5" column="8" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
+        <state>
+          <caret selection-end-column="4" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Pretrained_models/labels.txt">
+    <entry file="file://$PROJECT_DIR$/test/121.py" />
+    <entry file="file://$PROJECT_DIR$/test_FRR.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="65" column="16" lean-forward="true" selection-start-line="65" selection-start-column="16" selection-end-line="65" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/batchTest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-136">
+          <caret line="176" column="10" lean-forward="true" selection-start-line="176" selection-start-column="10" selection-end-line="176" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/generate_streaming_test_wav.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$USER_HOME$/.PyCharm2018.2/system/remote_sources/1281478169/219415825/tensorflow/python/ops/nn_ops.py">
+    <entry file="file://$PROJECT_DIR$/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="372">
-          <caret line="1712" column="4" selection-start-line="1712" selection-start-column="4" selection-end-line="1712" selection-end-column="4" />
+        <state relative-caret-position="4774">
+          <caret line="233" column="10" selection-start-line="233" selection-start-column="10" selection-end-line="233" selection-end-column="10" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/label_wav.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="353">
-          <caret line="65" column="22" selection-start-line="65" selection-start-column="8" selection-end-line="65" selection-end-column="22" />
+        <state relative-caret-position="1100">
+          <caret line="57" column="22" selection-start-line="57" selection-start-column="14" selection-end-line="57" selection-end-column="22" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/freeze.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-484">
-          <caret line="102" column="31" selection-start-line="102" selection-start-column="24" selection-end-line="102" selection-end-column="31" />
-          <folding>
-            <element signature="e#1852#1890#0" expanded="true" />
-          </folding>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="682">
+            <caret line="31" column="13" selection-start-line="31" selection-start-column="7" selection-end-line="31" selection-end-column="13" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/testdnn.py">
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/pydevd.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1003">
-          <caret line="158" column="45" selection-start-line="158" selection-start-column="45" selection-end-line="158" selection-end-column="45" />
+        <state relative-caret-position="546">
+          <caret line="1657" selection-start-line="1657" selection-end-line="1657" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test.py">
+    <entry file="file://$PROJECT_DIR$/note">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="622">
-          <caret line="86" column="43" lean-forward="true" selection-start-line="86" selection-start-column="43" selection-end-line="86" selection-end-column="43" />
-          <folding>
-            <element signature="e#886#924#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/testonewave.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="116">
-          <caret line="49" column="23" lean-forward="true" selection-start-line="49" selection-start-column="23" selection-end-line="49" selection-end-column="23" />
-          <folding>
-            <element signature="e#83#121#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="69" column="12" selection-start-line="69" selection-start-column="12" selection-end-line="69" selection-end-column="12" />
-          <folding>
-            <element signature="e#934#972#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="832">
+          <caret line="132" column="41" selection-start-line="132" selection-start-column="41" selection-end-line="132" selection-end-column="41" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/input_data.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="163" column="29" lean-forward="true" selection-start-line="163" selection-start-column="29" selection-end-line="163" selection-end-column="29" />
+        <state relative-caret-position="-4120">
+          <caret line="227" column="42" lean-forward="true" selection-start-line="227" selection-start-column="42" selection-end-line="227" selection-end-column="42" />
           <folding>
             <element signature="e#746#784#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/freeze.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="311">
+          <caret line="85" column="24" selection-start-line="85" selection-start-column="4" selection-end-line="85" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/train.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="304" column="10" selection-start-line="304" selection-start-column="7" selection-end-line="304" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="91" column="18" lean-forward="true" selection-start-line="91" selection-start-column="18" selection-end-line="91" selection-end-column="18" />
+          <folding>
+            <element signature="e#886#924#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="hg4idea.settings">
+    <option name="CHECK_INCOMING_OUTGOING" value="true" />
+    <option name="RECENT_HG_ROOT_PATH" value="$PROJECT_DIR$/Deployment/kws_simple_test5/.temp/tools" />
   </component>
 </project>

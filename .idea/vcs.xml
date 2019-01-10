@@ -3,5 +3,13 @@
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$/.." vcs="Git" />
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Deployment/CMSIS_5" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Deployment/kws_simple_test" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Deployment/kws_simple_test2" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Deployment/kws_simple_test3" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Deployment/kws_simple_test3/mbed-os" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Deployment/kws_simple_test4" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Deployment/kws_simple_test5" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Deployment/kws_simple_test5/.temp/tools" vcs="hg4idea" />
   </component>
 </project>

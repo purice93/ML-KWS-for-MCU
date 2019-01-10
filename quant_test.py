@@ -91,7 +91,7 @@ def run_quant_inference(wanted_words, sample_rate, clip_duration_ms,
     models.load_variables_from_checkpoint(sess, FLAGS.checkpoint)
 
     # Quantize weights to 8-bits using (min,max) and write to file
-    f = open('weights.h', 'wb')
+    f = open('dnn_weights.h', 'wb')
     f.close()
 
     for v in tf.trainable_variables():
@@ -105,13 +105,15 @@ def run_quant_inference(wanted_words, sample_rate, clip_duration_ms,
         # var_values = np.round(var_values * 2 ** dec_bits)
         var_name = var_name.replace('/', '_')
         var_name = var_name.replace(':', '_')
-        with open('weights.h', 'a') as f:
+        with open('dnn_weights.h', 'a') as f:
             f.write('#define ' + var_name + ' {')
         if (len(var_values.shape) > 2):  # convolution layer weights
             transposed_wts = np.transpose(var_values, (3, 0, 1, 2))
+            transposed_wts = var_values
         else:  # fully connected layer weights or biases of any layer
             transposed_wts = np.transpose(var_values)
-        with open('weights.h', 'a') as f:
+            transposed_wts = var_values
+        with open('dnn_weights.h', 'a') as f:
             transposed_wts.tofile(f, sep=", ", format="%f")
             f.write('}\n')
         # convert back original range but quantized to 8-bits or 256 levels
@@ -287,23 +289,27 @@ if __name__ == '__main__':
         '--checkpoint',
         type=str,
         default='/home/zoutai/code/ML-KWS-for-MCU/work/DNN/DNN1/training/best/dnn_8490.ckpt-27600',
+        # default='/home/zoutai/code/ML-KWS-for-MCU/work/DS_CNN/DS_CNN1/training/best/ds_cnn_9347.ckpt-26400',
         help='Checkpoint to load the weights from.')
     parser.add_argument(
         '--model_architecture',
         type=str,
         default='dnn',
+        # default='ds_cnn',
         help='What model architecture to use')
     parser.add_argument(
         '--model_size_info',
         type=int,
         nargs="+",
         default=[144, 144, 144],
+        # default=[5, 64, 10, 4, 2, 2, 64, 3, 3, 1, 1, 64, 3, 3, 1, 1, 64, 3, 3, 1, 1, 64, 3, 3, 1, 1],
         help='Model dimensions - different for various models')
     parser.add_argument(
         '--act_max',
         type=float,
         nargs="+",
         default=[32, 0, 0, 0, 0],
+        # default=[64, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
         help='activations max')
 
     FLAGS, unparsed = parser.parse_known_args()

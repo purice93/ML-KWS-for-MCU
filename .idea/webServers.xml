@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="c1d33ddc-0e51-4ed5-888e-c6357d9ec2a9" name="SXS" url="http://192.168.6.30">
+        <fileTransfer host="192.168.6.30" port="22" rootFolder="/home/zoutai" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

@@ -95,15 +95,26 @@ def run_inference(wanted_words, sample_rate, clip_duration_ms,
     total_accuracy = 0
     total_conf_matrix = None
     for i in range(0, set_size, FLAGS.batch_size):
+        tf.logging.info("batch_number is : {}".format(i//100))
         training_fingerprints, training_ground_truth = (
             audio_processor.get_data(FLAGS.batch_size, i, model_settings, 0.0,
                                      0.0, 0, 'training', sess))
-        training_accuracy, conf_matrix = sess.run(
-            [evaluation_step, confusion_matrix],
+        correct_prediction_list,training_accuracy, conf_matrix = sess.run(
+            [correct_prediction,evaluation_step, confusion_matrix,],
             feed_dict={
                 fingerprint_input: training_fingerprints,
                 ground_truth_input: training_ground_truth,
             })
+        import numpy as np
+        correct_prediction_list = correct_prediction_list.tolist()
+        c_list = [index for index in range(len(correct_prediction_list)) if correct_prediction_list[index] == False]
+        pathIndex = [i + item for item in c_list]
+        # pathIndex = np.argwhere(correct_prediction_list == False)+ i * FLAGS.batch_size
+        candidates = audio_processor.data_index['training']
+        for index in pathIndex:
+            sample = candidates[index]
+            filepath = sample['file']
+            tf.logging.info("Error recognition filepath is : {}".format(filepath))
         batch_size = min(FLAGS.batch_size, set_size - i)
         total_accuracy += (training_accuracy * batch_size) / set_size
         if total_conf_matrix is None:
@@ -185,6 +196,7 @@ if __name__ == '__main__':
     parser.add_argument(
         '--data_dir',
         type=str,
+        # default='/home/zoutai/DataSets/speech_data',
         default='/home/zoutai/DataSets/speech_dataset',
         help="""\
       Where to download the speech training data to.
@@ -206,12 +218,12 @@ if __name__ == '__main__':
     parser.add_argument(
         '--testing_percentage',
         type=int,
-        default=10,
+        default=0,
         help='What percentage of wavs to use as a test set.')
     parser.add_argument(
         '--validation_percentage',
         type=int,
-        default=10,
+        default=0,
         help='What percentage of wavs to use as a validation set.')
     parser.add_argument(
         '--sample_rate',
@@ -241,7 +253,7 @@ if __name__ == '__main__':
     parser.add_argument(
         '--batch_size',
         type=int,
-        default=1,
+        default=10,
         help='How many items to train with at once', )
     parser.add_argument(
         '--wanted_words',
