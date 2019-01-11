@@ -10,252 +10,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="21f18701-d702-483e-90d4-b49bd088d662" name="Default Changelist" comment="空">
-      <change afterPath="$PROJECT_DIR$/../ExtractLoudestSection/.idea/ExtractLoudestSection.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ExtractLoudestSection/.idea/deployment.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ExtractLoudestSection/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ExtractLoudestSection/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ExtractLoudestSection/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ExtractLoudestSection/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ExtractLoudestSection/getLoundestSection.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ExtractLoudestSection/organizeFiles.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ExtractLoudestSection/readme.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ExtractLoudestSection/testReplace.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/remote-mappings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/webServers.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Deployment/kws_simple_test5/mbed.bld" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo01.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/batchTest.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/testArr.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/testMoreDimAdd.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/testTensorflow.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_FRR.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TTS-Win/.idea/TTS-Win.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TTS-Win/.idea/deployment.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TTS-Win/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TTS-Win/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TTS-Win/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TTS-Win/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TTS-Win/pyttsx/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TTS-Win/pyttsx/demo01.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TensorflowStudy/crf_hmm/hmm/hmm_tensorflow.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TensorflowStudy/ctc/ctc_random/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TensorflowStudy/lab/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TensorflowStudy/lab/male_female_ratio.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../WebScrapingWithPython/.idea/deployment.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../WebScrapingWithPython/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../WebScrapingWithPython/action01/download.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../WebScrapingWithPython/action02/AnaWeixin/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../WebScrapingWithPython/action02/AnaWeixin/ana.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../WebScrapingWithPython/action02/AnaWeixin/chehui.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../WebScrapingWithPython/action02/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../WebScrapingWithPython/action02/company/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../WebScrapingWithPython/action02/company/beijing007.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../WebScrapingWithPython/action02/getMassage_hack/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../WebScrapingWithPython/action02/getMassage_hack/sendMassage.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../WebScrapingWithPython/action02/getMassage_hack/sendMassage2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../WebScrapingWithPython/action02/getMassage_hack/sms.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../WebScrapingWithPython/action02/links/TrainToBusan.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../WebScrapingWithPython/action02/links/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../WebScrapingWithPython/action02/links/busan.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../WebScrapingWithPython/action02/links/dict.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../WebScrapingWithPython/action03/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../WebScrapingWithPython/action03/getStudentInfo.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../WebScrapingWithPython/action_csdnFlush/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../WebScrapingWithPython/action_csdnFlush/flushCSDN.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../flaskDemo/.idea/deployment.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../flaskDemo/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../flaskWeb/.idea/deployment.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../flaskWeb/.idea/flaskWeb.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../flaskWeb/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../flaskWeb/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../flaskWeb/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../flaskWeb/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../flaskWeb/app.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../gameWeb/.idea/deployment.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../gameWeb/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../gameWeb/templates/dep.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../gameWeb/templates/dep2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../gameWeb/templates/dep3.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../gameWeb/templates/dep3.post.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../gameWeb/templates/dep4.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../gameWeb/templates/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../gameWeb/templates/login.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../gameWeb/templates/lost.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../gameWeb/templates/report.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../gameWeb/templates/web/base.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../gameWeb/templates/web/web1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../gameWeb/templates/web/web2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../gameWeb/templates/web/web3.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../gameWeb/templates/web/web4.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../gameWeb/templates/web/web5.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../kws/.idea/deployment.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../kws/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../kws/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../python2scap/.idea/deployment.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../python2scap/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../python2scap/.idea/python2scap.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../python2scap/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../python2scap/openPkl.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../python2scap/readme.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../speech_commands/.idea/deployment.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../speech_commands/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../speech_commands/inception_utils.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../speech_commands/mobilenet.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../speech_commands/model.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../speech_commands/model_inception_v3.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../speech_commands/model_mobilenet.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../speech_commands/model_resnet.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../speech_commands/resnet_model.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../speech_commands/result" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../speech_commands/test.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../speech_commands/writeToTxt.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FlaskForHu/.idea/.name" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FlaskForHu/.idea/FlaskForHu.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FlaskForHu/.idea/deployment.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FlaskForHu/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FlaskForHu/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FlaskForHu/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FlaskForHu/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FlaskForHu/1.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FlaskForHu/2.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FlaskForHu/4.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FlaskForHu/5.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FlaskForHu/6.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FlaskForHu/app.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FlaskForHu/readme.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FlaskForHu/static/css/bg.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FlaskForHu/static/css/blog.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FlaskForHu/static/css/bootstrap.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FlaskForHu/static/css/cover.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FlaskForHu/static/css/font-awesome.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FlaskForHu/static/css/main.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FlaskForHu/static/css/reset.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FlaskForHu/static/css/signin.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FlaskForHu/static/css/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FlaskForHu/static/css/style.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FlaskForHu/static/css/test.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FlaskForHu/static/fonts/FontAwesome.otf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FlaskForHu/static/fonts/fontawesome-webfont.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FlaskForHu/static/fonts/fontawesome-webfont.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FlaskForHu/static/fonts/fontawesome-webfont.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FlaskForHu/static/fonts/fontawesome-webfont.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FlaskForHu/static/fonts/fontawesome-webfont.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FlaskForHu/static/fonts/msyh.ttc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FlaskForHu/static/fonts/msyhl.ttc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FlaskForHu/static/img/1.1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FlaskForHu/static/img/1A711C5D64CE4647AFB259A7FA17FDEE.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FlaskForHu/static/img/FAB8477B0D35475998FF3931AB4444FA.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FlaskForHu/static/img/G1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FlaskForHu/static/img/G2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FlaskForHu/static/img/G3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FlaskForHu/static/img/Java.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FlaskForHu/static/img/bg.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FlaskForHu/static/img/code.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FlaskForHu/static/img/headImage.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FlaskForHu/static/img/hips1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FlaskForHu/static/img/hips2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FlaskForHu/static/img/hips3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FlaskForHu/static/img/hips4.PNG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FlaskForHu/static/img/logo.PNG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FlaskForHu/static/img/profile.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FlaskForHu/static/js/avalon.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FlaskForHu/static/js/dep.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FlaskForHu/static/js/front.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FlaskForHu/static/js/ie-emulation-modes-warning.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FlaskForHu/static/js/ie10-viewport-bug-workaround.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FlaskForHu/static/js/ie8-responsive-file-warning.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FlaskForHu/static/js/jquery.flot.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FlaskForHu/static/js/jquery.flot.pie.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FlaskForHu/static/js/jquery.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FlaskForHu/static/js/jquery.poptrox.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FlaskForHu/static/js/js-one.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FlaskForHu/static/js/main.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FlaskForHu/static/js/reset.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FlaskForHu/static/js/skel.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FlaskForHu/static/js/style.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FlaskForHu/static/js/test.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FlaskForHu/static/js/test.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FlaskForHu/static/tool.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FlaskForHu/static/tool.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FlaskForHu/static/tool.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FlaskForHu/static/tool.vb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FlaskForHu/templates/base.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FlaskForHu/templates/game.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FlaskForHu/templates/game1.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FlaskForHu/templates/main.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FlaskForHu/templates/web1.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FlaskForHu/templates/web2.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FlaskForHu/templates/web3.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FlaskForHu/templates/web4.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FlaskForHu/templates/web5.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FlaskForHu/templates/web6.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FlaskForHu/部分项目文件/分数部分/six_nine/.idea/deployment.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FlaskForHu/部分项目文件/分数部分/six_nine/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FlaskForHu/部分项目文件/分数部分/six_nine/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FlaskForHu/部分项目文件/分数部分/six_nine/.idea/six_nine.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FlaskForHu/部分项目文件/分数部分/six_nine/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FlaskForHu/部分项目文件/分数部分/six_nine/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FlaskForHu/部分项目文件/分数部分/six_nine/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FlaskForHu/部分项目文件/分数部分/six_nine/html/assets/fonts/FontAwesome.otf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FlaskForHu/部分项目文件/分数部分/six_nine/html/assets/fonts/fontawesome-webfont.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FlaskForHu/部分项目文件/分数部分/six_nine/html/assets/fonts/fontawesome-webfont.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FlaskForHu/部分项目文件/分数部分/six_nine/html/assets/fonts/fontawesome-webfont.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FlaskForHu/部分项目文件/分数部分/six_nine/html/assets/fonts/fontawesome-webfont.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FlaskForHu/部分项目文件/分数部分/six_nine/html/assets/fonts/fontawesome-webfont.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FlaskForHu/部分项目文件/分数部分/six_nine/html/assets/fonts/msyh.ttc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FlaskForHu/部分项目文件/分数部分/six_nine/html/assets/fonts/msyhl.ttc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FlaskForHu/部分项目文件/分数部分/six_nine/html/assets/js/jquery.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FlaskForHu/部分项目文件/分数部分/six_nine/html/assets/js/jquery.poptrox.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FlaskForHu/部分项目文件/分数部分/six_nine/html/assets/js/main.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FlaskForHu/部分项目文件/分数部分/six_nine/html/assets/js/skel.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FlaskForHu/部分项目文件/分数部分/six_nine/html/images/bg.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FlaskForHu/部分项目文件/分数部分/six_nine/html/images/profile.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FlaskForHu/部分项目文件/分数部分/six_nine/html/images/profile2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FlaskForHu/部分项目文件/分数部分/six_nine/html/main.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FlaskForHu/部分项目文件/分数部分/six_nine/html/template.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FlaskForHu/部分项目文件/分数部分/six_nine/msyh.ttc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FlaskForHu/部分项目文件/分数部分/six_nine/six_nine.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/ML-KWS-for-MCU5.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/ML-KWS-for-MCU5.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Deployment/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/Deployment/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/input_data.py" beforeDir="false" afterPath="$PROJECT_DIR$/input_data.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/label_wav.py" beforeDir="false" afterPath="$PROJECT_DIR$/label_wav.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/note" beforeDir="false" afterPath="$PROJECT_DIR$/note" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/quant_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/quant_test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/result" beforeDir="false" afterPath="$PROJECT_DIR$/result" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/testDSCNN.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/testDSCNN.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/testReshape.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/testReshape.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/testdnn.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/testdnn.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/testonewave.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/testOnewave.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_pb.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_pb.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/train.py" beforeDir="false" afterPath="$PROJECT_DIR$/train.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/train_commands.txt" beforeDir="false" afterPath="$PROJECT_DIR$/train_commands.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TensorflowStudy/crf_hmm/hmm/hmm_demo.py" beforeDir="false" afterPath="$PROJECT_DIR$/../TensorflowStudy/crf_hmm/hmm/hmm_demo.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TensorflowStudy/ctc/ctc_study.py" beforeDir="false" afterPath="$PROJECT_DIR$/../TensorflowStudy/ctc/ctc_study.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Tensorflow_Study/.idea/Tensorflow_Study.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Tensorflow_Study/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Tensorflow_Study/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Tensorflow_Study/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Tensorflow_Study/datasets/fashion-mnist/t10k-images-idx3-ubyte.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Tensorflow_Study/datasets/fashion-mnist/t10k-labels-idx1-ubyte.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Tensorflow_Study/datasets/fashion-mnist/train-images-idx3-ubyte.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Tensorflow_Study/datasets/fashion-mnist/train-labels-idx1-ubyte.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Tensorflow_Study/datasets/tf-keras-datasets/boston_housing.npz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Tensorflow_Study/datasets/tf-keras-datasets/imdb.npz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Tensorflow_Study/datasets/tf-keras-datasets/imdb_word_index.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Tensorflow_Study/learnAndUseML/BC.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Tensorflow_Study/learnAndUseML/BC_model.h5" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Tensorflow_Study/learnAndUseML/BasicClassification.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Tensorflow_Study/learnAndUseML/Regression.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Tensorflow_Study/learnAndUseML/TextClassification.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Tensorflow_Study/learnAndUseML/test.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Tensorflow_Study/readme.md" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -348,7 +104,7 @@
           <entry key="project.open.time.33" value="1" />
           <entry key="project.open.time.34" value="4" />
           <entry key="project.open.time.35" value="2" />
-          <entry key="project.open.time.36" value="3" />
+          <entry key="project.open.time.36" value="4" />
           <entry key="project.open.time.37" value="2" />
           <entry key="project.open.time.38" value="1" />
           <entry key="project.open.time.39" value="1" />
@@ -361,7 +117,7 @@
           <entry key="project.open.time.65" value="1" />
           <entry key="project.open.time.8" value="1" />
           <entry key="project.open.time.9" value="2" />
-          <entry key="project.opened" value="40" />
+          <entry key="project.opened" value="41" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -400,7 +156,7 @@
           <entry key="note" value="1651" />
           <entry key="py" value="6993" />
           <entry key="result" value="181" />
-          <entry key="txt" value="31" />
+          <entry key="txt" value="44" />
           <entry key="方案" value="19" />
         </counts>
       </usages-collector>
@@ -408,7 +164,7 @@
         <counts>
           <entry key="C++" value="4" />
           <entry key="Markdown" value="5" />
-          <entry key="PLAIN_TEXT" value="1890" />
+          <entry key="PLAIN_TEXT" value="1903" />
           <entry key="Python" value="6993" />
         </counts>
       </usages-collector>
@@ -511,7 +267,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/train.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
+            <state relative-caret-position="6358">
               <caret line="304" column="10" selection-start-line="304" selection-start-column="7" selection-end-line="304" selection-end-column="10" />
             </state>
           </provider>
@@ -520,8 +276,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="91" column="18" lean-forward="true" selection-start-line="91" selection-start-column="18" selection-end-line="91" selection-end-column="18" />
+            <state relative-caret-position="-216">
+              <caret line="52" column="7" selection-start-line="52" selection-start-column="7" selection-end-line="52" selection-end-column="7" />
               <folding>
                 <element signature="e#886#924#0" expanded="true" />
               </folding>
@@ -532,7 +288,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/pydevd.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="546">
+            <state relative-caret-position="36454">
               <caret line="1657" selection-start-line="1657" selection-end-line="1657" />
             </state>
           </provider>
@@ -550,7 +306,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/note">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="832">
+            <state relative-caret-position="2904">
               <caret line="132" column="41" selection-start-line="132" selection-start-column="41" selection-end-line="132" selection-end-column="41" />
             </state>
           </provider>
@@ -571,7 +327,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/freeze.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="311">
+            <state relative-caret-position="1584">
               <caret line="85" column="24" selection-start-line="85" selection-start-column="4" selection-end-line="85" selection-end-column="24" />
             </state>
           </provider>
@@ -580,8 +336,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/input_data.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-4120">
-              <caret line="227" column="42" lean-forward="true" selection-start-line="227" selection-start-column="42" selection-end-line="227" selection-end-column="42" />
+            <state relative-caret-position="4576">
+              <caret line="227" column="42" selection-start-line="227" selection-start-column="42" selection-end-line="227" selection-end-column="42" />
               <folding>
                 <element signature="e#746#784#0" expanded="true" />
               </folding>
@@ -752,11 +508,6 @@
               <item name="ML-KWS-for-MCU" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
               <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
             </path>
-            <path>
-              <item name="ML-KWS-for-MCU" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="test" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -773,7 +524,7 @@
     <property name="last_opened_file_path" value="E:/CC++_WorkSpace/kaldi" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="fileTemplates" />
+    <property name="settings.editor.selected.configurable" value="settings.github" />
     <property name="two.files.diff.last.used.file" value="$USER_HOME$/Desktop/input_data.py" />
     <property name="two.files.diff.last.used.folder" value="$PROJECT_DIR$/../ML-KWS-for-MCU3" />
   </component>
@@ -1030,15 +781,14 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1696" height="1026" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49479166" visible="true" weight="0.18165025" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49479166" visible="true" weight="0.18472907" />
       <window_info id="Structure" order="1" sideWeight="0.5052083" side_tool="true" weight="0.17857143" />
       <window_info id="Favorites" order="2" sideWeight="0.5052083" side_tool="true" weight="0.17857143" />
       <window_info anchor="bottom" id="Concurrent Activities Diagram" order="0" weight="0.32949308" />
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="bottom" id="Find" order="2" weight="0.3295964" />
-      <window_info active="true" anchor="bottom" id="Run" order="3" sideWeight="0.4981527" visible="true" weight="0.22676991" />
+      <window_info active="true" anchor="bottom" id="Run" order="3" sideWeight="0.4981527" visible="true" weight="0.46349558" />
       <window_info anchor="bottom" id="Debug" order="4" weight="0.48561946" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
@@ -1101,10 +851,20 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/.." />
+      <path value="$PROJECT_DIR$/Deployment/kws_simple_test" />
+      <path value="$PROJECT_DIR$/Deployment/kws_simple_test2" />
+      <path value="$PROJECT_DIR$/Deployment/kws_simple_test3" />
+      <path value="$PROJECT_DIR$/Deployment/kws_simple_test3/mbed-os" />
+      <path value="$PROJECT_DIR$/Deployment/kws_simple_test4" />
+      <path value="$PROJECT_DIR$/Deployment/kws_simple_test5" />
+    </ignored-roots>
     <MESSAGE value="添加attention" />
     <MESSAGE value="null" />
     <MESSAGE value="空" />
-    <option name="LAST_COMMIT_MESSAGE" value="空" />
+    <MESSAGE value="部分修改" />
+    <option name="LAST_COMMIT_MESSAGE" value="部分修改" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1484,10 +1244,31 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/train.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6358">
+          <caret line="304" column="10" selection-start-line="304" selection-start-column="7" selection-end-line="304" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/pydevd.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36454">
+          <caret line="1657" selection-start-line="1657" selection-end-line="1657" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/label_wav.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1100">
           <caret line="57" column="22" selection-start-line="57" selection-start-column="14" selection-end-line="57" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/note">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2904">
+          <caret line="132" column="41" selection-start-line="132" selection-start-column="41" selection-end-line="132" selection-end-column="41" />
         </state>
       </provider>
     </entry>
@@ -1501,48 +1282,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/pydevd.py">
+    <entry file="file://$PROJECT_DIR$/freeze.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="546">
-          <caret line="1657" selection-start-line="1657" selection-end-line="1657" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/note">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="832">
-          <caret line="132" column="41" selection-start-line="132" selection-start-column="41" selection-end-line="132" selection-end-column="41" />
+        <state relative-caret-position="1584">
+          <caret line="85" column="24" selection-start-line="85" selection-start-column="4" selection-end-line="85" selection-end-column="24" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/input_data.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-4120">
-          <caret line="227" column="42" lean-forward="true" selection-start-line="227" selection-start-column="42" selection-end-line="227" selection-end-column="42" />
+        <state relative-caret-position="4576">
+          <caret line="227" column="42" selection-start-line="227" selection-start-column="42" selection-end-line="227" selection-end-column="42" />
           <folding>
             <element signature="e#746#784#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/freeze.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="311">
-          <caret line="85" column="24" selection-start-line="85" selection-start-column="4" selection-end-line="85" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/train.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="304" column="10" selection-start-line="304" selection-start-column="7" selection-end-line="304" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="91" column="18" lean-forward="true" selection-start-line="91" selection-start-column="18" selection-end-line="91" selection-end-column="18" />
+        <state relative-caret-position="-216">
+          <caret line="52" column="7" selection-start-line="52" selection-start-column="7" selection-end-line="52" selection-end-column="7" />
           <folding>
             <element signature="e#886#924#0" expanded="true" />
           </folding>
