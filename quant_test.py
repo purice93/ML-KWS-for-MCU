@@ -218,7 +218,7 @@ if __name__ == '__main__':
   parser.add_argument(
       '--data_dir',
       type=str,
-      default='/home/zoutai/ML_KWS/speech_dataset/',
+      default='/Users/zoutai/ML_KWS/speech_dataset/',
       help="""\
       Where to download the speech training data to.
       """)

@@ -10,249 +10,31 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="21f18701-d702-483e-90d4-b49bd088d662" name="Default Changelist" comment="空">
-      <change afterPath="$PROJECT_DIR$/../ExtractLoudestSection/.idea/ExtractLoudestSection.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ExtractLoudestSection/.idea/deployment.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ExtractLoudestSection/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ExtractLoudestSection/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ExtractLoudestSection/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ExtractLoudestSection/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ExtractLoudestSection/getLoundestSection.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ExtractLoudestSection/organizeFiles.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ExtractLoudestSection/readme.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ExtractLoudestSection/testReplace.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/ML-KWS-for-MCU5.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/result" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/commonTest.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/helpers.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/testDSCNN.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/testRnn.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TTS-Win/.idea/TTS-Win.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TTS-Win/.idea/deployment.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TTS-Win/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TTS-Win/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TTS-Win/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TTS-Win/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TTS-Win/pyttsx/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TTS-Win/pyttsx/demo01.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TensorflowStudy/crf_hmm/hmm/hmm_tensorflow.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TensorflowStudy/ctc/ctc_random/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TensorflowStudy/lab/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TensorflowStudy/lab/male_female_ratio.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../WebScrapingWithPython/.idea/deployment.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../WebScrapingWithPython/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../WebScrapingWithPython/action01/download.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../WebScrapingWithPython/action02/AnaWeixin/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../WebScrapingWithPython/action02/AnaWeixin/ana.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../WebScrapingWithPython/action02/AnaWeixin/chehui.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../WebScrapingWithPython/action02/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../WebScrapingWithPython/action02/company/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../WebScrapingWithPython/action02/company/beijing007.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../WebScrapingWithPython/action02/getMassage_hack/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../WebScrapingWithPython/action02/getMassage_hack/sendMassage.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../WebScrapingWithPython/action02/getMassage_hack/sendMassage2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../WebScrapingWithPython/action02/getMassage_hack/sms.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../WebScrapingWithPython/action02/links/TrainToBusan.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../WebScrapingWithPython/action02/links/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../WebScrapingWithPython/action02/links/busan.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../WebScrapingWithPython/action02/links/dict.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../WebScrapingWithPython/action_csdnFlush/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../WebScrapingWithPython/action_csdnFlush/flushCSDN.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../djProJ/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../djProJ/polls/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../djdemo02/static/css/bootstrap-theme.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../djdemo02/static/css/bootstrap-theme.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../djdemo02/static/css/bootstrap.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../djdemo02/static/css/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../djdemo02/static/css/help-styles.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../djdemo02/static/css/prism.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../djdemo02/static/img/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../djdemo02/static/img/favicons.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../djdemo02/static/img/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../djdemo02/static/img/logo2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../djdemo02/static/img/logo3 (2).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../djdemo02/static/scripts/bootstrap.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../djdemo02/static/scripts/bootstrap.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../djdemo02/static/scripts/prism.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../djdemo02/static/scripts/script.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../djdemo02/templates/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../flaskDemo/.idea/deployment.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../flaskDemo/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../flaskWeb/.idea/deployment.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../flaskWeb/.idea/flaskWeb.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../flaskWeb/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../flaskWeb/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../flaskWeb/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../flaskWeb/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../flaskWeb/app.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../gameWeb/.idea/deployment.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../gameWeb/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../gameWeb/templates/dep.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../gameWeb/templates/dep2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../gameWeb/templates/dep3.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../gameWeb/templates/dep3.post.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../gameWeb/templates/dep4.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../gameWeb/templates/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../gameWeb/templates/login.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../gameWeb/templates/lost.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../gameWeb/templates/report.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../gameWeb/templates/web/base.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../gameWeb/templates/web/web1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../gameWeb/templates/web/web2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../gameWeb/templates/web/web3.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../gameWeb/templates/web/web4.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../gameWeb/templates/web/web5.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../kws/.idea/deployment.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../kws/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../kws/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../python2scap/.idea/deployment.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../python2scap/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../python2scap/.idea/python2scap.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../python2scap/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../python2scap/openPkl.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../python2scap/readme.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../qwe/templates/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../speech_commands/.idea/deployment.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../speech_commands/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../speech_commands/inception_utils.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../speech_commands/mobilenet.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../speech_commands/model.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../speech_commands/model_inception_v3.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../speech_commands/model_mobilenet.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../speech_commands/model_resnet.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../speech_commands/resnet_model.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../speech_commands/result" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../speech_commands/test.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../speech_commands/writeToTxt.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FlaskForHu/.idea/.name" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FlaskForHu/.idea/FlaskForHu.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FlaskForHu/.idea/deployment.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FlaskForHu/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FlaskForHu/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FlaskForHu/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FlaskForHu/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FlaskForHu/1.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FlaskForHu/2.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FlaskForHu/4.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FlaskForHu/5.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FlaskForHu/6.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FlaskForHu/app.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FlaskForHu/readme.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FlaskForHu/static/css/bg.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FlaskForHu/static/css/blog.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FlaskForHu/static/css/bootstrap.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FlaskForHu/static/css/cover.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FlaskForHu/static/css/font-awesome.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FlaskForHu/static/css/main.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FlaskForHu/static/css/reset.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FlaskForHu/static/css/signin.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FlaskForHu/static/css/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FlaskForHu/static/css/style.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FlaskForHu/static/css/test.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FlaskForHu/static/fonts/FontAwesome.otf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FlaskForHu/static/fonts/fontawesome-webfont.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FlaskForHu/static/fonts/fontawesome-webfont.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FlaskForHu/static/fonts/fontawesome-webfont.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FlaskForHu/static/fonts/fontawesome-webfont.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FlaskForHu/static/fonts/fontawesome-webfont.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FlaskForHu/static/fonts/msyh.ttc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FlaskForHu/static/fonts/msyhl.ttc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FlaskForHu/static/img/1.1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FlaskForHu/static/img/1A711C5D64CE4647AFB259A7FA17FDEE.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FlaskForHu/static/img/FAB8477B0D35475998FF3931AB4444FA.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FlaskForHu/static/img/G1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FlaskForHu/static/img/G2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FlaskForHu/static/img/G3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FlaskForHu/static/img/Java.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FlaskForHu/static/img/bg.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FlaskForHu/static/img/code.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FlaskForHu/static/img/headImage.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FlaskForHu/static/img/hips1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FlaskForHu/static/img/hips2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FlaskForHu/static/img/hips3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FlaskForHu/static/img/hips4.PNG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FlaskForHu/static/img/logo.PNG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FlaskForHu/static/img/profile.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FlaskForHu/static/js/avalon.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FlaskForHu/static/js/dep.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FlaskForHu/static/js/front.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FlaskForHu/static/js/ie-emulation-modes-warning.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FlaskForHu/static/js/ie10-viewport-bug-workaround.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FlaskForHu/static/js/ie8-responsive-file-warning.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FlaskForHu/static/js/jquery.flot.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FlaskForHu/static/js/jquery.flot.pie.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FlaskForHu/static/js/jquery.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FlaskForHu/static/js/jquery.poptrox.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FlaskForHu/static/js/js-one.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FlaskForHu/static/js/main.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FlaskForHu/static/js/reset.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FlaskForHu/static/js/skel.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FlaskForHu/static/js/style.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FlaskForHu/static/js/test.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FlaskForHu/static/js/test.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FlaskForHu/static/tool.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FlaskForHu/static/tool.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FlaskForHu/static/tool.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FlaskForHu/static/tool.vb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FlaskForHu/templates/base.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FlaskForHu/templates/game.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FlaskForHu/templates/game1.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FlaskForHu/templates/main.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FlaskForHu/templates/web1.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FlaskForHu/templates/web2.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FlaskForHu/templates/web3.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FlaskForHu/templates/web4.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FlaskForHu/templates/web5.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FlaskForHu/templates/web6.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FlaskForHu/部分项目文件/分数部分/six_nine/.idea/deployment.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FlaskForHu/部分项目文件/分数部分/six_nine/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FlaskForHu/部分项目文件/分数部分/six_nine/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FlaskForHu/部分项目文件/分数部分/six_nine/.idea/six_nine.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FlaskForHu/部分项目文件/分数部分/six_nine/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FlaskForHu/部分项目文件/分数部分/six_nine/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FlaskForHu/部分项目文件/分数部分/six_nine/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FlaskForHu/部分项目文件/分数部分/six_nine/html/assets/fonts/FontAwesome.otf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FlaskForHu/部分项目文件/分数部分/six_nine/html/assets/fonts/fontawesome-webfont.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FlaskForHu/部分项目文件/分数部分/six_nine/html/assets/fonts/fontawesome-webfont.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FlaskForHu/部分项目文件/分数部分/six_nine/html/assets/fonts/fontawesome-webfont.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FlaskForHu/部分项目文件/分数部分/six_nine/html/assets/fonts/fontawesome-webfont.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FlaskForHu/部分项目文件/分数部分/six_nine/html/assets/fonts/fontawesome-webfont.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FlaskForHu/部分项目文件/分数部分/six_nine/html/assets/fonts/msyh.ttc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FlaskForHu/部分项目文件/分数部分/six_nine/html/assets/fonts/msyhl.ttc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FlaskForHu/部分项目文件/分数部分/six_nine/html/assets/js/jquery.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FlaskForHu/部分项目文件/分数部分/six_nine/html/assets/js/jquery.poptrox.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FlaskForHu/部分项目文件/分数部分/six_nine/html/assets/js/main.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FlaskForHu/部分项目文件/分数部分/six_nine/html/assets/js/skel.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FlaskForHu/部分项目文件/分数部分/six_nine/html/images/bg.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FlaskForHu/部分项目文件/分数部分/six_nine/html/images/profile.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FlaskForHu/部分项目文件/分数部分/six_nine/html/images/profile2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FlaskForHu/部分项目文件/分数部分/six_nine/html/main.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FlaskForHu/部分项目文件/分数部分/six_nine/html/template.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FlaskForHu/部分项目文件/分数部分/six_nine/msyh.ttc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FlaskForHu/部分项目文件/分数部分/six_nine/six_nine.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TensorflowStudy/crf_hmm/hmm/hmm_demo.py" beforeDir="false" afterPath="$PROJECT_DIR$/../TensorflowStudy/crf_hmm/hmm/hmm_demo.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Tensorflow_Study/.idea/Tensorflow_Study.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Tensorflow_Study/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Tensorflow_Study/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Tensorflow_Study/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Tensorflow_Study/datasets/fashion-mnist/t10k-images-idx3-ubyte.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Tensorflow_Study/datasets/fashion-mnist/t10k-labels-idx1-ubyte.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Tensorflow_Study/datasets/fashion-mnist/train-images-idx3-ubyte.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Tensorflow_Study/datasets/fashion-mnist/train-labels-idx1-ubyte.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Tensorflow_Study/datasets/tf-keras-datasets/boston_housing.npz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Tensorflow_Study/datasets/tf-keras-datasets/imdb.npz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Tensorflow_Study/datasets/tf-keras-datasets/imdb_word_index.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Tensorflow_Study/learnAndUseML/BC.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Tensorflow_Study/learnAndUseML/BC_model.h5" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Tensorflow_Study/learnAndUseML/BasicClassification.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Tensorflow_Study/learnAndUseML/Regression.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Tensorflow_Study/learnAndUseML/TextClassification.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Tensorflow_Study/learnAndUseML/test.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Tensorflow_Study/readme.md" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/other.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/best/checkpoint" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/best/cnn_attention_887.ckpt-0.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/best/cnn_attention_887.ckpt-0.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/best/cnn_attention_887.ckpt-0.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cnn_attention.pbtxt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cnn_attention_labels.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/DNN/DNN1/retrain_logs/train/events.out.tfevents.1578913410.B000000089651Q" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/DNN/DNN1/training/dnn.pbtxt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/DNN/DNN1/training/dnn_labels.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/ML-KWS-for-MCU5.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/ML-KWS-for-MCU5.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/deployment.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fold_batchnorm.py" beforeDir="false" afterPath="$PROJECT_DIR$/fold_batchnorm.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/freeze.py" beforeDir="false" afterPath="$PROJECT_DIR$/freeze.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/input_data.py" beforeDir="false" afterPath="$PROJECT_DIR$/input_data.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/label_wav.py" beforeDir="false" afterPath="$PROJECT_DIR$/label_wav.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quant_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/quant_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_pb.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_pb.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/train.py" beforeDir="false" afterPath="$PROJECT_DIR$/train.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -267,7 +49,7 @@
     <SUITE FILE_PATH="coverage/ML_KWS_for_MCU$testAttention2.coverage" NAME="testAttention2 Coverage Results" MODIFIED="1542699124068" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/ML_KWS_for_MCU$testAttention2__1_.coverage" NAME="testAttention2 (1) Coverage Results" MODIFIED="1542699176609" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mytest" />
     <SUITE FILE_PATH="coverage/ML_KWS_for_MCU$train__1_.coverage" NAME="train (1) Coverage Results" MODIFIED="1542863702729" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/ML_KWS_for_MCU5$train__1_.coverage" NAME="train (1) Coverage Results" MODIFIED="1544152851107" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../ML-KWS-for-MCU" />
+    <SUITE FILE_PATH="coverage/ML_KWS_for_MCU5$train__1_.coverage" NAME="train (1) Coverage Results" MODIFIED="1544152851107" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/ML_KWS_for_MCU$input_data.coverage" NAME="input_data Coverage Results" MODIFIED="1542789150252" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/ML_KWS_for_MCU$commonTest.coverage" NAME="commonTest Coverage Results" MODIFIED="1542792469259" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mytest" />
     <SUITE FILE_PATH="coverage/ML_KWS_for_MCU$train.coverage" NAME="train Coverage Results" MODIFIED="1544095648732" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -290,199 +72,6 @@
     <expand />
     <select />
   </component>
-  <component name="FUSProjectUsageTrigger">
-    <session id="-583703885">
-      <usages-collector id="statistics.lifecycle.project">
-        <counts>
-          <entry key="project.closed" value="5" />
-          <entry key="project.open.time.1" value="1" />
-          <entry key="project.open.time.151" value="1" />
-          <entry key="project.open.time.16" value="1" />
-          <entry key="project.open.time.2" value="1" />
-          <entry key="project.open.time.28" value="1" />
-          <entry key="project.open.time.29" value="1" />
-          <entry key="project.open.time.3" value="1" />
-          <entry key="project.open.time.34" value="1" />
-          <entry key="project.open.time.37" value="1" />
-          <entry key="project.open.time.5" value="2" />
-          <entry key="project.open.time.56" value="1" />
-          <entry key="project.open.time.6" value="1" />
-          <entry key="project.open.time.65" value="1" />
-          <entry key="project.open.time.8" value="1" />
-          <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="16" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.open">
-        <counts>
-          <entry key="c" value="1" />
-          <entry key="cpp" value="16" />
-          <entry key="h" value="10" />
-          <entry key="lib" value="2" />
-          <entry key="md" value="12" />
-          <entry key="note" value="7" />
-          <entry key="pb" value="3" />
-          <entry key="py" value="76" />
-          <entry key="result" value="8" />
-          <entry key="txt" value="7" />
-          <entry key="wav" value="1" />
-          <entry key="方案" value="1" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.open">
-        <counts>
-          <entry key="C++" value="22" />
-          <entry key="Markdown" value="10" />
-          <entry key="ObjectiveC" value="5" />
-          <entry key="PLAIN_TEXT" value="31" />
-          <entry key="Python" value="76" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.edit">
-        <counts>
-          <entry key="note" value="1220" />
-          <entry key="py" value="2382" />
-          <entry key="result" value="115" />
-          <entry key="txt" value="15" />
-          <entry key="方案" value="19" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.edit">
-        <counts>
-          <entry key="PLAIN_TEXT" value="1369" />
-          <entry key="Python" value="2382" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.js.language.service.starts" />
-      <usages-collector id="statistics.vcs.git.usages" />
-    </session>
-    <session id="862962812">
-      <usages-collector id="statistics.lifecycle.project">
-        <counts>
-          <entry key="project.closed" value="1" />
-          <entry key="project.open.time.1" value="1" />
-          <entry key="project.open.time.6" value="1" />
-          <entry key="project.opened" value="2" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.edit">
-        <counts>
-          <entry key="py" value="12" />
-          <entry key="txt" value="34" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.edit">
-        <counts>
-          <entry key="PLAIN_TEXT" value="34" />
-          <entry key="Python" value="12" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.open">
-        <counts>
-          <entry key="md" value="1" />
-          <entry key="note" value="1" />
-          <entry key="py" value="9" />
-          <entry key="result" value="1" />
-          <entry key="txt" value="1" />
-          <entry key="wav" value="1" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.open">
-        <counts>
-          <entry key="Markdown" value="1" />
-          <entry key="PLAIN_TEXT" value="4" />
-          <entry key="Python" value="9" />
-        </counts>
-      </usages-collector>
-    </session>
-  </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/input_data.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="206">
-              <caret line="243" selection-start-line="243" selection-end-line="243" />
-              <folding>
-                <element signature="e#746#784#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/models.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="246">
-              <caret line="221" column="26" selection-start-line="221" selection-start-column="26" selection-end-line="221" selection-end-column="26" />
-              <folding>
-                <element signature="e#934#972#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/train.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="258">
-              <caret line="421" column="38" lean-forward="true" selection-start-line="421" selection-start-column="38" selection-end-line="421" selection-end-column="38" />
-              <folding>
-                <element signature="e#3125#3163#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://C:/Develop/Python/Anaconda3/Lib/site-packages/tensorflow/python/framework/errors_impl.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="157">
-              <caret line="510" column="23" selection-start-line="510" selection-start-column="23" selection-end-line="510" selection-end-column="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/commonTest.py">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/helpers.py">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1327">
-              <caret line="97" column="24" selection-start-line="97" selection-start-column="24" selection-end-line="97" selection-end-column="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/testDSCNN.py">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/testRnn.py">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/testAttention.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1122">
-              <caret line="6" column="19" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
-  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
@@ -490,121 +79,17 @@
       </list>
     </option>
   </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>Total number of Parameters</find>
-      <find>learning_rate</find>
-      <find>Total number of Parameters:</find>
-      <find>global_step</find>
-      <find>test</find>
-      <find>test accuracy</find>
-      <find>env</find>
-      <find>modelName</find>
-      <find>xrange</find>
-      <find>float</find>
-      <find>float64</find>
-      <find>saver.save</find>
-      <find>mfcc</find>
-      <find>dnn_weights</find>
-      <find>hmm</find>
-      <find>batch</find>
-      <find>batch_s</find>
-      <find>dynamic_rnn</find>
-      <find>dropout_prob</find>
-      <find>28</find>
-      <find>get_data</find>
-      <find>rnn</find>
-      <find>cross_entropy</find>
-      <find>softmax_cross_entropy_with_logits</find>
-      <find>sparse_softmax_cross_entropy</find>
-      <find>fingerprint_input</find>
-      <find>learning_rate_input</find>
-      <find>ground_truth_input</find>
-      <find>prepare_model_settings</find>
-      <find>King-ASR-M-005-new</find>
-    </findStrings>
-    <replaceStrings>
-      <replace>home/zoutai/ML_KWS</replace>
-      <replace>King-ASR-M-005-new</replace>
-      <replace>speech_dataset</replace>
-      <replace>range</replace>
-      <replace>float64</replace>
-    </replaceStrings>
-  </component>
   <component name="Git.Settings">
     <option name="ROOT_SYNC" value="SYNC" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/testRnn.py" />
-        <option value="$PROJECT_DIR$/testDSCNN.py" />
-        <option value="$PROJECT_DIR$/train_commands.txt" />
-        <option value="$PROJECT_DIR$/testAttention.py" />
-        <option value="$PROJECT_DIR$/test/testAttention2.py" />
-        <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/mytest/commonTest.py" />
-        <option value="$PROJECT_DIR$/result" />
-        <option value="$PROJECT_DIR$/test.py" />
-        <option value="$PROJECT_DIR$/方案" />
-        <option value="$PROJECT_DIR$/note" />
-        <option value="$PROJECT_DIR$/word_to_num.py" />
-        <option value="$PROJECT_DIR$/models.py" />
-        <option value="$PROJECT_DIR$/input_data.py" />
-        <option value="$PROJECT_DIR$/../ML-KWS-for-MCU/test/testAttention2.py" />
-        <option value="$PROJECT_DIR$/../ML-KWS-for-MCU/train.py" />
-        <option value="$PROJECT_DIR$/train.py" />
-      </list>
-    </option>
-  </component>
-  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsGulpfileManager">
-    <detection-done>true</detection-done>
-    <sorting>DEFINITION_ORDER</sorting>
-  </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-2" />
-    <option name="y" value="11" />
-    <option name="width" value="1691" />
-    <option name="height" value="1021" />
-  </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
-  <component name="ProjectView">
-    <navigator currentView="Scope" currentSubView="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope" proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="Scope">
-        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
-          <expand>
-            <path>
-              <item name="ML-KWS-for-MCU5" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="ML-KWS-for-MCU" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ML-KWS-for-MCU" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ML-KWS-for-MCU" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-    </panes>
+  <component name="ProjectId" id="1UvCMQrq0qArHf4Pi093VVBpYE7" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
     <property name="WebServerToolWindowPanel.toolwindow.highlight.symlinks" value="true" />
@@ -612,9 +97,15 @@
     <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../ML-KWS-for-MCU3" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="CPPToolchains" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.templateLanguages.PyTemplateLanguageModulesConfigurable" />
     <property name="two.files.diff.last.used.folder" value="$PROJECT_DIR$/../ML-KWS-for-MCU3" />
   </component>
   <component name="RecentsManager">
@@ -640,63 +131,55 @@
     </option>
   </component>
   <component name="RunManager" selected="Python.train">
-    <configuration name="mgc" type="CMakeRunConfiguration" factoryName="Application" WORKING_DIR="file://$KOTLIN_BUNDLED$" PASS_PARENT_ENVS_2="true" RUN_PATH="$PROJECT_DIR$/Deployment/Examples/simple_test/main.cpp" EXPLICIT_BUILD_TARGET_NAME="all">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="models" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="ML-KWS-for-MCU5" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/models.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="train (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="ML-KWS-for-MCU5" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../ML-KWS-for-MCU" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../ML-KWS-for-MCU/train.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="train" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
       <module name="ML-KWS-for-MCU" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="sftp://zoutai@192.168.6.30:22/home/zoutai/anaconda3/envs/python3/bin/python" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="ML-KWS-for-MCU5" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="train" type="PythonConfigurationType" factoryName="Python">
+      <module name="ML-KWS-for-MCU" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="$USER_HOME$/.conda/envs/python3.7/bin/python" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
@@ -711,45 +194,18 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="word_to_num" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="ML-KWS-for-MCU" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/word_to_num.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <list>
       <item itemvalue="Python.train" />
-      <item itemvalue="Python.word_to_num" />
-      <item itemvalue="Python.models" />
-      <item itemvalue="Python.train (1)" />
+      <item itemvalue="Python.test" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.train" />
-        <item itemvalue="Python.train (1)" />
-        <item itemvalue="Python.models" />
-        <item itemvalue="Python.word_to_num" />
+        <item itemvalue="Python.test" />
       </list>
     </recent_temporary>
   </component>
   <component name="SvnConfiguration">
-    <configuration />
+    <configuration>$USER_HOME$/.subversion</configuration>
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -759,6 +215,8 @@
       <option name="presentableId" value="Default" />
       <updated>1541491367091</updated>
       <workItem from="1543822480588" duration="4117000" />
+      <workItem from="1576227643346" duration="1898000" />
+      <workItem from="1578906433656" duration="5062000" />
     </task>
     <task id="LOCAL-00001" summary="添加attention">
       <created>1544144219258</created>
@@ -777,38 +235,6 @@
     <option name="localTasksCounter" value="3" />
     <servers />
   </component>
-  <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4117000" />
-  </component>
-  <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1696" height="1026" extended-state="6" />
-    <editor active="true" />
-    <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4987805" visible="true" weight="0.26477832" />
-      <window_info id="Structure" order="1" sideWeight="0.5012195" side_tool="true" weight="0.18765281" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.3295964" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.36635944" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.40625" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" weight="0.34101382" />
-      <window_info anchor="bottom" id="File Transfer" order="9" weight="0.18663594" />
-      <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.3295964" />
-      <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" weight="0.32924107" />
-      <window_info anchor="bottom" id="Python Console" order="13" weight="0.3295964" />
-      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Remote Host" order="3" weight="0.3294621" />
-      <window_info anchor="right" id="SciView" order="4" />
-      <window_info anchor="right" id="Database" order="5" />
-    </layout>
-  </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
@@ -825,33 +251,51 @@
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
+        <entry key="1">
+          <value>
+            <State>
+              <option name="SHOW_ONLY_AFFECTED_CHANGES" value="true" />
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="roots">
+                    <value>
+                      <list>
+                        <option value="$PROJECT_DIR$" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
         <entry key="MAIN">
           <value>
             <State>
-              <option name="RECENTLY_FILTERED_USER_GROUPS">
-                <collection />
-              </option>
-              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
-                <collection />
-              </option>
-              <option name="COLUMN_ORDER">
-                <list>
-                  <option value="0" />
-                  <option value="1" />
-                  <option value="2" />
-                  <option value="3" />
-                </list>
-              </option>
+              <option name="COLUMN_ORDER" />
             </State>
           </value>
         </entry>
       </map>
     </option>
-  </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
+    <option name="OPEN_TABS">
+      <set>
+        <option value="1" />
+      </set>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/.." />
+    </ignored-roots>
     <MESSAGE value="空" />
     <MESSAGE value="添加attention" />
     <option name="LAST_COMMIT_MESSAGE" value="添加attention" />
@@ -874,319 +318,8 @@
       </default-breakpoints>
     </breakpoint-manager>
   </component>
-  <component name="editorHistoryManager">
-    <entry file="file://C:/Develop/Python/Anaconda3/Lib/site-packages/tensorflow/python/ops/variable_scope.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54096">
-          <caret line="2281" selection-start-line="2281" selection-end-line="2281" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.PyCharm2018.2/system/remote_sources/1281478169/219415825/tensorflow/python/framework/errors_impl.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="509" selection-start-line="509" selection-end-line="509" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.PyCharm2018.2/system/remote_sources/1281478169/219415825/tensorflow/python/lib/io/file_io.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="329" selection-start-line="329" selection-end-line="329" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/Develop/Python/Anaconda3/Lib/site-packages/numpy/random/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1152" />
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.PyCharm2018.2/system/python_stubs/904492496/numpy/random/mtrand.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="24">
-          <caret line="2018" column="4" selection-start-line="2018" selection-start-column="4" selection-end-line="2018" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/Develop/Python/Anaconda3/Lib/site-packages/h5py/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="239">
-          <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/Develop/Python/Anaconda3/Lib/site-packages/tensorflow/python/ops/math_ops.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1078">
-          <caret line="78" column="4" selection-start-line="78" selection-start-column="4" selection-end-line="78" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/Develop/Python/Anaconda3/Lib/site-packages/tensorflow/python/ops/nn_ops.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="47850">
-          <caret line="2201" column="4" selection-start-line="2201" selection-start-column="4" selection-end-line="2201" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/Develop/Python/Anaconda3/Lib/site-packages/tensorflow/contrib/seq2seq/python/ops/attention_wrapper.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="28314">
-          <caret line="1314" column="33" selection-start-line="1314" selection-start-column="23" selection-end-line="1314" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Deployment/Source/KWS/KWS_DS_CNN/kws_ds_cnn.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Deployment/Source/KWS/kws.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-540" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Deployment/Source/NN/DS_CNN/ds_cnn_weights.h">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Deployment/Source/NN/DS_CNN/ds_cnn.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-264" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Deployment/Examples/realtime_test/plot_utils.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1782" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Deployment/Examples/realtime_test/mbed_libs/mbed.lib">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Deployment/Examples/realtime_test/mbed_libs/AUDIO_DISCO_F746NG.lib">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Deployment/Examples/realtime_test/main.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-716">
-          <caret line="52" column="36" selection-start-line="52" selection-start-column="23" selection-end-line="52" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/Develop/Python/Anaconda3/Lib/site-packages/tensorflow/contrib/framework/python/ops/audio_ops.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Deployment/README.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="19" selection-start-line="19" selection-end-line="19" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Deployment/Quant_guide.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="654">
-          <caret line="37" column="15" selection-start-line="37" selection-start-column="11" selection-end-line="37" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Deployment/Source/NN/DNN/dnn.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="377">
-          <caret line="22" column="21" selection-start-line="22" selection-start-column="10" selection-end-line="22" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Deployment/Source/NN/DNN/dnn_weights.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-57445">
-          <caret column="14" selection-start-column="8" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Deployment/Source/NN/DNN/dnn.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="40" column="29" selection-start-line="40" selection-start-column="23" selection-end-line="40" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/方案" />
-    <entry file="file://$PROJECT_DIR$/Deployment/Examples/simple_test/wav_data.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Deployment/Source/KWS/KWS_DS_CNN/kws_ds_cnn.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="704">
-          <caret line="32" column="34" selection-start-line="32" selection-start-column="17" selection-end-line="32" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Deployment/Source/KWS/kws.cpp">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://C:/Develop/Python/Anaconda3/Lib/site-packages/tensorflow/python/ops/rnn_cell_impl.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="62">
-          <caret line="348" column="6" selection-start-line="348" selection-start-column="6" selection-end-line="348" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Deployment/Examples/simple_test/main.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="460">
-          <caret line="33" column="16" selection-start-line="33" selection-start-column="13" selection-end-line="33" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/pydevd.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="811" selection-start-line="811" selection-end-line="811" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/quant_test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2280">
-          <caret line="132" column="24" selection-start-line="132" selection-start-column="24" selection-end-line="132" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.PyCharm2018.2/system/remote_sources/1281478169/219415825/tensorflow/python/platform/app.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="460">
-          <caret line="124" selection-start-line="124" selection-end-line="124" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/word_to_num.py" />
-    <entry file="file://$PROJECT_DIR$/silence.wav">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="78" selection-start-column="78" selection-end-column="78" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.PyCharm2018.2/system/remote_sources/1281478169/219415825/tensorflow/python/framework/ops.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34078">
-          <caret line="1591" selection-start-line="1591" selection-end-line="1591" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.PyCharm2018.2/system/python_stubs/904492496/builtins.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="10164">
-          <caret line="462" column="4" selection-start-line="462" selection-start-column="4" selection-end-line="462" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/train_commands.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="15" column="12" selection-start-line="15" selection-start-column="12" selection-end-line="16" selection-end-column="300" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/result">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="12" column="29" selection-start-line="12" selection-start-column="29" selection-end-line="12" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/note">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-858" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="246">
-          <caret line="221" column="26" selection-start-line="221" selection-start-column="26" selection-end-line="221" selection-end-column="26" />
-          <folding>
-            <element signature="e#934#972#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/commonTest.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/testDSCNN.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/testAttention.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1122">
-          <caret line="6" column="19" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/testAttention.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1122">
-          <caret line="6" column="19" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/helpers.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1327">
-          <caret line="97" column="24" selection-start-line="97" selection-start-column="24" selection-end-line="97" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/testRnn.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/input_data.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="206">
-          <caret line="243" selection-start-line="243" selection-end-line="243" />
-          <folding>
-            <element signature="e#746#784#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/Develop/Python/Anaconda3/Lib/site-packages/tensorflow/python/framework/errors_impl.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="157">
-          <caret line="510" column="23" selection-start-line="510" selection-start-column="23" selection-end-line="510" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/train.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="258">
-          <caret line="421" column="38" lean-forward="true" selection-start-line="421" selection-start-column="38" selection-end-line="421" selection-end-column="38" />
-          <folding>
-            <element signature="e#3125#3163#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/ML_KWS_for_MCU$pytest_in_ML_KWS_for_MCU.coverage" NAME="pytest in ML-KWS-for-MCU Coverage Results" MODIFIED="1578910090108" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/ML_KWS_for_MCU$train.coverage" NAME="train Coverage Results" MODIFIED="1578914291727" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>

@@ -35,7 +35,7 @@ To run the training process, use:
 
 bazel run tensorflow/examples/speech_commands:train
 
-This will write out checkpoints to /home/zoutai/ML_KWS/speech_commands_train/, and will
+This will write out checkpoints to /Users/zoutai/ML_KWS/speech_commands_train/, and will
 download over 1GB of open source training data, so you'll need enough free space
 and a good internet connection. The default data is a collection of thousands of
 one-second .wav files, each containing one spoken word. This data set is
@@ -92,19 +92,21 @@ FLAGS = None
 
 
 def main(_):
-    # We want to see all the logging messages for this tutorial.
+    # We want to see all the logging messages for this tutorial.记录日志
     tf.logging.set_verbosity(tf.logging.INFO)
 
-    # Start a new TensorFlow session.
+    # Start a new TensorFlow session.启动会话
     sess = tf.InteractiveSession()
 
     # Begin by making sure we have the training data we need. If you already have
     # training data of your own, use `--data_url= ` on the command line to avoid
-    # downloading.
+    # downloading. 模型设置：单词切割、采样率、时长、窗长、帧移、mfcc系数
     model_settings = models.prepare_model_settings(
         len(input_data.prepare_words_list(FLAGS.wanted_words.split(','))),
         FLAGS.sample_rate, FLAGS.clip_duration_ms, FLAGS.window_size_ms,
         FLAGS.window_stride_ms, FLAGS.dct_coefficient_count)
+
+    # 数据网址、本地文件夹、静音比重、干扰词比重、验证集占比、测试集占比
     audio_processor = input_data.AudioProcessor(
         FLAGS.data_url, FLAGS.data_dir, FLAGS.silence_percentage,
         FLAGS.unknown_percentage,
@@ -178,7 +180,7 @@ def main(_):
 
     saver = tf.train.Saver(tf.global_variables())
 
-    # Merge all the summaries and write them out to /home/zoutai/ML_KWS/retrain_logs (by default)
+    # Merge all the summaries and write them out to /Users/zoutai/ML_KWS/retrain_logs (by default)
     merged_summaries = tf.summary.merge_all()
     train_writer = tf.summary.FileWriter(FLAGS.summaries_dir + '/train',
                                          sess.graph)
@@ -308,8 +310,12 @@ def main(_):
 
 if __name__ == '__main__':
     import os
-
+    # 是否使用GPU加速，-1代表仅使用CPU，0、1、2分别表示GPU编号
     os.environ['CUDA_VISIBLE_DEVICES'] = "-1"
+
+    # mac报错处理：OMP: Error #15: Initializing libiomp5.dylib, but found libiomp5.dylib already initialized.
+    os.environ['KMP_DUPLICATE_LIB_OK']='True'
+
     parser = argparse.ArgumentParser()
     parser.add_argument(
         '--data_url',
@@ -321,7 +327,7 @@ if __name__ == '__main__':
     parser.add_argument(
         '--data_dir',
         type=str,
-        default='/home/zoutai/DataSets/King-ASR-M-005-new/',
+        default='/Users/zoutai/DataSets/King-ASR-M-005-new/',
         help="""\
       Where to download the speech training data to.
       """)
@@ -418,12 +424,12 @@ if __name__ == '__main__':
     parser.add_argument(
         '--summaries_dir',
         type=str,
-        default='/home/zoutai/ML_KWS/retrain_logs',
+        default='/Users/zoutai/ML_KWS/retrain_logs',
         help='Where to save summary logs for TensorBoard.')
     parser.add_argument(
         '--wanted_words',
         type=str,
-        default='00001,00002,00003,00004,00005',
+        default='yes,no,up,down,left,right,on,off,stop,go',
         help='Words to use (others will be added to an unknown label)', )
     parser.add_argument(
         '--train_dir',
