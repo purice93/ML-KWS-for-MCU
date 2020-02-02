@@ -1,0 +1,6 @@
+model_checkpoint_path: "attention_9447.ckpt-14000"
+all_model_checkpoint_paths: "attention_9417.ckpt-10400"
+all_model_checkpoint_paths: "attention_9434.ckpt-10800"
+all_model_checkpoint_paths: "attention_9436.ckpt-11200"
+all_model_checkpoint_paths: "attention_9443.ckpt-11600"
+all_model_checkpoint_paths: "attention_9447.ckpt-14000"
