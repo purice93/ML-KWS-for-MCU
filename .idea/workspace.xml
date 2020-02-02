@@ -9,32 +9,553 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="21f18701-d702-483e-90d4-b49bd088d662" name="Default Changelist" comment="空">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/other.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/best/checkpoint" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/best/cnn_attention_887.ckpt-0.data-00000-of-00001" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/best/cnn_attention_887.ckpt-0.index" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/best/cnn_attention_887.ckpt-0.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cnn_attention.pbtxt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cnn_attention_labels.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/work/DNN/DNN1/retrain_logs/train/events.out.tfevents.1578913410.B000000089651Q" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/work/DNN/DNN1/training/dnn.pbtxt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/work/DNN/DNN1/training/dnn_labels.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/ML-KWS-for-MCU5.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/ML-KWS-for-MCU5.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/deployment.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="21f18701-d702-483e-90d4-b49bd088d662" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/best/cnn_attention_776.ckpt-0.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/best/cnn_attention_776.ckpt-0.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/best/cnn_attention_776.ckpt-0.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/result.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensorflow.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_commands.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/Basic_LSTM/Basic_LSTM1/retrain_logs/train/events.out.tfevents.1579335514.B000000089651Q" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/Basic_LSTM/Basic_LSTM1/retrain_logs/validation/events.out.tfevents.1579335521.B000000089651Q" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/Basic_LSTM/Basic_LSTM1/training/basic_lstm.pbtxt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/Basic_LSTM/Basic_LSTM1/training/basic_lstm_labels.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/Basic_LSTM/Basic_LSTM1/training/best/checkpoint" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/Basic_LSTM/Basic_LSTM1/training/tensorflow.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/Basic_LSTM/Basic_LSTM2/retrain_logs/train/events.out.tfevents.1579697601.B000000089651Q" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/Basic_LSTM/Basic_LSTM2/retrain_logs/validation/events.out.tfevents.1579697604.B000000089651Q" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/Basic_LSTM/Basic_LSTM2/training/basic_lstm.pbtxt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/Basic_LSTM/Basic_LSTM2/training/basic_lstm_labels.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/Basic_LSTM/Basic_LSTM2/training/best/basic_lstm_9428.ckpt-21200.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/Basic_LSTM/Basic_LSTM2/training/best/basic_lstm_9428.ckpt-21200.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/Basic_LSTM/Basic_LSTM2/training/best/basic_lstm_9428.ckpt-21200.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/Basic_LSTM/Basic_LSTM2/training/best/basic_lstm_9430.ckpt-22400.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/Basic_LSTM/Basic_LSTM2/training/best/basic_lstm_9430.ckpt-22400.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/Basic_LSTM/Basic_LSTM2/training/best/basic_lstm_9430.ckpt-22400.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/Basic_LSTM/Basic_LSTM2/training/best/basic_lstm_9436.ckpt-22800.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/Basic_LSTM/Basic_LSTM2/training/best/basic_lstm_9436.ckpt-22800.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/Basic_LSTM/Basic_LSTM2/training/best/basic_lstm_9436.ckpt-22800.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/Basic_LSTM/Basic_LSTM2/training/best/basic_lstm_9441.ckpt-25200.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/Basic_LSTM/Basic_LSTM2/training/best/basic_lstm_9441.ckpt-25200.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/Basic_LSTM/Basic_LSTM2/training/best/basic_lstm_9441.ckpt-25200.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/Basic_LSTM/Basic_LSTM2/training/best/basic_lstm_9441.ckpt-29200.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/Basic_LSTM/Basic_LSTM2/training/best/basic_lstm_9441.ckpt-29200.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/Basic_LSTM/Basic_LSTM2/training/best/basic_lstm_9441.ckpt-29200.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/Basic_LSTM/Basic_LSTM2/training/best/checkpoint" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/Basic_LSTM/Basic_LSTM2/training/tensorflow.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/Basic_LSTM/Basic_LSTM3/retrain_logs/train/events.out.tfevents.1580124070.B000000089651Q" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/Basic_LSTM/Basic_LSTM3/retrain_logs/validation/events.out.tfevents.1580124074.B000000089651Q" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/Basic_LSTM/Basic_LSTM3/training/basic_lstm.pbtxt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/Basic_LSTM/Basic_LSTM3/training/basic_lstm_labels.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/Basic_LSTM/Basic_LSTM3/training/best/basic_lstm_9530.ckpt-10400.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/Basic_LSTM/Basic_LSTM3/training/best/basic_lstm_9530.ckpt-10400.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/Basic_LSTM/Basic_LSTM3/training/best/basic_lstm_9530.ckpt-10400.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/Basic_LSTM/Basic_LSTM3/training/best/basic_lstm_9543.ckpt-14400.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/Basic_LSTM/Basic_LSTM3/training/best/basic_lstm_9543.ckpt-14400.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/Basic_LSTM/Basic_LSTM3/training/best/basic_lstm_9543.ckpt-14400.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/Basic_LSTM/Basic_LSTM3/training/best/basic_lstm_9564.ckpt-17600.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/Basic_LSTM/Basic_LSTM3/training/best/basic_lstm_9564.ckpt-17600.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/Basic_LSTM/Basic_LSTM3/training/best/basic_lstm_9564.ckpt-17600.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/Basic_LSTM/Basic_LSTM3/training/best/basic_lstm_9569.ckpt-23600.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/Basic_LSTM/Basic_LSTM3/training/best/basic_lstm_9569.ckpt-23600.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/Basic_LSTM/Basic_LSTM3/training/best/basic_lstm_9569.ckpt-23600.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/Basic_LSTM/Basic_LSTM3/training/best/basic_lstm_9573.ckpt-25600.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/Basic_LSTM/Basic_LSTM3/training/best/basic_lstm_9573.ckpt-25600.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/Basic_LSTM/Basic_LSTM3/training/best/basic_lstm_9573.ckpt-25600.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/Basic_LSTM/Basic_LSTM3/training/best/checkpoint" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/Basic_LSTM/Basic_LSTM3/training/tensorflow.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/CNN/CNN1/retrain_logs/train/events.out.tfevents.1578921855.B000000089651Q" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/CNN/CNN1/retrain_logs/train/events.out.tfevents.1578923192.B000000089651Q" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/CNN/CNN1/retrain_logs/validation/events.out.tfevents.1578921859.B000000089651Q" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/CNN/CNN1/retrain_logs/validation/events.out.tfevents.1578923200.B000000089651Q" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/CNN/CNN1/training/best/checkpoint" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/CNN/CNN1/training/best/cnn_7554.ckpt-400.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/CNN/CNN1/training/best/cnn_7554.ckpt-400.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/CNN/CNN1/training/best/cnn_7554.ckpt-400.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/CNN/CNN1/training/best/cnn_8060.ckpt-800.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/CNN/CNN1/training/best/cnn_8060.ckpt-800.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/CNN/CNN1/training/best/cnn_8060.ckpt-800.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/CNN/CNN1/training/best/cnn_8167.ckpt-1200.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/CNN/CNN1/training/best/cnn_8167.ckpt-1200.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/CNN/CNN1/training/best/cnn_8167.ckpt-1200.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/CNN/CNN1/training/best/cnn_905.ckpt-0.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/CNN/CNN1/training/best/cnn_905.ckpt-0.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/CNN/CNN1/training/best/cnn_905.ckpt-0.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/CNN/CNN1/training/best/cnn_9123.ckpt-11600.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/CNN/CNN1/training/best/cnn_9123.ckpt-11600.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/CNN/CNN1/training/best/cnn_9123.ckpt-11600.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/CNN/CNN1/training/best/cnn_9138.ckpt-14000.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/CNN/CNN1/training/best/cnn_9138.ckpt-14000.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/CNN/CNN1/training/best/cnn_9138.ckpt-14000.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/CNN/CNN1/training/best/cnn_9158.ckpt-20800.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/CNN/CNN1/training/best/cnn_9158.ckpt-20800.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/CNN/CNN1/training/best/cnn_9158.ckpt-20800.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/CNN/CNN1/training/best/cnn_9166.ckpt-22000.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/CNN/CNN1/training/best/cnn_9166.ckpt-22000.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/CNN/CNN1/training/best/cnn_9166.ckpt-22000.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/CNN/CNN1/training/best/cnn_9181.ckpt-23200.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/CNN/CNN1/training/best/cnn_9181.ckpt-23200.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/CNN/CNN1/training/best/cnn_9181.ckpt-23200.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/CNN/CNN1/training/cnn.pbtxt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/CNN/CNN1/training/cnn_labels.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/CNN/CNN2/retrain_logs/train/events.out.tfevents.1579631120.B000000089651Q" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/CNN/CNN2/retrain_logs/validation/events.out.tfevents.1579631126.B000000089651Q" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/CNN/CNN2/training/best/checkpoint" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/CNN/CNN2/training/best/cnn_9245.ckpt-21200.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/CNN/CNN2/training/best/cnn_9245.ckpt-21200.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/CNN/CNN2/training/best/cnn_9245.ckpt-21200.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/CNN/CNN2/training/best/cnn_9249.ckpt-22400.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/CNN/CNN2/training/best/cnn_9249.ckpt-22400.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/CNN/CNN2/training/best/cnn_9249.ckpt-22400.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/CNN/CNN2/training/best/cnn_9258.ckpt-24000.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/CNN/CNN2/training/best/cnn_9258.ckpt-24000.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/CNN/CNN2/training/best/cnn_9258.ckpt-24000.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/CNN/CNN2/training/best/cnn_9258.ckpt-28000.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/CNN/CNN2/training/best/cnn_9258.ckpt-28000.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/CNN/CNN2/training/best/cnn_9258.ckpt-28000.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/CNN/CNN2/training/best/cnn_9282.ckpt-28400.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/CNN/CNN2/training/best/cnn_9282.ckpt-28400.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/CNN/CNN2/training/best/cnn_9282.ckpt-28400.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/CNN/CNN2/training/cnn.pbtxt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/CNN/CNN2/training/cnn_labels.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/CNN/CNN2/training/tensorflow.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/CNN/CNN3/retrain_logs/train/events.out.tfevents.1580091147.B000000089651Q" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/CNN/CNN3/retrain_logs/validation/events.out.tfevents.1580091153.B000000089651Q" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/CNN/CNN3/training/best/checkpoint" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/CNN/CNN3/training/best/cnn_9243.ckpt-13200.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/CNN/CNN3/training/best/cnn_9243.ckpt-13200.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/CNN/CNN3/training/best/cnn_9243.ckpt-13200.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/CNN/CNN3/training/best/cnn_9254.ckpt-13600.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/CNN/CNN3/training/best/cnn_9254.ckpt-13600.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/CNN/CNN3/training/best/cnn_9254.ckpt-13600.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/CNN/CNN3/training/best/cnn_9258.ckpt-23600.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/CNN/CNN3/training/best/cnn_9258.ckpt-23600.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/CNN/CNN3/training/best/cnn_9258.ckpt-23600.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/CNN/CNN3/training/best/cnn_9262.ckpt-24400.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/CNN/CNN3/training/best/cnn_9262.ckpt-24400.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/CNN/CNN3/training/best/cnn_9262.ckpt-24400.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/CNN/CNN3/training/best/cnn_9271.ckpt-24800.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/CNN/CNN3/training/best/cnn_9271.ckpt-24800.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/CNN/CNN3/training/best/cnn_9271.ckpt-24800.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/CNN/CNN3/training/cnn.pbtxt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/CNN/CNN3/training/cnn_labels.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/CNN/CNN3/training/tensorflow.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/CRNN/CRNN1/retrain_logs/train/events.out.tfevents.1578967255.B000000089651Q" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/CRNN/CRNN1/retrain_logs/validation/events.out.tfevents.1578967260.B000000089651Q" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/CRNN/CRNN1/training/best/checkpoint" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/CRNN/CRNN1/training/best/crnn_7436.ckpt-400.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/CRNN/CRNN1/training/best/crnn_7436.ckpt-400.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/CRNN/CRNN1/training/best/crnn_7436.ckpt-400.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/CRNN/CRNN1/training/best/crnn_8419.ckpt-800.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/CRNN/CRNN1/training/best/crnn_8419.ckpt-800.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/CRNN/CRNN1/training/best/crnn_8419.ckpt-800.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/CRNN/CRNN1/training/best/crnn_900.ckpt-0.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/CRNN/CRNN1/training/best/crnn_900.ckpt-0.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/CRNN/CRNN1/training/best/crnn_900.ckpt-0.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/CRNN/CRNN1/training/crnn.pbtxt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/CRNN/CRNN1/training/crnn_labels.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/CRNN/CRNN2/retrain_logs/train/events.out.tfevents.1580009034.B000000089651Q" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/CRNN/CRNN2/retrain_logs/validation/events.out.tfevents.1580009040.B000000089651Q" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/CRNN/CRNN2/training/best/checkpoint" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/CRNN/CRNN2/training/best/crnn_9488.ckpt-14000.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/CRNN/CRNN2/training/best/crnn_9488.ckpt-14000.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/CRNN/CRNN2/training/best/crnn_9488.ckpt-14000.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/CRNN/CRNN2/training/best/crnn_9488.ckpt-18000.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/CRNN/CRNN2/training/best/crnn_9488.ckpt-18000.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/CRNN/CRNN2/training/best/crnn_9488.ckpt-18000.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/CRNN/CRNN2/training/best/crnn_9497.ckpt-20400.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/CRNN/CRNN2/training/best/crnn_9497.ckpt-20400.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/CRNN/CRNN2/training/best/crnn_9497.ckpt-20400.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/CRNN/CRNN2/training/best/crnn_9508.ckpt-26000.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/CRNN/CRNN2/training/best/crnn_9508.ckpt-26000.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/CRNN/CRNN2/training/best/crnn_9508.ckpt-26000.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/CRNN/CRNN2/training/best/crnn_9512.ckpt-26800.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/CRNN/CRNN2/training/best/crnn_9512.ckpt-26800.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/CRNN/CRNN2/training/best/crnn_9512.ckpt-26800.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/CRNN/CRNN2/training/crnn.pbtxt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/CRNN/CRNN2/training/crnn_labels.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/CRNN/CRNN2/training/tensorflow.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/CRNN/CRNN3/retrain_logs/train/events.out.tfevents.1580035888.B000000089651Q" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/CRNN/CRNN3/retrain_logs/validation/events.out.tfevents.1580035895.B000000089651Q" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/CRNN/CRNN3/training/best/checkpoint" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/CRNN/CRNN3/training/best/crnn_9535.ckpt-7600.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/CRNN/CRNN3/training/best/crnn_9535.ckpt-7600.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/CRNN/CRNN3/training/best/crnn_9535.ckpt-7600.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/CRNN/CRNN3/training/best/crnn_9545.ckpt-10400.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/CRNN/CRNN3/training/best/crnn_9545.ckpt-10400.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/CRNN/CRNN3/training/best/crnn_9545.ckpt-10400.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/CRNN/CRNN3/training/best/crnn_9549.ckpt-10800.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/CRNN/CRNN3/training/best/crnn_9549.ckpt-10800.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/CRNN/CRNN3/training/best/crnn_9549.ckpt-10800.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/CRNN/CRNN3/training/best/crnn_9575.ckpt-11200.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/CRNN/CRNN3/training/best/crnn_9575.ckpt-11200.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/CRNN/CRNN3/training/best/crnn_9575.ckpt-11200.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/CRNN/CRNN3/training/best/crnn_9587.ckpt-16400.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/CRNN/CRNN3/training/best/crnn_9587.ckpt-16400.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/CRNN/CRNN3/training/best/crnn_9587.ckpt-16400.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/CRNN/CRNN3/training/crnn.pbtxt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/CRNN/CRNN3/training/crnn_labels.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/CRNN/CRNN3/training/tensorflow.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/DNN/DNN1/retrain_logs/train/events.out.tfevents.1579444210.B000000089651Q" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/DNN/DNN1/retrain_logs/validation/events.out.tfevents.1579444213.B000000089651Q" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/DNN/DNN1/training/best/checkpoint" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/DNN/DNN1/training/best/dnn_8364.ckpt-20000.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/DNN/DNN1/training/best/dnn_8364.ckpt-20000.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/DNN/DNN1/training/best/dnn_8364.ckpt-20000.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/DNN/DNN1/training/best/dnn_8391.ckpt-20800.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/DNN/DNN1/training/best/dnn_8391.ckpt-20800.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/DNN/DNN1/training/best/dnn_8391.ckpt-20800.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/DNN/DNN1/training/best/dnn_8410.ckpt-21200.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/DNN/DNN1/training/best/dnn_8410.ckpt-21200.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/DNN/DNN1/training/best/dnn_8410.ckpt-21200.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/DNN/DNN1/training/best/dnn_8421.ckpt-24400.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/DNN/DNN1/training/best/dnn_8421.ckpt-24400.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/DNN/DNN1/training/best/dnn_8421.ckpt-24400.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/DNN/DNN1/training/best/dnn_8421.ckpt-25600.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/DNN/DNN1/training/best/dnn_8421.ckpt-25600.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/DNN/DNN1/training/best/dnn_8421.ckpt-25600.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/DNN/DNN1/training/tensorflow.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/DNN/DNN2/retrain_logs/train/events.out.tfevents.1579513903.B000000089651Q" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/DNN/DNN2/retrain_logs/validation/events.out.tfevents.1579513907.B000000089651Q" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/DNN/DNN2/training/best/checkpoint" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/DNN/DNN2/training/best/dnn_8702.ckpt-24000.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/DNN/DNN2/training/best/dnn_8702.ckpt-24000.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/DNN/DNN2/training/best/dnn_8702.ckpt-24000.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/DNN/DNN2/training/best/dnn_8709.ckpt-25200.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/DNN/DNN2/training/best/dnn_8709.ckpt-25200.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/DNN/DNN2/training/best/dnn_8709.ckpt-25200.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/DNN/DNN2/training/best/dnn_8722.ckpt-28400.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/DNN/DNN2/training/best/dnn_8722.ckpt-28400.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/DNN/DNN2/training/best/dnn_8722.ckpt-28400.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/DNN/DNN2/training/best/dnn_8731.ckpt-28800.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/DNN/DNN2/training/best/dnn_8731.ckpt-28800.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/DNN/DNN2/training/best/dnn_8731.ckpt-28800.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/DNN/DNN2/training/best/dnn_8737.ckpt-29600.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/DNN/DNN2/training/best/dnn_8737.ckpt-29600.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/DNN/DNN2/training/best/dnn_8737.ckpt-29600.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/DNN/DNN2/training/dnn.pbtxt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/DNN/DNN2/training/dnn_labels.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/DNN/DNN2/training/tensorflow.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/DNN/DNN3/retrain_logs/train/events.out.tfevents.1579513927.B000000089651Q" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/DNN/DNN3/retrain_logs/validation/events.out.tfevents.1579513931.B000000089651Q" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/DNN/DNN3/training/best/checkpoint" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/DNN/DNN3/training/best/dnn_8563.ckpt-10400.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/DNN/DNN3/training/best/dnn_8563.ckpt-10400.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/DNN/DNN3/training/best/dnn_8563.ckpt-10400.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/DNN/DNN3/training/best/dnn_8627.ckpt-10800.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/DNN/DNN3/training/best/dnn_8627.ckpt-10800.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/DNN/DNN3/training/best/dnn_8627.ckpt-10800.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/DNN/DNN3/training/best/dnn_8644.ckpt-11200.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/DNN/DNN3/training/best/dnn_8644.ckpt-11200.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/DNN/DNN3/training/best/dnn_8644.ckpt-11200.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/DNN/DNN3/training/best/dnn_8668.ckpt-12800.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/DNN/DNN3/training/best/dnn_8668.ckpt-12800.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/DNN/DNN3/training/best/dnn_8668.ckpt-12800.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/DNN/DNN3/training/best/dnn_8767.ckpt-13200.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/DNN/DNN3/training/best/dnn_8767.ckpt-13200.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/DNN/DNN3/training/best/dnn_8767.ckpt-13200.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/DNN/DNN3/training/dnn.pbtxt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/DNN/DNN3/training/dnn_labels.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/DNN/DNN3/training/tensorflow.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/DS_CNN/DS_CNN1/retrain_logs/train/events.out.tfevents.1578968178.B000000089651Q" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/DS_CNN/DS_CNN1/retrain_logs/train/events.out.tfevents.1578969824.B000000089651Q" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/DS_CNN/DS_CNN1/retrain_logs/validation/events.out.tfevents.1578968188.B000000089651Q" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/DS_CNN/DS_CNN1/retrain_logs/validation/events.out.tfevents.1578969833.B000000089651Q" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/DS_CNN/DS_CNN1/training/best/checkpoint" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/DS_CNN/DS_CNN1/training/best/ds_cnn_800.ckpt-0.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/DS_CNN/DS_CNN1/training/best/ds_cnn_800.ckpt-0.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/DS_CNN/DS_CNN1/training/best/ds_cnn_800.ckpt-0.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/DS_CNN/DS_CNN1/training/best/ds_cnn_9318.ckpt-13200.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/DS_CNN/DS_CNN1/training/best/ds_cnn_9318.ckpt-13200.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/DS_CNN/DS_CNN1/training/best/ds_cnn_9318.ckpt-13200.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/DS_CNN/DS_CNN1/training/best/ds_cnn_9322.ckpt-14000.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/DS_CNN/DS_CNN1/training/best/ds_cnn_9322.ckpt-14000.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/DS_CNN/DS_CNN1/training/best/ds_cnn_9322.ckpt-14000.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/DS_CNN/DS_CNN1/training/best/ds_cnn_9331.ckpt-14800.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/DS_CNN/DS_CNN1/training/best/ds_cnn_9331.ckpt-14800.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/DS_CNN/DS_CNN1/training/best/ds_cnn_9331.ckpt-14800.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/DS_CNN/DS_CNN1/training/best/ds_cnn_9333.ckpt-18000.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/DS_CNN/DS_CNN1/training/best/ds_cnn_9333.ckpt-18000.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/DS_CNN/DS_CNN1/training/best/ds_cnn_9333.ckpt-18000.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/DS_CNN/DS_CNN1/training/best/ds_cnn_9339.ckpt-20800.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/DS_CNN/DS_CNN1/training/best/ds_cnn_9339.ckpt-20800.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/DS_CNN/DS_CNN1/training/best/ds_cnn_9339.ckpt-20800.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/DS_CNN/DS_CNN1/training/ds_cnn.pbtxt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/DS_CNN/DS_CNN1/training/ds_cnn_labels.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/DS_CNN/DS_CNN1/training/log.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/DS_CNN/DS_CNN2/retrain_logs/train/events.out.tfevents.1579876797.B000000089651Q" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/DS_CNN/DS_CNN2/retrain_logs/validation/events.out.tfevents.1579876805.B000000089651Q" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/DS_CNN/DS_CNN2/training/best/checkpoint" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/DS_CNN/DS_CNN2/training/best/ds_cnn_9432.ckpt-16000.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/DS_CNN/DS_CNN2/training/best/ds_cnn_9432.ckpt-16000.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/DS_CNN/DS_CNN2/training/best/ds_cnn_9432.ckpt-16000.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/DS_CNN/DS_CNN2/training/best/ds_cnn_9432.ckpt-20800.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/DS_CNN/DS_CNN2/training/best/ds_cnn_9432.ckpt-20800.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/DS_CNN/DS_CNN2/training/best/ds_cnn_9432.ckpt-20800.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/DS_CNN/DS_CNN2/training/best/ds_cnn_9450.ckpt-23200.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/DS_CNN/DS_CNN2/training/best/ds_cnn_9450.ckpt-23200.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/DS_CNN/DS_CNN2/training/best/ds_cnn_9450.ckpt-23200.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/DS_CNN/DS_CNN2/training/best/ds_cnn_9458.ckpt-27600.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/DS_CNN/DS_CNN2/training/best/ds_cnn_9458.ckpt-27600.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/DS_CNN/DS_CNN2/training/best/ds_cnn_9458.ckpt-27600.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/DS_CNN/DS_CNN2/training/best/ds_cnn_9463.ckpt-29200.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/DS_CNN/DS_CNN2/training/best/ds_cnn_9463.ckpt-29200.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/DS_CNN/DS_CNN2/training/best/ds_cnn_9463.ckpt-29200.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/DS_CNN/DS_CNN2/training/ds_cnn.pbtxt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/DS_CNN/DS_CNN2/training/ds_cnn_labels.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/DS_CNN/DS_CNN2/training/tensorflow.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/DS_CNN/DS_CNN3/retrain_logs/train/events.out.tfevents.1580349682.B000000089651Q" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/DS_CNN/DS_CNN3/retrain_logs/validation/events.out.tfevents.1580349694.B000000089651Q" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/DS_CNN/DS_CNN3/training/best/checkpoint" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/DS_CNN/DS_CNN3/training/best/ds_cnn_9490.ckpt-10400.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/DS_CNN/DS_CNN3/training/best/ds_cnn_9490.ckpt-10400.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/DS_CNN/DS_CNN3/training/best/ds_cnn_9490.ckpt-10400.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/DS_CNN/DS_CNN3/training/best/ds_cnn_9512.ckpt-10800.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/DS_CNN/DS_CNN3/training/best/ds_cnn_9512.ckpt-10800.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/DS_CNN/DS_CNN3/training/best/ds_cnn_9512.ckpt-10800.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/DS_CNN/DS_CNN3/training/best/ds_cnn_9518.ckpt-11600.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/DS_CNN/DS_CNN3/training/best/ds_cnn_9518.ckpt-11600.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/DS_CNN/DS_CNN3/training/best/ds_cnn_9518.ckpt-11600.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/DS_CNN/DS_CNN3/training/best/ds_cnn_9521.ckpt-12400.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/DS_CNN/DS_CNN3/training/best/ds_cnn_9521.ckpt-12400.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/DS_CNN/DS_CNN3/training/best/ds_cnn_9521.ckpt-12400.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/DS_CNN/DS_CNN3/training/best/ds_cnn_9525.ckpt-20400.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/DS_CNN/DS_CNN3/training/best/ds_cnn_9525.ckpt-20400.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/DS_CNN/DS_CNN3/training/best/ds_cnn_9525.ckpt-20400.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/DS_CNN/DS_CNN3/training/ds_cnn.pbtxt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/DS_CNN/DS_CNN3/training/ds_cnn_labels.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/DS_CNN/DS_CNN3/training/tensorflow.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/GRU/GRU1/retrain_logs/train/events.out.tfevents.1579398864.B000000089651Q" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/GRU/GRU1/retrain_logs/validation/events.out.tfevents.1579398867.B000000089651Q" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/GRU/GRU1/training/best/checkpoint" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/GRU/GRU1/training/best/gru_9345.ckpt-9600.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/GRU/GRU1/training/best/gru_9345.ckpt-9600.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/GRU/GRU1/training/best/gru_9345.ckpt-9600.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/GRU/GRU1/training/best/gru_9382.ckpt-10400.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/GRU/GRU1/training/best/gru_9382.ckpt-10400.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/GRU/GRU1/training/best/gru_9382.ckpt-10400.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/GRU/GRU1/training/best/gru_9391.ckpt-20400.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/GRU/GRU1/training/best/gru_9391.ckpt-20400.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/GRU/GRU1/training/best/gru_9391.ckpt-20400.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/GRU/GRU1/training/best/gru_9398.ckpt-21200.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/GRU/GRU1/training/best/gru_9398.ckpt-21200.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/GRU/GRU1/training/best/gru_9398.ckpt-21200.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/GRU/GRU1/training/best/gru_9409.ckpt-22000.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/GRU/GRU1/training/best/gru_9409.ckpt-22000.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/GRU/GRU1/training/best/gru_9409.ckpt-22000.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/GRU/GRU1/training/gru.pbtxt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/GRU/GRU1/training/gru_labels.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/GRU/GRU1/training/tensorflow.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/GRU/GRU2/retrain_logs/train/events.out.tfevents.1579780179.B000000089651Q" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/GRU/GRU2/retrain_logs/validation/events.out.tfevents.1579780182.B000000089651Q" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/GRU/GRU2/training/best/checkpoint" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/GRU/GRU2/training/best/gru_9557.ckpt-10800.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/GRU/GRU2/training/best/gru_9557.ckpt-10800.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/GRU/GRU2/training/best/gru_9557.ckpt-10800.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/GRU/GRU2/training/best/gru_9563.ckpt-11200.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/GRU/GRU2/training/best/gru_9563.ckpt-11200.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/GRU/GRU2/training/best/gru_9563.ckpt-11200.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/GRU/GRU2/training/best/gru_9587.ckpt-11600.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/GRU/GRU2/training/best/gru_9587.ckpt-11600.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/GRU/GRU2/training/best/gru_9587.ckpt-11600.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/GRU/GRU2/training/best/gru_9591.ckpt-18400.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/GRU/GRU2/training/best/gru_9591.ckpt-18400.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/GRU/GRU2/training/best/gru_9591.ckpt-18400.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/GRU/GRU2/training/best/gru_9593.ckpt-24000.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/GRU/GRU2/training/best/gru_9593.ckpt-24000.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/GRU/GRU2/training/best/gru_9593.ckpt-24000.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/GRU/GRU2/training/gru.pbtxt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/GRU/GRU2/training/gru_labels.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/GRU/GRU2/training/tensorflow.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/GRU/GRU3/retrain_logs/train/events.out.tfevents.1580200501.B000000089651Q" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/GRU/GRU3/retrain_logs/validation/events.out.tfevents.1580200505.B000000089651Q" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/GRU/GRU3/training/best/checkpoint" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/GRU/GRU3/training/best/gru_9491.ckpt-5600.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/GRU/GRU3/training/best/gru_9491.ckpt-5600.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/GRU/GRU3/training/best/gru_9491.ckpt-5600.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/GRU/GRU3/training/best/gru_9510.ckpt-7600.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/GRU/GRU3/training/best/gru_9510.ckpt-7600.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/GRU/GRU3/training/best/gru_9510.ckpt-7600.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/GRU/GRU3/training/best/gru_9516.ckpt-8800.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/GRU/GRU3/training/best/gru_9516.ckpt-8800.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/GRU/GRU3/training/best/gru_9516.ckpt-8800.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/GRU/GRU3/training/best/gru_9574.ckpt-10400.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/GRU/GRU3/training/best/gru_9574.ckpt-10400.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/GRU/GRU3/training/best/gru_9574.ckpt-10400.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/GRU/GRU3/training/best/gru_9576.ckpt-12000.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/GRU/GRU3/training/best/gru_9576.ckpt-12000.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/GRU/GRU3/training/best/gru_9576.ckpt-12000.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/GRU/GRU3/training/gru.pbtxt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/GRU/GRU3/training/gru_labels.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/GRU/GRU3/training/tensorflow.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/LSTM/LSTM1/retrain_logs/train/events.out.tfevents.1579358882.B000000089651Q" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/LSTM/LSTM1/retrain_logs/validation/events.out.tfevents.1579358886.B000000089651Q" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/LSTM/LSTM1/training/best/checkpoint" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/LSTM/LSTM1/training/best/lstm_9330.ckpt-12000.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/LSTM/LSTM1/training/best/lstm_9330.ckpt-12000.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/LSTM/LSTM1/training/best/lstm_9330.ckpt-12000.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/LSTM/LSTM1/training/best/lstm_9358.ckpt-15600.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/LSTM/LSTM1/training/best/lstm_9358.ckpt-15600.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/LSTM/LSTM1/training/best/lstm_9358.ckpt-15600.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/LSTM/LSTM1/training/best/lstm_9362.ckpt-22000.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/LSTM/LSTM1/training/best/lstm_9362.ckpt-22000.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/LSTM/LSTM1/training/best/lstm_9362.ckpt-22000.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/LSTM/LSTM1/training/best/lstm_9368.ckpt-23200.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/LSTM/LSTM1/training/best/lstm_9368.ckpt-23200.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/LSTM/LSTM1/training/best/lstm_9368.ckpt-23200.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/LSTM/LSTM1/training/best/lstm_9375.ckpt-24800.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/LSTM/LSTM1/training/best/lstm_9375.ckpt-24800.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/LSTM/LSTM1/training/best/lstm_9375.ckpt-24800.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/LSTM/LSTM1/training/lstm.pbtxt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/LSTM/LSTM1/training/lstm_labels.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/LSTM/LSTM1/training/tensorflow.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/LSTM/LSTM2/retrain_logs/train/events.out.tfevents.1579739845.B000000089651Q" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/LSTM/LSTM2/retrain_logs/validation/events.out.tfevents.1579739851.B000000089651Q" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/LSTM/LSTM2/training/best/checkpoint" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/LSTM/LSTM2/training/best/lstm_9478.ckpt-10800.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/LSTM/LSTM2/training/best/lstm_9478.ckpt-10800.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/LSTM/LSTM2/training/best/lstm_9478.ckpt-10800.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/LSTM/LSTM2/training/best/lstm_9491.ckpt-11200.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/LSTM/LSTM2/training/best/lstm_9491.ckpt-11200.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/LSTM/LSTM2/training/best/lstm_9491.ckpt-11200.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/LSTM/LSTM2/training/best/lstm_9498.ckpt-11600.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/LSTM/LSTM2/training/best/lstm_9498.ckpt-11600.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/LSTM/LSTM2/training/best/lstm_9498.ckpt-11600.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/LSTM/LSTM2/training/best/lstm_9516.ckpt-12800.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/LSTM/LSTM2/training/best/lstm_9516.ckpt-12800.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/LSTM/LSTM2/training/best/lstm_9516.ckpt-12800.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/LSTM/LSTM2/training/best/lstm_9535.ckpt-13200.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/LSTM/LSTM2/training/best/lstm_9535.ckpt-13200.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/LSTM/LSTM2/training/best/lstm_9535.ckpt-13200.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/LSTM/LSTM2/training/lstm.pbtxt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/LSTM/LSTM2/training/lstm_labels.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/LSTM/LSTM2/training/tensorflow.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/LSTM/LSTM3/retrain_logs/train/events.out.tfevents.1580269373.B000000089651Q" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/LSTM/LSTM3/retrain_logs/validation/events.out.tfevents.1580269380.B000000089651Q" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/LSTM/LSTM3/training/best/checkpoint" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/LSTM/LSTM3/training/best/lstm_9515.ckpt-10400.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/LSTM/LSTM3/training/best/lstm_9515.ckpt-10400.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/LSTM/LSTM3/training/best/lstm_9515.ckpt-10400.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/LSTM/LSTM3/training/best/lstm_9544.ckpt-10800.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/LSTM/LSTM3/training/best/lstm_9544.ckpt-10800.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/LSTM/LSTM3/training/best/lstm_9544.ckpt-10800.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/LSTM/LSTM3/training/best/lstm_9548.ckpt-11200.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/LSTM/LSTM3/training/best/lstm_9548.ckpt-11200.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/LSTM/LSTM3/training/best/lstm_9548.ckpt-11200.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/LSTM/LSTM3/training/best/lstm_9559.ckpt-12400.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/LSTM/LSTM3/training/best/lstm_9559.ckpt-12400.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/LSTM/LSTM3/training/best/lstm_9559.ckpt-12400.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/LSTM/LSTM3/training/best/lstm_9590.ckpt-13600.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/LSTM/LSTM3/training/best/lstm_9590.ckpt-13600.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/LSTM/LSTM3/training/best/lstm_9590.ckpt-13600.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/LSTM/LSTM3/training/lstm.pbtxt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/LSTM/LSTM3/training/lstm_labels.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/LSTM/LSTM3/training/tensorflow.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/attention/attention1/retrain_logs/train/events.out.tfevents.1579416772.B000000089651Q" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/attention/attention1/retrain_logs/train/events.out.tfevents.1580453821.B000000089651Q" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/attention/attention1/retrain_logs/validation/events.out.tfevents.1579416777.B000000089651Q" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/attention/attention1/retrain_logs/validation/events.out.tfevents.1580453826.B000000089651Q" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/attention/attention1/training/attention.pbtxt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/attention/attention1/training/attention_labels.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/attention/attention1/training/best/attention_9365.ckpt-21600.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/attention/attention1/training/best/attention_9365.ckpt-21600.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/attention/attention1/training/best/attention_9365.ckpt-21600.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/attention/attention1/training/best/attention_9365.ckpt-22000.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/attention/attention1/training/best/attention_9365.ckpt-22000.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/attention/attention1/training/best/attention_9365.ckpt-22000.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/attention/attention1/training/best/attention_9367.ckpt-22800.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/attention/attention1/training/best/attention_9367.ckpt-22800.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/attention/attention1/training/best/attention_9367.ckpt-22800.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/attention/attention1/training/best/attention_9369.ckpt-23600.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/attention/attention1/training/best/attention_9369.ckpt-23600.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/attention/attention1/training/best/attention_9369.ckpt-23600.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/attention/attention1/training/best/attention_9369.ckpt-30000.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/attention/attention1/training/best/attention_9369.ckpt-30000.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/attention/attention1/training/best/attention_9369.ckpt-30000.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/attention/attention1/training/best/attention_9417.ckpt-10400.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/attention/attention1/training/best/attention_9417.ckpt-10400.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/attention/attention1/training/best/attention_9417.ckpt-10400.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/attention/attention1/training/best/attention_9434.ckpt-10800.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/attention/attention1/training/best/attention_9434.ckpt-10800.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/attention/attention1/training/best/attention_9434.ckpt-10800.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/attention/attention1/training/best/attention_9436.ckpt-11200.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/attention/attention1/training/best/attention_9436.ckpt-11200.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/attention/attention1/training/best/attention_9436.ckpt-11200.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/attention/attention1/training/best/attention_9443.ckpt-11600.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/attention/attention1/training/best/attention_9443.ckpt-11600.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/attention/attention1/training/best/attention_9443.ckpt-11600.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/attention/attention1/training/best/attention_9447.ckpt-14000.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/attention/attention1/training/best/attention_9447.ckpt-14000.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/attention/attention1/training/best/attention_9447.ckpt-14000.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/attention/attention1/training/best/checkpoint" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/attention/attention1/training/tensorflow.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/attention/attention2/retrain_logs/train/events.out.tfevents.1580484339.B000000089651Q" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/attention/attention2/retrain_logs/train/events.out.tfevents.1580526468.B000000089651Q" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/attention/attention2/retrain_logs/validation/events.out.tfevents.1580484345.B000000089651Q" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/attention/attention2/retrain_logs/validation/events.out.tfevents.1580526474.B000000089651Q" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/attention/attention2/training/attention.pbtxt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/attention/attention2/training/attention_labels.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/attention/attention2/training/best/attention_9484.ckpt-8800.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/attention/attention2/training/best/attention_9484.ckpt-8800.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/attention/attention2/training/best/attention_9484.ckpt-8800.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/attention/attention2/training/best/attention_9497.ckpt-9600.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/attention/attention2/training/best/attention_9497.ckpt-9600.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/attention/attention2/training/best/attention_9497.ckpt-9600.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/attention/attention2/training/best/attention_9520.ckpt-11600.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/attention/attention2/training/best/attention_9520.ckpt-11600.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/attention/attention2/training/best/attention_9520.ckpt-11600.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/attention/attention2/training/best/attention_9521.ckpt-10400.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/attention/attention2/training/best/attention_9521.ckpt-10400.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/attention/attention2/training/best/attention_9521.ckpt-10400.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/attention/attention2/training/best/attention_9522.ckpt-12000.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/attention/attention2/training/best/attention_9522.ckpt-12000.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/attention/attention2/training/best/attention_9522.ckpt-12000.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/attention/attention2/training/best/attention_9524.ckpt-12800.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/attention/attention2/training/best/attention_9524.ckpt-12800.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/attention/attention2/training/best/attention_9524.ckpt-12800.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/attention/attention2/training/best/attention_9527.ckpt-13200.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/attention/attention2/training/best/attention_9527.ckpt-13200.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/attention/attention2/training/best/attention_9527.ckpt-13200.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/attention/attention2/training/best/attention_9537.ckpt-11600.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/attention/attention2/training/best/attention_9537.ckpt-11600.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/attention/attention2/training/best/attention_9537.ckpt-11600.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/attention/attention2/training/best/attention_9543.ckpt-25600.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/attention/attention2/training/best/attention_9543.ckpt-25600.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/attention/attention2/training/best/attention_9543.ckpt-25600.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/attention/attention2/training/best/attention_9546.ckpt-17200.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/attention/attention2/training/best/attention_9546.ckpt-17200.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/attention/attention2/training/best/attention_9546.ckpt-17200.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/attention/attention2/training/best/checkpoint" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/attention/attention2/training/tensorflow.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/attention/attention3/retrain_logs/train/events.out.tfevents.1580559939.B000000089651Q" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/attention/attention3/retrain_logs/validation/events.out.tfevents.1580559945.B000000089651Q" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/attention/attention3/training/attention.pbtxt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/attention/attention3/training/attention_labels.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/attention/attention3/training/best/attention_9516.ckpt-14000.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/attention/attention3/training/best/attention_9516.ckpt-14000.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/attention/attention3/training/best/attention_9516.ckpt-14000.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/attention/attention3/training/best/attention_9516.ckpt-15600.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/attention/attention3/training/best/attention_9516.ckpt-15600.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/attention/attention3/training/best/attention_9516.ckpt-15600.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/attention/attention3/training/best/attention_9522.ckpt-16000.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/attention/attention3/training/best/attention_9522.ckpt-16000.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/attention/attention3/training/best/attention_9522.ckpt-16000.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/attention/attention3/training/best/attention_9529.ckpt-18000.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/attention/attention3/training/best/attention_9529.ckpt-18000.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/attention/attention3/training/best/attention_9529.ckpt-18000.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/attention/attention3/training/best/attention_9529.ckpt-26800.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/attention/attention3/training/best/attention_9529.ckpt-26800.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/attention/attention3/training/best/attention_9529.ckpt-26800.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/attention/attention3/training/best/checkpoint" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/attention/attention3/training/tensorflow.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fold_batchnorm.py" beforeDir="false" afterPath="$PROJECT_DIR$/fold_batchnorm.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/freeze.py" beforeDir="false" afterPath="$PROJECT_DIR$/freeze.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/best/checkpoint" beforeDir="false" afterPath="$PROJECT_DIR$/best/checkpoint" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/input_data.py" beforeDir="false" afterPath="$PROJECT_DIR$/input_data.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/label_wav.py" beforeDir="false" afterPath="$PROJECT_DIR$/label_wav.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/quant_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/quant_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_pb.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_pb.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/train.py" beforeDir="false" afterPath="$PROJECT_DIR$/train.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/train_commands.txt" beforeDir="false" afterPath="$PROJECT_DIR$/train_commands.txt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -96,7 +617,7 @@
     <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../ML-KWS-for-MCU3" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -105,16 +626,17 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.templateLanguages.PyTemplateLanguageModulesConfigurable" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
     <property name="two.files.diff.last.used.folder" value="$PROJECT_DIR$/../ML-KWS-for-MCU3" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\Python_Workspace\ML-KWS-for-MCU5" />
-      <recent name="E:\Python_Workspace\ML-KWS-for-MCU\test" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\Python_Workspace\ML-KWS-for-MCU\mytest" />
+      <recent name="E:\Python_Workspace\ML-KWS-for-MCU\test" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="E:\Python_Workspace\ML-KWS-for-MCU5" />
       <recent name="E:\Python_Workspace\ML-KWS-for-MCU\test" />
     </key>
   </component>
@@ -157,6 +679,9 @@
       <module name="ML-KWS-for-MCU5" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
@@ -216,7 +741,8 @@
       <updated>1541491367091</updated>
       <workItem from="1543822480588" duration="4117000" />
       <workItem from="1576227643346" duration="1898000" />
-      <workItem from="1578906433656" duration="5062000" />
+      <workItem from="1578906433656" duration="48970000" />
+      <workItem from="1579780062283" duration="21939000" />
     </task>
     <task id="LOCAL-00001" summary="添加attention">
       <created>1544144219258</created>
@@ -232,7 +758,21 @@
       <option name="project" value="LOCAL" />
       <updated>1544152385111</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="mac上配置，完成">
+      <created>1578914580600</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1578914580600</updated>
+    </task>
+    <task id="LOCAL-00004" summary="所有模型训练完成">
+      <created>1580561650290</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1580561650290</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -298,7 +838,9 @@
     </ignored-roots>
     <MESSAGE value="空" />
     <MESSAGE value="添加attention" />
-    <option name="LAST_COMMIT_MESSAGE" value="添加attention" />
+    <MESSAGE value="mac上配置，完成" />
+    <MESSAGE value="所有模型训练完成" />
+    <option name="LAST_COMMIT_MESSAGE" value="所有模型训练完成" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -320,6 +862,6 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/ML_KWS_for_MCU$pytest_in_ML_KWS_for_MCU.coverage" NAME="pytest in ML-KWS-for-MCU Coverage Results" MODIFIED="1578910090108" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/ML_KWS_for_MCU$train.coverage" NAME="train Coverage Results" MODIFIED="1578914291727" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/ML_KWS_for_MCU$train.coverage" NAME="train Coverage Results" MODIFIED="1578921077061" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>

@@ -1,0 +1,197 @@
+2020-01-14 10:14:10,501 - tensorflow - WARNING - From train.py:492: The name tf.app.run is deprecated. Please use tf.compat.v1.app.run instead.
+
+2020-01-14 10:14:10,502 - tensorflow - WARNING - From train.py:97: The name tf.logging.set_verbosity is deprecated. Please use tf.compat.v1.logging.set_verbosity instead.
+
+2020-01-14 10:14:10,503 - tensorflow - WARNING - From train.py:97: The name tf.logging.INFO is deprecated. Please use tf.compat.v1.logging.INFO instead.
+
+2020-01-14 10:14:10,503 - tensorflow - WARNING - From train.py:100: The name tf.InteractiveSession is deprecated. Please use tf.compat.v1.InteractiveSession instead.
+
+2020-01-14 10:16:15,990 - tensorflow - WARNING - From /Users/zoutai/PycharmProjects/ML-KWS-for-MCU/input_data.py:316: The name tf.Session is deprecated. Please use tf.compat.v1.Session instead.
+
+2020-01-14 10:16:15,993 - tensorflow - WARNING - From /Users/zoutai/PycharmProjects/ML-KWS-for-MCU/input_data.py:317: The name tf.placeholder is deprecated. Please use tf.compat.v1.placeholder instead.
+
+2020-01-14 10:16:16,374 - tensorflow - WARNING - From /Users/zoutai/PycharmProjects/ML-KWS-for-MCU/models.py:1274: The name tf.variable_scope is deprecated. Please use tf.compat.v1.variable_scope instead.
+
+2020-01-14 10:16:17,474 - tensorflow - WARNING - From train.py:168: softmax_cross_entropy_with_logits (from tensorflow.python.ops.nn_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+
+Future major versions of TensorFlow will allow gradients to flow
+into the labels input on backprop by default.
+
+See `tf.nn.softmax_cross_entropy_with_logits_v2`.
+
+2020-01-14 10:16:17,510 - tensorflow - WARNING - From train.py:169: The name tf.summary.scalar is deprecated. Please use tf.compat.v1.summary.scalar instead.
+
+2020-01-14 10:16:17,513 - tensorflow - WARNING - From train.py:171: The name tf.get_collection is deprecated. Please use tf.compat.v1.get_collection instead.
+
+2020-01-14 10:16:17,516 - tensorflow - WARNING - From train.py:175: The name tf.train.AdamOptimizer is deprecated. Please use tf.compat.v1.train.AdamOptimizer instead.
+
+2020-01-14 10:16:18,275 - tensorflow - WARNING - From train.py:188: The name tf.train.get_or_create_global_step is deprecated. Please use tf.compat.v1.train.get_or_create_global_step instead.
+
+2020-01-14 10:16:18,277 - tensorflow - WARNING - From train.py:191: The name tf.train.Saver is deprecated. Please use tf.compat.v1.train.Saver instead.
+
+2020-01-14 10:16:18,433 - tensorflow - WARNING - From train.py:194: The name tf.summary.merge_all is deprecated. Please use tf.compat.v1.summary.merge_all instead.
+
+2020-01-14 10:16:18,434 - tensorflow - WARNING - From train.py:195: The name tf.summary.FileWriter is deprecated. Please use tf.compat.v1.summary.FileWriter instead.
+
+2020-01-14 10:16:20,817 - tensorflow - WARNING - From train.py:213: The name tf.logging.info is deprecated. Please use tf.compat.v1.logging.info instead.
+
+2020-01-14 10:16:20,817 - tensorflow - INFO - Training from step: 0 
+2020-01-14 10:16:20,818 - tensorflow - WARNING - From train.py:216: The name tf.train.write_graph is deprecated. Please use tf.io.write_graph instead.
+
+2020-01-14 10:16:26,270 - tensorflow - INFO - Step #0: rate 0.000500, accuracy 5.00%, cross entropy 2.508803
+2020-01-14 10:16:50,770 - tensorflow - INFO - Confusion Matrix:
+ [[ 73   0   0   0 302   0   0   0   0   0   0   0]
+ [112   0   0   0  39   0   2   0   0   0 222   0]
+ [188   0   0   0  40   0   1   0   0   0 189   0]
+ [ 52   0   0   0  54   0   0   0   0   0 275   0]
+ [ 58   0   0   0  54   0   0   0   0   0 248   0]
+ [ 93   0   0   0  47   0   0   0   0   0 269   0]
+ [ 66   0   0   0  37   0   1   0   0   0 268   0]
+ [ 65   0   0   0  52   0   0   0   0   0 228   0]
+ [ 52   0   0   0  72   0   0   0   0   0 253   0]
+ [ 44   0   0   0  40   0   0   0   0   0 255   0]
+ [113   0   0   0  35   0   0   0   0   0 232   0]
+ [ 92   0   0   0  70   0   0   0   0   0 205   0]]
+2020-01-14 10:16:50,771 - tensorflow - INFO - Step 0: Validation accuracy = 8.00% (N=4498)
+2020-01-14 10:16:50,772 - tensorflow - INFO - Saving best model to "work/DS_CNN/DS_CNN1/training/best/ds_cnn_800.ckpt-0"
+2020-01-14 10:16:51,175 - tensorflow - INFO - So far the best validation accuracy is 8.00%
+2020-01-14 10:16:51,943 - tensorflow - INFO - Step #1: rate 0.000500, accuracy 10.00%, cross entropy 2.521942
+2020-01-14 10:16:52,652 - tensorflow - INFO - Step #2: rate 0.000500, accuracy 13.00%, cross entropy 2.519182
+2020-01-14 10:16:53,302 - tensorflow - INFO - Step #3: rate 0.000500, accuracy 8.00%, cross entropy 2.499511
+2020-01-14 10:16:53,972 - tensorflow - INFO - Step #4: rate 0.000500, accuracy 12.00%, cross entropy 2.493223
+2020-01-14 10:16:54,572 - tensorflow - INFO - Step #5: rate 0.000500, accuracy 9.00%, cross entropy 2.482265
+2020-01-14 10:16:55,193 - tensorflow - INFO - Step #6: rate 0.000500, accuracy 16.00%, cross entropy 2.450046
+2020-01-14 10:16:56,076 - tensorflow - INFO - Step #7: rate 0.000500, accuracy 10.00%, cross entropy 2.595954
+2020-01-14 10:16:57,039 - tensorflow - INFO - Step #8: rate 0.000500, accuracy 13.00%, cross entropy 2.492974
+2020-01-14 10:16:57,618 - tensorflow - INFO - Step #9: rate 0.000500, accuracy 13.00%, cross entropy 2.507174
+2020-01-14 10:16:58,346 - tensorflow - INFO - Step #10: rate 0.000500, accuracy 9.00%, cross entropy 2.440372
+2020-01-14 10:16:59,072 - tensorflow - INFO - Step #11: rate 0.000500, accuracy 15.00%, cross entropy 2.428369
+2020-01-14 10:17:00,571 - tensorflow - INFO - Step #12: rate 0.000500, accuracy 8.00%, cross entropy 2.454009
+2020-01-14 10:17:01,269 - tensorflow - INFO - Step #13: rate 0.000500, accuracy 13.00%, cross entropy 2.451366
+2020-01-14 10:17:02,405 - tensorflow - INFO - Step #14: rate 0.000500, accuracy 17.00%, cross entropy 2.394886
+2020-01-14 10:17:03,239 - tensorflow - INFO - Step #15: rate 0.000500, accuracy 11.00%, cross entropy 2.436681
+2020-01-14 10:17:04,047 - tensorflow - INFO - Step #16: rate 0.000500, accuracy 12.00%, cross entropy 2.401044
+2020-01-14 10:17:04,822 - tensorflow - INFO - Step #17: rate 0.000500, accuracy 17.00%, cross entropy 2.335973
+2020-01-14 10:17:05,489 - tensorflow - INFO - Step #18: rate 0.000500, accuracy 11.00%, cross entropy 2.457723
+2020-01-14 10:17:06,078 - tensorflow - INFO - Step #19: rate 0.000500, accuracy 8.00%, cross entropy 2.404858
+2020-01-14 10:17:06,655 - tensorflow - INFO - Step #20: rate 0.000500, accuracy 14.00%, cross entropy 2.388661
+2020-01-14 10:17:07,260 - tensorflow - INFO - Step #21: rate 0.000500, accuracy 20.00%, cross entropy 2.403234
+2020-01-14 10:17:07,907 - tensorflow - INFO - Step #22: rate 0.000500, accuracy 15.00%, cross entropy 2.374519
+2020-01-14 10:17:08,542 - tensorflow - INFO - Step #23: rate 0.000500, accuracy 14.00%, cross entropy 2.396434
+2020-01-14 10:17:09,162 - tensorflow - INFO - Step #24: rate 0.000500, accuracy 13.00%, cross entropy 2.395598
+2020-01-14 10:17:09,707 - tensorflow - INFO - Step #25: rate 0.000500, accuracy 23.00%, cross entropy 2.337371
+2020-01-14 10:17:10,329 - tensorflow - INFO - Step #26: rate 0.000500, accuracy 17.00%, cross entropy 2.410184
+2020-01-14 10:17:11,031 - tensorflow - INFO - Step #27: rate 0.000500, accuracy 22.00%, cross entropy 2.369369
+2020-01-14 10:17:12,272 - tensorflow - INFO - Step #28: rate 0.000500, accuracy 26.00%, cross entropy 2.346612
+2020-01-14 10:17:13,019 - tensorflow - INFO - Step #29: rate 0.000500, accuracy 11.00%, cross entropy 2.428434
+2020-01-14 10:17:13,833 - tensorflow - INFO - Step #30: rate 0.000500, accuracy 18.00%, cross entropy 2.392612
+2020-01-14 10:17:14,615 - tensorflow - INFO - Step #31: rate 0.000500, accuracy 18.00%, cross entropy 2.380139
+2020-01-14 10:17:15,624 - tensorflow - INFO - Step #32: rate 0.000500, accuracy 22.00%, cross entropy 2.378822
+2020-01-14 10:17:16,677 - tensorflow - INFO - Step #33: rate 0.000500, accuracy 29.00%, cross entropy 2.324243
+2020-01-14 10:17:17,832 - tensorflow - INFO - Step #34: rate 0.000500, accuracy 29.00%, cross entropy 2.276048
+2020-01-14 10:17:18,613 - tensorflow - INFO - Step #35: rate 0.000500, accuracy 25.00%, cross entropy 2.360964
+2020-01-14 10:17:19,988 - tensorflow - INFO - Step #36: rate 0.000500, accuracy 11.00%, cross entropy 2.394332
+2020-01-14 10:17:20,838 - tensorflow - INFO - Step #37: rate 0.000500, accuracy 31.00%, cross entropy 2.338065
+2020-01-14 10:17:21,928 - tensorflow - INFO - Step #38: rate 0.000500, accuracy 33.00%, cross entropy 2.268463
+2020-01-14 10:17:22,541 - tensorflow - INFO - Step #39: rate 0.000500, accuracy 37.00%, cross entropy 2.252666
+2020-01-14 10:17:23,868 - tensorflow - INFO - Step #40: rate 0.000500, accuracy 25.00%, cross entropy 2.327197
+2020-01-14 10:17:24,615 - tensorflow - INFO - Step #41: rate 0.000500, accuracy 21.00%, cross entropy 2.347574
+2020-01-14 10:17:25,297 - tensorflow - INFO - Step #42: rate 0.000500, accuracy 22.00%, cross entropy 2.346011
+2020-01-14 10:17:26,409 - tensorflow - INFO - Step #43: rate 0.000500, accuracy 31.00%, cross entropy 2.293325
+2020-01-14 10:17:27,837 - tensorflow - INFO - Step #44: rate 0.000500, accuracy 21.00%, cross entropy 2.321430
+2020-01-14 10:17:28,719 - tensorflow - INFO - Step #45: rate 0.000500, accuracy 26.00%, cross entropy 2.313730
+2020-01-14 10:17:29,587 - tensorflow - INFO - Step #46: rate 0.000500, accuracy 27.00%, cross entropy 2.254391
+2020-01-14 10:17:30,291 - tensorflow - INFO - Step #47: rate 0.000500, accuracy 17.00%, cross entropy 2.393659
+2020-01-14 10:17:31,299 - tensorflow - INFO - Step #48: rate 0.000500, accuracy 25.00%, cross entropy 2.276223
+2020-01-14 10:17:31,928 - tensorflow - INFO - Step #49: rate 0.000500, accuracy 29.00%, cross entropy 2.294045
+2020-01-14 10:17:33,057 - tensorflow - INFO - Step #50: rate 0.000500, accuracy 27.00%, cross entropy 2.274200
+2020-01-14 10:17:33,703 - tensorflow - INFO - Step #51: rate 0.000500, accuracy 29.00%, cross entropy 2.244251
+2020-01-14 10:17:34,363 - tensorflow - INFO - Step #52: rate 0.000500, accuracy 33.00%, cross entropy 2.231124
+2020-01-14 10:17:34,960 - tensorflow - INFO - Step #53: rate 0.000500, accuracy 15.00%, cross entropy 2.370289
+2020-01-14 10:17:35,564 - tensorflow - INFO - Step #54: rate 0.000500, accuracy 30.00%, cross entropy 2.220989
+2020-01-14 10:17:36,140 - tensorflow - INFO - Step #55: rate 0.000500, accuracy 26.00%, cross entropy 2.285354
+2020-01-14 10:17:36,657 - tensorflow - INFO - Step #56: rate 0.000500, accuracy 34.00%, cross entropy 2.214740
+2020-01-14 10:17:37,192 - tensorflow - INFO - Step #57: rate 0.000500, accuracy 25.00%, cross entropy 2.342261
+2020-01-14 10:17:37,727 - tensorflow - INFO - Step #58: rate 0.000500, accuracy 32.00%, cross entropy 2.201306
+2020-01-14 10:17:38,315 - tensorflow - INFO - Step #59: rate 0.000500, accuracy 30.00%, cross entropy 2.205283
+2020-01-14 10:17:39,317 - tensorflow - INFO - Step #60: rate 0.000500, accuracy 29.00%, cross entropy 2.280548
+2020-01-14 10:17:40,339 - tensorflow - INFO - Step #61: rate 0.000500, accuracy 43.00%, cross entropy 2.149217
+2020-01-14 10:17:41,328 - tensorflow - INFO - Step #62: rate 0.000500, accuracy 33.00%, cross entropy 2.211835
+2020-01-14 10:17:42,253 - tensorflow - INFO - Step #63: rate 0.000500, accuracy 31.00%, cross entropy 2.211943
+2020-01-14 10:17:43,116 - tensorflow - INFO - Step #64: rate 0.000500, accuracy 20.00%, cross entropy 2.359349
+2020-01-14 10:17:44,134 - tensorflow - INFO - Step #65: rate 0.000500, accuracy 28.00%, cross entropy 2.157058
+2020-01-14 10:17:45,206 - tensorflow - INFO - Step #66: rate 0.000500, accuracy 31.00%, cross entropy 2.194402
+2020-01-14 10:17:45,985 - tensorflow - INFO - Step #67: rate 0.000500, accuracy 31.00%, cross entropy 2.178845
+2020-01-14 10:17:46,842 - tensorflow - INFO - Step #68: rate 0.000500, accuracy 39.00%, cross entropy 2.132254
+2020-01-14 10:17:47,890 - tensorflow - INFO - Step #69: rate 0.000500, accuracy 42.00%, cross entropy 2.105485
+2020-01-14 10:17:48,870 - tensorflow - INFO - Step #70: rate 0.000500, accuracy 33.00%, cross entropy 2.151469
+2020-01-14 10:17:49,896 - tensorflow - INFO - Step #71: rate 0.000500, accuracy 30.00%, cross entropy 2.156638
+2020-01-14 10:17:50,560 - tensorflow - INFO - Step #72: rate 0.000500, accuracy 33.00%, cross entropy 2.138072
+2020-01-14 10:17:51,133 - tensorflow - INFO - Step #73: rate 0.000500, accuracy 47.00%, cross entropy 2.080521
+2020-01-14 10:17:51,792 - tensorflow - INFO - Step #74: rate 0.000500, accuracy 34.00%, cross entropy 2.065451
+2020-01-14 10:17:52,371 - tensorflow - INFO - Step #75: rate 0.000500, accuracy 33.00%, cross entropy 2.087723
+2020-01-14 10:17:53,033 - tensorflow - INFO - Step #76: rate 0.000500, accuracy 36.00%, cross entropy 2.118503
+2020-01-14 10:17:53,680 - tensorflow - INFO - Step #77: rate 0.000500, accuracy 35.00%, cross entropy 2.082968
+2020-01-14 10:17:54,271 - tensorflow - INFO - Step #78: rate 0.000500, accuracy 37.00%, cross entropy 2.079512
+2020-01-14 10:17:54,866 - tensorflow - INFO - Step #79: rate 0.000500, accuracy 38.00%, cross entropy 2.078720
+2020-01-14 10:17:55,447 - tensorflow - INFO - Step #80: rate 0.000500, accuracy 38.00%, cross entropy 2.091805
+2020-01-14 10:17:56,019 - tensorflow - INFO - Step #81: rate 0.000500, accuracy 43.00%, cross entropy 2.085441
+2020-01-14 10:17:56,620 - tensorflow - INFO - Step #82: rate 0.000500, accuracy 37.00%, cross entropy 2.068147
+2020-01-14 10:17:57,212 - tensorflow - INFO - Step #83: rate 0.000500, accuracy 42.00%, cross entropy 1.961425
+2020-01-14 10:17:57,877 - tensorflow - INFO - Step #84: rate 0.000500, accuracy 35.00%, cross entropy 2.065755
+2020-01-14 10:17:58,523 - tensorflow - INFO - Step #85: rate 0.000500, accuracy 43.00%, cross entropy 1.961408
+2020-01-14 10:17:59,147 - tensorflow - INFO - Step #86: rate 0.000500, accuracy 40.00%, cross entropy 1.951924
+2020-01-14 10:17:59,790 - tensorflow - INFO - Step #87: rate 0.000500, accuracy 35.00%, cross entropy 2.064168
+2020-01-14 10:18:00,744 - tensorflow - INFO - Step #88: rate 0.000500, accuracy 41.00%, cross entropy 1.978394
+2020-01-14 10:18:01,584 - tensorflow - INFO - Step #89: rate 0.000500, accuracy 46.00%, cross entropy 1.921760
+2020-01-14 10:18:02,390 - tensorflow - INFO - Step #90: rate 0.000500, accuracy 39.00%, cross entropy 1.954007
+2020-01-14 10:18:03,134 - tensorflow - INFO - Step #91: rate 0.000500, accuracy 39.00%, cross entropy 1.966485
+2020-01-14 10:18:04,072 - tensorflow - INFO - Step #92: rate 0.000500, accuracy 40.00%, cross entropy 1.961503
+2020-01-14 10:18:04,738 - tensorflow - INFO - Step #93: rate 0.000500, accuracy 50.00%, cross entropy 1.915392
+2020-01-14 10:18:05,387 - tensorflow - INFO - Step #94: rate 0.000500, accuracy 37.00%, cross entropy 2.007695
+2020-01-14 10:18:06,082 - tensorflow - INFO - Step #95: rate 0.000500, accuracy 41.00%, cross entropy 1.905374
+2020-01-14 10:18:07,077 - tensorflow - INFO - Step #96: rate 0.000500, accuracy 39.00%, cross entropy 1.897441
+2020-01-14 10:18:08,174 - tensorflow - INFO - Step #97: rate 0.000500, accuracy 44.00%, cross entropy 1.912271
+2020-01-14 10:18:09,206 - tensorflow - INFO - Step #98: rate 0.000500, accuracy 38.00%, cross entropy 1.949806
+2020-01-14 10:18:09,827 - tensorflow - INFO - Step #99: rate 0.000500, accuracy 34.00%, cross entropy 2.003027
+2020-01-14 10:18:10,577 - tensorflow - INFO - Step #100: rate 0.000500, accuracy 46.00%, cross entropy 1.889560
+2020-01-14 10:18:11,190 - tensorflow - INFO - Step #101: rate 0.000500, accuracy 41.00%, cross entropy 1.889243
+2020-01-14 10:18:11,843 - tensorflow - INFO - Step #102: rate 0.000500, accuracy 36.00%, cross entropy 2.004146
+2020-01-14 10:18:12,770 - tensorflow - INFO - Step #103: rate 0.000500, accuracy 38.00%, cross entropy 1.961325
+2020-01-14 10:18:13,315 - tensorflow - INFO - Step #104: rate 0.000500, accuracy 44.00%, cross entropy 1.885464
+2020-01-14 10:18:14,013 - tensorflow - INFO - Step #105: rate 0.000500, accuracy 53.00%, cross entropy 1.760449
+2020-01-14 10:18:14,539 - tensorflow - INFO - Step #106: rate 0.000500, accuracy 50.00%, cross entropy 1.794974
+2020-01-14 10:18:15,074 - tensorflow - INFO - Step #107: rate 0.000500, accuracy 41.00%, cross entropy 1.863605
+2020-01-14 10:18:15,598 - tensorflow - INFO - Step #108: rate 0.000500, accuracy 47.00%, cross entropy 1.917354
+2020-01-14 10:18:16,117 - tensorflow - INFO - Step #109: rate 0.000500, accuracy 38.00%, cross entropy 1.965089
+2020-01-14 10:18:16,678 - tensorflow - INFO - Step #110: rate 0.000500, accuracy 49.00%, cross entropy 1.786537
+2020-01-14 10:18:17,232 - tensorflow - INFO - Step #111: rate 0.000500, accuracy 38.00%, cross entropy 1.939067
+2020-01-14 10:18:17,775 - tensorflow - INFO - Step #112: rate 0.000500, accuracy 47.00%, cross entropy 1.814754
+2020-01-14 10:18:18,303 - tensorflow - INFO - Step #113: rate 0.000500, accuracy 43.00%, cross entropy 1.797112
+2020-01-14 10:18:18,841 - tensorflow - INFO - Step #114: rate 0.000500, accuracy 40.00%, cross entropy 1.934341
+2020-01-14 10:18:19,370 - tensorflow - INFO - Step #115: rate 0.000500, accuracy 40.00%, cross entropy 1.969658
+2020-01-14 10:18:19,888 - tensorflow - INFO - Step #116: rate 0.000500, accuracy 45.00%, cross entropy 1.810590
+2020-01-14 10:18:20,589 - tensorflow - INFO - Step #117: rate 0.000500, accuracy 43.00%, cross entropy 1.930725
+2020-01-14 10:18:21,302 - tensorflow - INFO - Step #118: rate 0.000500, accuracy 51.00%, cross entropy 1.816011
+2020-01-14 10:18:21,926 - tensorflow - INFO - Step #119: rate 0.000500, accuracy 53.00%, cross entropy 1.770138
+2020-01-14 10:18:22,515 - tensorflow - INFO - Step #120: rate 0.000500, accuracy 60.00%, cross entropy 1.649453
+2020-01-14 10:18:23,337 - tensorflow - INFO - Step #121: rate 0.000500, accuracy 50.00%, cross entropy 1.889765
+2020-01-14 10:18:24,163 - tensorflow - INFO - Step #122: rate 0.000500, accuracy 54.00%, cross entropy 1.737860
+2020-01-14 10:18:24,791 - tensorflow - INFO - Step #123: rate 0.000500, accuracy 51.00%, cross entropy 1.748591
+2020-01-14 10:18:25,873 - tensorflow - INFO - Step #124: rate 0.000500, accuracy 46.00%, cross entropy 1.739743
+2020-01-14 10:18:27,035 - tensorflow - INFO - Step #125: rate 0.000500, accuracy 49.00%, cross entropy 1.763032
+2020-01-14 10:18:27,700 - tensorflow - INFO - Step #126: rate 0.000500, accuracy 52.00%, cross entropy 1.725266
+2020-01-14 10:18:28,294 - tensorflow - INFO - Step #127: rate 0.000500, accuracy 56.00%, cross entropy 1.735682
+2020-01-14 10:18:28,847 - tensorflow - INFO - Step #128: rate 0.000500, accuracy 48.00%, cross entropy 1.775766
+2020-01-14 10:18:29,377 - tensorflow - INFO - Step #129: rate 0.000500, accuracy 51.00%, cross entropy 1.674322
+2020-01-14 10:18:29,904 - tensorflow - INFO - Step #130: rate 0.000500, accuracy 52.00%, cross entropy 1.631202
+2020-01-14 10:18:30,441 - tensorflow - INFO - Step #131: rate 0.000500, accuracy 58.00%, cross entropy 1.679760
+2020-01-14 10:18:31,021 - tensorflow - INFO - Step #132: rate 0.000500, accuracy 48.00%, cross entropy 1.734668
+2020-01-14 10:18:31,665 - tensorflow - INFO - Step #133: rate 0.000500, accuracy 53.00%, cross entropy 1.725184
+2020-01-14 10:18:32,234 - tensorflow - INFO - Step #134: rate 0.000500, accuracy 54.00%, cross entropy 1.619828
+2020-01-14 10:18:32,914 - tensorflow - INFO - Step #135: rate 0.000500, accuracy 61.00%, cross entropy 1.607490
+2020-01-14 10:18:33,541 - tensorflow - INFO - Step #136: rate 0.000500, accuracy 55.00%, cross entropy 1.651336
+2020-01-14 10:18:34,075 - tensorflow - INFO - Step #137: rate 0.000500, accuracy 59.00%, cross entropy 1.652628
+2020-01-14 10:18:34,607 - tensorflow - INFO - Step #138: rate 0.000500, accuracy 52.00%, cross entropy 1.728931
+2020-01-14 10:18:35,129 - tensorflow - INFO - Step #139: rate 0.000500, accuracy 66.00%, cross entropy 1.568900

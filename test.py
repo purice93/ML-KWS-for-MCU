@@ -31,6 +31,71 @@ import tensorflow as tf
 import input_data
 import models
 
+# 添加召回率等数据
+def tf_confusion_metrics(predict, real, session, feed_dict):
+    # predictions = tf.argmax(predict, 1)
+    # actuals = tf.argmax(real, 1)
+
+    predictions = predict
+    actuals = real
+
+    ones_like_actuals = tf.ones_like(actuals)
+    zeros_like_actuals = tf.zeros_like(actuals)
+    ones_like_predictions = tf.ones_like(predictions)
+    zeros_like_predictions = tf.zeros_like(predictions)
+
+    tp_op = tf.reduce_sum(
+        tf.cast(
+            tf.logical_and(
+                tf.equal(actuals, ones_like_actuals),
+                tf.equal(predictions, ones_like_predictions)
+            ),
+            "float"
+        )
+    )
+
+    tn_op = tf.reduce_sum(
+        tf.cast(
+            tf.logical_and(
+                tf.equal(actuals, zeros_like_actuals),
+                tf.equal(predictions, zeros_like_predictions)
+            ),
+            "float"
+        )
+    )
+
+    fp_op = tf.reduce_sum(
+        tf.cast(
+            tf.logical_and(
+                tf.equal(actuals, zeros_like_actuals),
+                tf.equal(predictions, ones_like_predictions)
+            ),
+            "float"
+        )
+    )
+
+    fn_op = tf.reduce_sum(
+        tf.cast(
+            tf.logical_and(
+                tf.equal(actuals, ones_like_actuals),
+                tf.equal(predictions, zeros_like_predictions)
+            ),
+            "float"
+        )
+    )
+    tp, tn, fp, fn = session.run([tp_op, tn_op, fp_op, fn_op], feed_dict)
+
+    tpr = float(tp) / (float(tp) + float(fn))
+    fpr = float(fp) / (float(fp) + float(tn))
+    fnr = float(fn) / (float(tp) + float(fn))
+
+    accuracy = (float(tp) + float(tn)) / (float(tp) + float(fp) + float(fn) + float(tn))
+
+    recall = tpr
+    precision = float(tp) / (float(tp) + float(fp))
+
+    f1_score = (2 * (precision * recall)) / (precision + recall)
+
 
 def run_inference(wanted_words, sample_rate, clip_duration_ms,
                            window_size_ms, window_stride_ms, dct_coefficient_count, 
@@ -97,6 +162,7 @@ def run_inference(wanted_words, sample_rate, clip_duration_ms,
     training_fingerprints, training_ground_truth = (
         audio_processor.get_data(FLAGS.batch_size, i, model_settings, 0.0,
                                  0.0, 0, 'training', sess))
+    # 局部准确率
     training_accuracy, conf_matrix = sess.run(
         [evaluation_step, confusion_matrix],
         feed_dict={
@@ -104,6 +170,18 @@ def run_inference(wanted_words, sample_rate, clip_duration_ms,
             ground_truth_input: training_ground_truth,
         })
     batch_size = min(FLAGS.batch_size, set_size - i)
+
+    # 获取召回率补充
+    y = training_accuracy
+    test_y = training_ground_truth
+    predictLabel = tf.constant(y)
+    predictLabel = predictLabel.eval()  # 将tensor转为ndarray
+    realLabel = tf.convert_to_tensor(test_y)  # 将ndarray转为tensor
+    tf_confusion_metrics(y, realLabel, sess, feed_dict={fingerprint_input: predictLabel, ground_truth_input: test_y})
+
+
+
+    # 全局准确率
     total_accuracy += (training_accuracy * batch_size) / set_size
     if total_conf_matrix is None:
       total_conf_matrix = conf_matrix
@@ -184,7 +262,7 @@ if __name__ == '__main__':
   parser.add_argument(
       '--data_dir',
       type=str,
-      default='/Users/zoutai/DataSets/speech_dataset',
+      default='/Users/zoutai/ML_KWS/speech_dataset',
       help="""\
       Where to download the speech training data to.
       """)

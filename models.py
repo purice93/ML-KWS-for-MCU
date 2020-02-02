@@ -40,44 +40,49 @@ from tensorflow.python.ops import nn_ops
 from tensorflow.python.ops import rnn_cell_impl
 from tensorflow.python.ops import variable_scope as vs
 
+
+# 模型输入矩阵大小
 def prepare_model_settings(label_count, sample_rate, clip_duration_ms,
                            window_size_ms, window_stride_ms,
                            dct_coefficient_count):
-  """Calculates common settings needed for all models.
+    """Calculates common settings needed for all models.
 
-  Args:
-    label_count: How many classes are to be recognized.
-    sample_rate: Number of audio samples per second.
-    clip_duration_ms: Length of each audio clip to be analyzed.
-    window_size_ms: Duration of frequency analysis window.
-    window_stride_ms: How far to move in time between frequency windows.
-    dct_coefficient_count: Number of frequency bins to use for analysis.
+    Args:
+      label_count: How many classes are to be recognized.标签数:12
+      sample_rate: Number of audio samples per second. 每秒的采样率16000
+      clip_duration_ms: Length of each audio clip to be analyzed. 音频总时长1000ms
+      window_size_ms: Duration of frequency analysis window. 窗长40ms
+      window_stride_ms: How far to move in time between frequency windows.窗步长10
+      dct_coefficient_count: Number of frequency bins to use for analysis.MFCC系数40
 
-  Returns:
-    Dictionary containing common settings.
-  """
-  desired_samples = int(sample_rate * clip_duration_ms / 1000)
-  window_size_samples = int(sample_rate * window_size_ms / 1000)
-  window_stride_samples = int(sample_rate * window_stride_ms / 1000)
-  length_minus_window = (desired_samples - window_size_samples)
-  if length_minus_window < 0:
-    spectrogram_length = 0
-  else:
-    spectrogram_length = 1 + int(length_minus_window / window_stride_samples)
-  fingerprint_size = dct_coefficient_count * spectrogram_length
-  return {
-      'desired_samples': desired_samples,
-      'window_size_samples': window_size_samples,
-      'window_stride_samples': window_stride_samples,
-      'spectrogram_length': spectrogram_length,
-      'dct_coefficient_count': dct_coefficient_count,
-      'fingerprint_size': fingerprint_size,
-      'label_count': label_count,
-      'sample_rate': sample_rate,
-  }
+    Returns:
+      Dictionary containing common settings.
+    """
+    # 16000,640,160,15360
+    # 帧数：15360/640+1=97 spectrogram_length
+    desired_samples = int(sample_rate * clip_duration_ms / 1000)
+    window_size_samples = int(sample_rate * window_size_ms / 1000)
+    window_stride_samples = int(sample_rate * window_stride_ms / 1000)
+    length_minus_window = (desired_samples - window_size_samples)
+    if length_minus_window < 0:
+        spectrogram_length = 0
+    else:
+        spectrogram_length = 1 + int(length_minus_window / window_stride_samples)
+    fingerprint_size = dct_coefficient_count * spectrogram_length
+    return {
+        'desired_samples': desired_samples,
+        'window_size_samples': window_size_samples,
+        'window_stride_samples': window_stride_samples,
+        'spectrogram_length': spectrogram_length,
+        'dct_coefficient_count': dct_coefficient_count,
+        'fingerprint_size': fingerprint_size,
+        'label_count': label_count,
+        'sample_rate': sample_rate,
+    }
+
 
 def create_attention_model(fingerprint_input, model_settings, model_size_info,
-                       is_training):
+                           is_training):
     """Builds a model with a lstm layer (with output projection layer and
          peep-hole connections)
     Based on model described in https://arxiv.org/abs/1705.02411
@@ -89,12 +94,12 @@ def create_attention_model(fingerprint_input, model_settings, model_size_info,
     input_time_size = model_settings['spectrogram_length']
     fingerprint_4d = tf.reshape(fingerprint_input,
                                 [-1, input_time_size, input_frequency_size])
-
+    # 97*40
     num_classes = model_settings['label_count']
     projection_units = model_size_info[0]
     LSTM_units = model_size_info[1]
     use_cnn = False
-    num_channel= 16
+    num_channel = 16
     cnn_dropout_keep_prob = 0.5
 
     with tf.name_scope('cnn'):
@@ -126,19 +131,21 @@ def create_attention_model(fingerprint_input, model_settings, model_size_info,
         else:
             cnn_output = fingerprint_4d
 
-    num_layers=1
-    num_units=128
-    rnn_type='gru'
+    # num_layers=1
+    # num_units=128
+    num_layers = model_size_info[0]
+    num_units = model_size_info[1]
+    rnn_type = 'gru'
     with tf.name_scope('encoder'):
-        if rnn_type=='rnn':
+        if rnn_type == 'rnn':
             cells = [tf.nn.rnn_cell.BasicRNNCell(num_units) for _ in range(num_layers)]
-        elif rnn_type=='lstm':
+        elif rnn_type == 'lstm':
             cells = [tf.nn.rnn_cell.LSTMCell(num_units) for _ in range(num_layers)]
         else:
             cells = [tf.nn.rnn_cell.GRUCell(num_units) for _ in range(num_layers)]
 
         multi_cnn_cells = tf.nn.rnn_cell.MultiRNNCell(cells)
-        initial_state=multi_cnn_cells.zero_state(tf.shape(cnn_output)[0],tf.float32)
+        initial_state = multi_cnn_cells.zero_state(tf.shape(cnn_output)[0], tf.float32)
         rnn_output, state = tf.nn.dynamic_rnn(
             cell=multi_cnn_cells,
             inputs=cnn_output,
@@ -146,27 +153,27 @@ def create_attention_model(fingerprint_input, model_settings, model_size_info,
             dtype=tf.float32
         )
 
-    attention_type='soft'
-    att_size=100
+    attention_type = 'soft'
+    att_size = 100
     with tf.name_scope('attention'):
-        if attention_type=='average':
-            attention_output=tf.reduce_mean(rnn_output,1)
+        if attention_type == 'average':
+            attention_output = tf.reduce_mean(rnn_output, 1)
         else:
             # soft
-            att_W= tf.Variable(tf.random_normal([num_units,att_size],stddev=0.1))
-            att_b= tf.Variable(tf.random_normal([att_size],stddev=0.1))
-            att_temp = tf.tanh(tf.tensordot(rnn_output,att_W,1)+att_b)
-            att_v= tf.Variable(tf.random_normal([att_size],stddev=0.1))
-            att_et = tf.tensordot(att_temp,att_v,1,name='att_et')
-            att_alpha = tf.nn.softmax(att_et,name='att_alpha')
-            attention_output = tf.reduce_sum(tf.expand_dims(att_alpha,-1) * rnn_output,1)
+            att_W = tf.Variable(tf.random_normal([num_units, att_size], stddev=0.1))
+            att_b = tf.Variable(tf.random_normal([att_size], stddev=0.1))
+            att_temp = tf.tanh(tf.tensordot(rnn_output, att_W, 1) + att_b)
+            att_v = tf.Variable(tf.random_normal([att_size], stddev=0.1))
+            att_et = tf.tensordot(att_temp, att_v, 1, name='att_et')
+            att_alpha = tf.nn.softmax(att_et, name='att_alpha')
+            attention_output = tf.reduce_sum(tf.expand_dims(att_alpha, -1) * rnn_output, 1)
 
     with tf.name_scope('softmax'):
-        softmax_W= tf.Variable(tf.random_normal([num_units,num_classes],stddev=0.01))
-        softmax_b= tf.Variable(tf.random_normal([num_classes],stddev=0.01))
+        softmax_W = tf.Variable(tf.random_normal([num_units, num_classes], stddev=0.01))
+        softmax_b = tf.Variable(tf.random_normal([num_classes], stddev=0.01))
 
-        logits = tf.nn.xw_plus_b(attention_output,softmax_W,softmax_b,name='logits')
-        predictions =tf.argmax(logits,1,name='predictions')
+        logits = tf.nn.xw_plus_b(attention_output, softmax_W, softmax_b, name='logits')
+        predictions = tf.argmax(logits, 1, name='predictions')
 
     if is_training:
         return logits, dropout_prob
@@ -175,7 +182,67 @@ def create_attention_model(fingerprint_input, model_settings, model_size_info,
 
 
 def create_ctc_model(fingerprint_input, model_settings, model_size_info, is_training):
-    pass
+    # MFCC系数，即将评率分成多少组
+    input_frequency_size = model_settings['dct_coefficient_count']
+    # 分为多少帧
+    input_time_size = model_settings['spectrogram_length']
+
+    fingerprint_size = model_settings['fingerprint_size']
+    label_count = model_settings['label_count']
+    return tc_resnet(model_settings, label_count, 1, 1)
+
+
+def tc_resnet(fingerprint_input, model_settings, num_classes, n_blocks, n_channels, scope, debug_2d=False, pool=None):
+    endpoints = dict()
+    # L = inputs.shape[1]
+    # C = inputs.shape[2]
+    L = model_settings['dct_coefficient_count']
+    C = model_settings['spectrogram_length']
+
+    assert n_blocks == len(n_channels) - 1
+
+    with tf.variable_scope(scope):
+        if debug_2d:
+            conv_kernel = first_conv_kernel = [3, 3]
+        else:
+            inputs = tf.reshape(fingerprint_input, [-1, L, 1, C])  # [N, L, 1, C]
+            first_conv_kernel = [3, 1]
+            conv_kernel = [9, 1]
+
+        net = slim.conv2d(inputs, num_outputs=n_channels[0], kernel_size=first_conv_kernel, stride=1, scope="conv0")
+
+        if pool is not None:
+            net = slim.avg_pool2d(net, kernel_size=pool[0], stride=pool[1], scope="avg_pool_0")
+
+        n_channels = n_channels[1:]
+
+        for i, n in zip(range(n_blocks), n_channels):
+            with tf.variable_scope(f"block{i}"):
+                if n != net.shape[-1]:
+                    stride = 2
+                    layer_in = slim.conv2d(net, num_outputs=n, kernel_size=1, stride=stride, scope=f"down")
+                else:
+                    layer_in = net
+                    stride = 1
+
+                net = slim.conv2d(net, num_outputs=n, kernel_size=conv_kernel, stride=stride, scope=f"conv{i}_0")
+                net = slim.conv2d(net, num_outputs=n, kernel_size=conv_kernel, stride=1, scope=f"conv{i}_1",
+                                  activation_fn=None)
+                net += layer_in
+                net = tf.nn.relu(net)
+
+        net = slim.avg_pool2d(net, kernel_size=net.shape[1:3], stride=1, scope="avg_pool")
+
+        net = slim.dropout(net)
+
+        logits = slim.conv2d(net, num_classes, 1, activation_fn=None, normalizer_fn=None, scope="fc")
+        logits = tf.reshape(logits, shape=(-1, logits.shape[3]), name="squeeze_logit")
+
+        ranges = slim.conv2d(net, 2, 1, activation_fn=None, normalizer_fn=None, scope="fc2")
+        ranges = tf.reshape(ranges, shape=(-1, ranges.shape[3]), name="squeeze_logit2")
+        endpoints["ranges"] = tf.sigmoid(ranges)
+
+    return logits, endpoints
 
 
 def create_model(fingerprint_input, model_settings, model_architecture,
@@ -253,7 +320,10 @@ def create_model(fingerprint_input, model_settings, model_architecture,
                                    model_size_info, is_training)
     elif model_architecture == 'ctc':
         return create_ctc_model(fingerprint_input, model_settings,
-                                   model_size_info, is_training)
+                                model_size_info, is_training)
+    elif model_architecture == 'resnet':
+        return create_ctc_model(fingerprint_input, model_settings,
+                                model_size_info, is_training)
     else:
         raise Exception('model_architecture argument "' + model_architecture +
                         '" not recognized, should be one of "single_fc", "conv",' +
@@ -273,6 +343,7 @@ def load_variables_from_checkpoint(sess, start_checkpoint):
     saver.restore(sess, start_checkpoint)
 
 
+# 单隐藏层
 def create_single_fc_model(fingerprint_input, model_settings, is_training):
     """Builds a model with a single hidden fully-connected layer.
 
@@ -312,6 +383,7 @@ def create_single_fc_model(fingerprint_input, model_settings, is_training):
         return logits
 
 
+# 标准的CNN
 def create_conv_model(fingerprint_input, model_settings, is_training):
     """Builds a standard convolutional model.
 
@@ -360,12 +432,18 @@ def create_conv_model(fingerprint_input, model_settings, is_training):
       TensorFlow node outputting logits results, and optionally a dropout
       placeholder.
     """
+    # 如果是训练中，则需要使用dropout-丢弃
+    # 在每个训练批次中，通过忽略一半的特征检测器（让一半的隐层节点值为0），可以明显地减少过拟合现象。
     if is_training:
         dropout_prob = tf.placeholder(tf.float32, name='dropout_prob')
+    # MFCC系数，即将评率分成多少组
     input_frequency_size = model_settings['dct_coefficient_count']
+    # 分为多少帧
     input_time_size = model_settings['spectrogram_length']
     fingerprint_4d = tf.reshape(fingerprint_input,
                                 [-1, input_time_size, input_frequency_size, 1])
+
+    # 第1个卷积层尺寸
     first_filter_width = 8
     first_filter_height = 20
     first_filter_count = 64
@@ -946,6 +1024,7 @@ def create_lstm_model(fingerprint_input, model_settings, model_size_info,
     else:
         return logits
 
+
 class LayerNormGRUCell(rnn_cell_impl.RNNCell):
 
     def __init__(self, num_units, forget_bias=1.0,
@@ -1018,6 +1097,7 @@ class LayerNormGRUCell(rnn_cell_impl.RNNCell):
         new_h = self._activation(new_c) * math_ops.sigmoid(z) + \
                 (1 - math_ops.sigmoid(z)) * h
         return new_h, new_h
+
 
 def create_gru_model(fingerprint_input, model_settings, model_size_info,
                      is_training):

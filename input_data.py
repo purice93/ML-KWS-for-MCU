@@ -248,6 +248,7 @@ class AudioProcessor(object):
       # it to contain long audio samples we mix in to improve training.
       if word == BACKGROUND_NOISE_DIR_NAME:
         continue
+      # 存储所有的单词
       all_words[word] = True
       set_index = which_set(wav_path, validation_percentage, testing_percentage)
       # If it's a known class, store its detail, otherwise add it to the list
@@ -258,13 +259,17 @@ class AudioProcessor(object):
         unknown_index[set_index].append({'label': word, 'file': wav_path})
     if not all_words:
       raise Exception('No .wavs found at ' + search_path)
+
+    # 数据集中没有目标单词
     for index, wanted_word in enumerate(wanted_words):
       if wanted_word not in all_words:
         raise Exception('Expected to find ' + wanted_word +
                         ' in labels but only found ' +
                         ', '.join(all_words.keys()))
+
     # We need an arbitrary file to load as the input for the silence samples.
     # It's multiplied by zero later, so the content doesn't matter.
+    # 加入静音文件作为训练
     silence_wav_path = self.data_index['training'][0]['file']
     for set_index in ['validation', 'testing', 'training']:
       set_size = len(self.data_index[set_index])
@@ -274,14 +279,20 @@ class AudioProcessor(object):
             'label': SILENCE_LABEL,
             'file': silence_wav_path
         })
+
       # Pick some unknowns to add to each partition of the data set.
+      # 加入未知干扰词
       random.shuffle(unknown_index[set_index])
       unknown_size = int(math.ceil(set_size * unknown_percentage / 100))
       self.data_index[set_index].extend(unknown_index[set_index][:unknown_size])
+
     # Make sure the ordering is random.
     for set_index in ['validation', 'testing', 'training']:
       random.shuffle(self.data_index[set_index])
+
     # Prepare the rest of the result data structure.
+    # 总标签=目标标签+未知标签+静音标签=10+1+1=12
+    # 将标签转化为下标
     self.words_list = prepare_words_list(wanted_words)
     self.word_to_index = {}
     for word in all_words:
@@ -291,6 +302,7 @@ class AudioProcessor(object):
         self.word_to_index[word] = UNKNOWN_WORD_INDEX
     self.word_to_index[SILENCE_LABEL] = SILENCE_INDEX
 
+  # 背景噪声文件
   def prepare_background_data(self):
     """Searches a folder for background noise audio, and loads it into memory.
 
@@ -313,6 +325,7 @@ class AudioProcessor(object):
     background_dir = os.path.join(self.data_dir, BACKGROUND_NOISE_DIR_NAME)
     if not os.path.exists(background_dir):
       return self.background_data
+
     with tf.Session(graph=tf.Graph()) as sess:
       wav_filename_placeholder = tf.placeholder(tf.string, [])
       wav_loader = io_ops.read_file(wav_filename_placeholder)
@@ -327,6 +340,7 @@ class AudioProcessor(object):
       if not self.background_data:
         raise Exception('No background wav files were found in ' + search_path)
 
+  # 将音频信号转化为MFCC
   def prepare_processing_graph(self, model_settings):
     """Builds a TensorFlow graph to apply the input distortions.
 
@@ -353,11 +367,15 @@ class AudioProcessor(object):
     wav_loader = io_ops.read_file(self.wav_filename_placeholder_)
     wav_decoder = contrib_audio.decode_wav(
         wav_loader, desired_channels=1, desired_samples=desired_samples)
+
     # Allow the audio sample's volume to be adjusted.
+    # 音量变化
     self.foreground_volume_placeholder_ = tf.placeholder(tf.float32, [])
     scaled_foreground = tf.multiply(wav_decoder.audio,
                                     self.foreground_volume_placeholder_)
+
     # Shift the sample's start position, and pad any gaps with zeros.
+    # 随机剪切、不够补零
     self.time_shift_padding_placeholder_ = tf.placeholder(tf.int32, [2, 2])
     self.time_shift_offset_placeholder_ = tf.placeholder(tf.int32, [2])
     padded_foreground = tf.pad(
@@ -367,7 +385,9 @@ class AudioProcessor(object):
     sliced_foreground = tf.slice(padded_foreground,
                                  self.time_shift_offset_placeholder_,
                                  [desired_samples, -1])
+
     # Mix in background noise.
+    # 混合噪音
     self.background_data_placeholder_ = tf.placeholder(tf.float32,
                                                        [desired_samples, 1])
     self.background_volume_placeholder_ = tf.placeholder(tf.float32, [])
@@ -375,7 +395,9 @@ class AudioProcessor(object):
                                  self.background_volume_placeholder_)
     background_add = tf.add(background_mul, sliced_foreground)
     background_clamp = tf.clip_by_value(background_add, -1.0, 1.0)
+
     # Run the spectrogram and MFCC ops to get a 2D 'fingerprint' of the audio.
+    # 提取MFCC特征
     spectrogram = contrib_audio.audio_spectrogram(
         background_clamp,
         window_size=model_settings['window_size_samples'],
