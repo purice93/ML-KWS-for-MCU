@@ -13,10 +13,6 @@
       <change afterPath="$PROJECT_DIR$/best/cnn_attention_776.ckpt-0.data-00000-of-00001" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/best/cnn_attention_776.ckpt-0.index" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/best/cnn_attention_776.ckpt-0.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/result.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tensorflow.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_commands.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/work/Basic_LSTM/Basic_LSTM1/retrain_logs/train/events.out.tfevents.1579335514.B000000089651Q" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/work/Basic_LSTM/Basic_LSTM1/retrain_logs/validation/events.out.tfevents.1579335521.B000000089651Q" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/work/Basic_LSTM/Basic_LSTM1/training/basic_lstm.pbtxt" afterDir="false" />
@@ -452,110 +448,8 @@
       <change afterPath="$PROJECT_DIR$/work/LSTM/LSTM3/training/lstm.pbtxt" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/work/LSTM/LSTM3/training/lstm_labels.txt" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/work/LSTM/LSTM3/training/tensorflow.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/work/attention/attention1/retrain_logs/train/events.out.tfevents.1579416772.B000000089651Q" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/work/attention/attention1/retrain_logs/train/events.out.tfevents.1580453821.B000000089651Q" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/work/attention/attention1/retrain_logs/validation/events.out.tfevents.1579416777.B000000089651Q" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/work/attention/attention1/retrain_logs/validation/events.out.tfevents.1580453826.B000000089651Q" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/work/attention/attention1/training/attention.pbtxt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/work/attention/attention1/training/attention_labels.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/work/attention/attention1/training/best/attention_9365.ckpt-21600.data-00000-of-00001" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/work/attention/attention1/training/best/attention_9365.ckpt-21600.index" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/work/attention/attention1/training/best/attention_9365.ckpt-21600.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/work/attention/attention1/training/best/attention_9365.ckpt-22000.data-00000-of-00001" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/work/attention/attention1/training/best/attention_9365.ckpt-22000.index" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/work/attention/attention1/training/best/attention_9365.ckpt-22000.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/work/attention/attention1/training/best/attention_9367.ckpt-22800.data-00000-of-00001" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/work/attention/attention1/training/best/attention_9367.ckpt-22800.index" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/work/attention/attention1/training/best/attention_9367.ckpt-22800.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/work/attention/attention1/training/best/attention_9369.ckpt-23600.data-00000-of-00001" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/work/attention/attention1/training/best/attention_9369.ckpt-23600.index" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/work/attention/attention1/training/best/attention_9369.ckpt-23600.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/work/attention/attention1/training/best/attention_9369.ckpt-30000.data-00000-of-00001" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/work/attention/attention1/training/best/attention_9369.ckpt-30000.index" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/work/attention/attention1/training/best/attention_9369.ckpt-30000.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/work/attention/attention1/training/best/attention_9417.ckpt-10400.data-00000-of-00001" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/work/attention/attention1/training/best/attention_9417.ckpt-10400.index" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/work/attention/attention1/training/best/attention_9417.ckpt-10400.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/work/attention/attention1/training/best/attention_9434.ckpt-10800.data-00000-of-00001" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/work/attention/attention1/training/best/attention_9434.ckpt-10800.index" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/work/attention/attention1/training/best/attention_9434.ckpt-10800.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/work/attention/attention1/training/best/attention_9436.ckpt-11200.data-00000-of-00001" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/work/attention/attention1/training/best/attention_9436.ckpt-11200.index" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/work/attention/attention1/training/best/attention_9436.ckpt-11200.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/work/attention/attention1/training/best/attention_9443.ckpt-11600.data-00000-of-00001" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/work/attention/attention1/training/best/attention_9443.ckpt-11600.index" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/work/attention/attention1/training/best/attention_9443.ckpt-11600.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/work/attention/attention1/training/best/attention_9447.ckpt-14000.data-00000-of-00001" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/work/attention/attention1/training/best/attention_9447.ckpt-14000.index" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/work/attention/attention1/training/best/attention_9447.ckpt-14000.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/work/attention/attention1/training/best/checkpoint" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/work/attention/attention1/training/tensorflow.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/work/attention/attention2/retrain_logs/train/events.out.tfevents.1580484339.B000000089651Q" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/work/attention/attention2/retrain_logs/train/events.out.tfevents.1580526468.B000000089651Q" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/work/attention/attention2/retrain_logs/validation/events.out.tfevents.1580484345.B000000089651Q" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/work/attention/attention2/retrain_logs/validation/events.out.tfevents.1580526474.B000000089651Q" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/work/attention/attention2/training/attention.pbtxt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/work/attention/attention2/training/attention_labels.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/work/attention/attention2/training/best/attention_9484.ckpt-8800.data-00000-of-00001" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/work/attention/attention2/training/best/attention_9484.ckpt-8800.index" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/work/attention/attention2/training/best/attention_9484.ckpt-8800.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/work/attention/attention2/training/best/attention_9497.ckpt-9600.data-00000-of-00001" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/work/attention/attention2/training/best/attention_9497.ckpt-9600.index" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/work/attention/attention2/training/best/attention_9497.ckpt-9600.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/work/attention/attention2/training/best/attention_9520.ckpt-11600.data-00000-of-00001" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/work/attention/attention2/training/best/attention_9520.ckpt-11600.index" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/work/attention/attention2/training/best/attention_9520.ckpt-11600.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/work/attention/attention2/training/best/attention_9521.ckpt-10400.data-00000-of-00001" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/work/attention/attention2/training/best/attention_9521.ckpt-10400.index" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/work/attention/attention2/training/best/attention_9521.ckpt-10400.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/work/attention/attention2/training/best/attention_9522.ckpt-12000.data-00000-of-00001" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/work/attention/attention2/training/best/attention_9522.ckpt-12000.index" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/work/attention/attention2/training/best/attention_9522.ckpt-12000.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/work/attention/attention2/training/best/attention_9524.ckpt-12800.data-00000-of-00001" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/work/attention/attention2/training/best/attention_9524.ckpt-12800.index" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/work/attention/attention2/training/best/attention_9524.ckpt-12800.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/work/attention/attention2/training/best/attention_9527.ckpt-13200.data-00000-of-00001" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/work/attention/attention2/training/best/attention_9527.ckpt-13200.index" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/work/attention/attention2/training/best/attention_9527.ckpt-13200.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/work/attention/attention2/training/best/attention_9537.ckpt-11600.data-00000-of-00001" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/work/attention/attention2/training/best/attention_9537.ckpt-11600.index" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/work/attention/attention2/training/best/attention_9537.ckpt-11600.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/work/attention/attention2/training/best/attention_9543.ckpt-25600.data-00000-of-00001" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/work/attention/attention2/training/best/attention_9543.ckpt-25600.index" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/work/attention/attention2/training/best/attention_9543.ckpt-25600.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/work/attention/attention2/training/best/attention_9546.ckpt-17200.data-00000-of-00001" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/work/attention/attention2/training/best/attention_9546.ckpt-17200.index" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/work/attention/attention2/training/best/attention_9546.ckpt-17200.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/work/attention/attention2/training/best/checkpoint" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/work/attention/attention2/training/tensorflow.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/work/attention/attention3/retrain_logs/train/events.out.tfevents.1580559939.B000000089651Q" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/work/attention/attention3/retrain_logs/validation/events.out.tfevents.1580559945.B000000089651Q" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/work/attention/attention3/training/attention.pbtxt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/work/attention/attention3/training/attention_labels.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/work/attention/attention3/training/best/attention_9516.ckpt-14000.data-00000-of-00001" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/work/attention/attention3/training/best/attention_9516.ckpt-14000.index" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/work/attention/attention3/training/best/attention_9516.ckpt-14000.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/work/attention/attention3/training/best/attention_9516.ckpt-15600.data-00000-of-00001" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/work/attention/attention3/training/best/attention_9516.ckpt-15600.index" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/work/attention/attention3/training/best/attention_9516.ckpt-15600.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/work/attention/attention3/training/best/attention_9522.ckpt-16000.data-00000-of-00001" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/work/attention/attention3/training/best/attention_9522.ckpt-16000.index" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/work/attention/attention3/training/best/attention_9522.ckpt-16000.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/work/attention/attention3/training/best/attention_9529.ckpt-18000.data-00000-of-00001" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/work/attention/attention3/training/best/attention_9529.ckpt-18000.index" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/work/attention/attention3/training/best/attention_9529.ckpt-18000.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/work/attention/attention3/training/best/attention_9529.ckpt-26800.data-00000-of-00001" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/work/attention/attention3/training/best/attention_9529.ckpt-26800.index" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/work/attention/attention3/training/best/attention_9529.ckpt-26800.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/work/attention/attention3/training/best/checkpoint" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/work/attention/attention3/training/tensorflow.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/best/checkpoint" beforeDir="false" afterPath="$PROJECT_DIR$/best/checkpoint" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/input_data.py" beforeDir="false" afterPath="$PROJECT_DIR$/input_data.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/train.py" beforeDir="false" afterPath="$PROJECT_DIR$/train.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/train_commands.txt" beforeDir="false" afterPath="$PROJECT_DIR$/train_commands.txt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -652,7 +546,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.pytest in ML-KWS-for-MCU">
+  <component name="RunManager" selected="Python.train">
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
       <module name="ML-KWS-for-MCU" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -760,7 +654,7 @@
       <workItem from="1543822480588" duration="4117000" />
       <workItem from="1576227643346" duration="1898000" />
       <workItem from="1578906433656" duration="48970000" />
-      <workItem from="1579780062283" duration="21939000" />
+      <workItem from="1579780062283" duration="23294000" />
     </task>
     <task id="LOCAL-00001" summary="添加attention">
       <created>1544144219258</created>
@@ -790,7 +684,28 @@
       <option name="project" value="LOCAL" />
       <updated>1580561650290</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="注释">
+      <created>1580623454374</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1580623454374</updated>
+    </task>
+    <task id="LOCAL-00006" summary="添加attention训练模型">
+      <created>1580623632845</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1580623632845</updated>
+    </task>
+    <task id="LOCAL-00007" summary="训练模型训练完成">
+      <created>1580624100720</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1580624100720</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -858,7 +773,10 @@
     <MESSAGE value="添加attention" />
     <MESSAGE value="mac上配置，完成" />
     <MESSAGE value="所有模型训练完成" />
-    <option name="LAST_COMMIT_MESSAGE" value="所有模型训练完成" />
+    <MESSAGE value="注释" />
+    <MESSAGE value="添加attention训练模型" />
+    <MESSAGE value="训练模型训练完成" />
+    <option name="LAST_COMMIT_MESSAGE" value="训练模型训练完成" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

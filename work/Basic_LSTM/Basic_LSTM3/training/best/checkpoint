@@ -1,0 +1,6 @@
+model_checkpoint_path: "basic_lstm_9573.ckpt-25600"
+all_model_checkpoint_paths: "basic_lstm_9530.ckpt-10400"
+all_model_checkpoint_paths: "basic_lstm_9543.ckpt-14400"
+all_model_checkpoint_paths: "basic_lstm_9564.ckpt-17600"
+all_model_checkpoint_paths: "basic_lstm_9569.ckpt-23600"
+all_model_checkpoint_paths: "basic_lstm_9573.ckpt-25600"
