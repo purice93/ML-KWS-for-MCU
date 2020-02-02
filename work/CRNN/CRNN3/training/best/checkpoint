@@ -1,0 +1,6 @@
+model_checkpoint_path: "crnn_9587.ckpt-16400"
+all_model_checkpoint_paths: "crnn_9535.ckpt-7600"
+all_model_checkpoint_paths: "crnn_9545.ckpt-10400"
+all_model_checkpoint_paths: "crnn_9549.ckpt-10800"
+all_model_checkpoint_paths: "crnn_9575.ckpt-11200"
+all_model_checkpoint_paths: "crnn_9587.ckpt-16400"

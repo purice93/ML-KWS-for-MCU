@@ -1,0 +1,6 @@
+model_checkpoint_path: "dnn_8737.ckpt-29600"
+all_model_checkpoint_paths: "dnn_8702.ckpt-24000"
+all_model_checkpoint_paths: "dnn_8709.ckpt-25200"
+all_model_checkpoint_paths: "dnn_8722.ckpt-28400"
+all_model_checkpoint_paths: "dnn_8731.ckpt-28800"
+all_model_checkpoint_paths: "dnn_8737.ckpt-29600"

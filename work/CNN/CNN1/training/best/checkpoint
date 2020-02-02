@@ -1,0 +1,6 @@
+model_checkpoint_path: "cnn_9181.ckpt-23200"
+all_model_checkpoint_paths: "cnn_9123.ckpt-11600"
+all_model_checkpoint_paths: "cnn_9138.ckpt-14000"
+all_model_checkpoint_paths: "cnn_9158.ckpt-20800"
+all_model_checkpoint_paths: "cnn_9166.ckpt-22000"
+all_model_checkpoint_paths: "cnn_9181.ckpt-23200"

@@ -1,0 +1,6 @@
+model_checkpoint_path: "lstm_9375.ckpt-24800"
+all_model_checkpoint_paths: "lstm_9330.ckpt-12000"
+all_model_checkpoint_paths: "lstm_9358.ckpt-15600"
+all_model_checkpoint_paths: "lstm_9362.ckpt-22000"
+all_model_checkpoint_paths: "lstm_9368.ckpt-23200"
+all_model_checkpoint_paths: "lstm_9375.ckpt-24800"

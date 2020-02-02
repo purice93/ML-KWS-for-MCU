@@ -1,0 +1,6 @@
+model_checkpoint_path: "gru_9593.ckpt-24000"
+all_model_checkpoint_paths: "gru_9557.ckpt-10800"
+all_model_checkpoint_paths: "gru_9563.ckpt-11200"
+all_model_checkpoint_paths: "gru_9587.ckpt-11600"
+all_model_checkpoint_paths: "gru_9591.ckpt-18400"
+all_model_checkpoint_paths: "gru_9593.ckpt-24000"

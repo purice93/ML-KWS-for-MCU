@@ -15,52 +15,10 @@
       <change afterPath="$PROJECT_DIR$/best/cnn_attention_776.ckpt-0.meta" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/work/Basic_LSTM/Basic_LSTM1/retrain_logs/train/events.out.tfevents.1579335514.B000000089651Q" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/work/Basic_LSTM/Basic_LSTM1/retrain_logs/validation/events.out.tfevents.1579335521.B000000089651Q" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/work/Basic_LSTM/Basic_LSTM1/training/basic_lstm.pbtxt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/work/Basic_LSTM/Basic_LSTM1/training/basic_lstm_labels.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/work/Basic_LSTM/Basic_LSTM1/training/best/checkpoint" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/work/Basic_LSTM/Basic_LSTM1/training/tensorflow.log" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/work/Basic_LSTM/Basic_LSTM2/retrain_logs/train/events.out.tfevents.1579697601.B000000089651Q" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/work/Basic_LSTM/Basic_LSTM2/retrain_logs/validation/events.out.tfevents.1579697604.B000000089651Q" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/work/Basic_LSTM/Basic_LSTM2/training/basic_lstm.pbtxt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/work/Basic_LSTM/Basic_LSTM2/training/basic_lstm_labels.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/work/Basic_LSTM/Basic_LSTM2/training/best/basic_lstm_9428.ckpt-21200.data-00000-of-00001" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/work/Basic_LSTM/Basic_LSTM2/training/best/basic_lstm_9428.ckpt-21200.index" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/work/Basic_LSTM/Basic_LSTM2/training/best/basic_lstm_9428.ckpt-21200.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/work/Basic_LSTM/Basic_LSTM2/training/best/basic_lstm_9430.ckpt-22400.data-00000-of-00001" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/work/Basic_LSTM/Basic_LSTM2/training/best/basic_lstm_9430.ckpt-22400.index" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/work/Basic_LSTM/Basic_LSTM2/training/best/basic_lstm_9430.ckpt-22400.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/work/Basic_LSTM/Basic_LSTM2/training/best/basic_lstm_9436.ckpt-22800.data-00000-of-00001" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/work/Basic_LSTM/Basic_LSTM2/training/best/basic_lstm_9436.ckpt-22800.index" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/work/Basic_LSTM/Basic_LSTM2/training/best/basic_lstm_9436.ckpt-22800.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/work/Basic_LSTM/Basic_LSTM2/training/best/basic_lstm_9441.ckpt-25200.data-00000-of-00001" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/work/Basic_LSTM/Basic_LSTM2/training/best/basic_lstm_9441.ckpt-25200.index" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/work/Basic_LSTM/Basic_LSTM2/training/best/basic_lstm_9441.ckpt-25200.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/work/Basic_LSTM/Basic_LSTM2/training/best/basic_lstm_9441.ckpt-29200.data-00000-of-00001" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/work/Basic_LSTM/Basic_LSTM2/training/best/basic_lstm_9441.ckpt-29200.index" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/work/Basic_LSTM/Basic_LSTM2/training/best/basic_lstm_9441.ckpt-29200.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/work/Basic_LSTM/Basic_LSTM2/training/best/checkpoint" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/work/Basic_LSTM/Basic_LSTM2/training/tensorflow.log" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/work/Basic_LSTM/Basic_LSTM3/retrain_logs/train/events.out.tfevents.1580124070.B000000089651Q" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/work/Basic_LSTM/Basic_LSTM3/retrain_logs/validation/events.out.tfevents.1580124074.B000000089651Q" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/work/Basic_LSTM/Basic_LSTM3/training/basic_lstm.pbtxt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/work/Basic_LSTM/Basic_LSTM3/training/basic_lstm_labels.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/work/Basic_LSTM/Basic_LSTM3/training/best/basic_lstm_9530.ckpt-10400.data-00000-of-00001" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/work/Basic_LSTM/Basic_LSTM3/training/best/basic_lstm_9530.ckpt-10400.index" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/work/Basic_LSTM/Basic_LSTM3/training/best/basic_lstm_9530.ckpt-10400.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/work/Basic_LSTM/Basic_LSTM3/training/best/basic_lstm_9543.ckpt-14400.data-00000-of-00001" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/work/Basic_LSTM/Basic_LSTM3/training/best/basic_lstm_9543.ckpt-14400.index" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/work/Basic_LSTM/Basic_LSTM3/training/best/basic_lstm_9543.ckpt-14400.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/work/Basic_LSTM/Basic_LSTM3/training/best/basic_lstm_9564.ckpt-17600.data-00000-of-00001" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/work/Basic_LSTM/Basic_LSTM3/training/best/basic_lstm_9564.ckpt-17600.index" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/work/Basic_LSTM/Basic_LSTM3/training/best/basic_lstm_9564.ckpt-17600.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/work/Basic_LSTM/Basic_LSTM3/training/best/basic_lstm_9569.ckpt-23600.data-00000-of-00001" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/work/Basic_LSTM/Basic_LSTM3/training/best/basic_lstm_9569.ckpt-23600.index" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/work/Basic_LSTM/Basic_LSTM3/training/best/basic_lstm_9569.ckpt-23600.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/work/Basic_LSTM/Basic_LSTM3/training/best/basic_lstm_9573.ckpt-25600.data-00000-of-00001" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/work/Basic_LSTM/Basic_LSTM3/training/best/basic_lstm_9573.ckpt-25600.index" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/work/Basic_LSTM/Basic_LSTM3/training/best/basic_lstm_9573.ckpt-25600.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/work/Basic_LSTM/Basic_LSTM3/training/best/checkpoint" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/work/Basic_LSTM/Basic_LSTM3/training/tensorflow.log" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/work/CNN/CNN1/retrain_logs/train/events.out.tfevents.1578921855.B000000089651Q" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/work/CNN/CNN1/retrain_logs/train/events.out.tfevents.1578923192.B000000089651Q" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/work/CNN/CNN1/retrain_logs/validation/events.out.tfevents.1578921859.B000000089651Q" afterDir="false" />
@@ -448,7 +406,6 @@
       <change afterPath="$PROJECT_DIR$/work/LSTM/LSTM3/training/lstm.pbtxt" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/work/LSTM/LSTM3/training/lstm_labels.txt" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/work/LSTM/LSTM3/training/tensorflow.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/best/checkpoint" beforeDir="false" afterPath="$PROJECT_DIR$/best/checkpoint" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -654,7 +611,7 @@
       <workItem from="1543822480588" duration="4117000" />
       <workItem from="1576227643346" duration="1898000" />
       <workItem from="1578906433656" duration="48970000" />
-      <workItem from="1579780062283" duration="23294000" />
+      <workItem from="1579780062283" duration="23548000" />
     </task>
     <task id="LOCAL-00001" summary="添加attention">
       <created>1544144219258</created>
@@ -705,7 +662,14 @@
       <option name="project" value="LOCAL" />
       <updated>1580624100720</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="basic_LSTM模型训练完成">
+      <created>1580625029685</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1580625029685</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -776,7 +740,8 @@
     <MESSAGE value="注释" />
     <MESSAGE value="添加attention训练模型" />
     <MESSAGE value="训练模型训练完成" />
-    <option name="LAST_COMMIT_MESSAGE" value="训练模型训练完成" />
+    <MESSAGE value="basic_LSTM模型训练完成" />
+    <option name="LAST_COMMIT_MESSAGE" value="basic_LSTM模型训练完成" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
