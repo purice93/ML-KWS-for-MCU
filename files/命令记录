@@ -1,0 +1,3 @@
+tensorflow可视化命令：
+tensorboard --logdir=E:\Python_Workspace\ML-KWS-for-MCU\work\attention\attention1\retrain_logs
+tensorboard --logdir=E:\Python_Workspace\ML-KWS-for-MCU\work\attention\attention1\retrain_logs
