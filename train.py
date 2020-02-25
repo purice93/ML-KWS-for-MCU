@@ -469,19 +469,19 @@ if __name__ == '__main__':
     parser.add_argument(
         '--window_size_ms',
         type=float,
-        default=30.0,
+        default=40.0,
         help='How long each spectrogram timeslice is', )
     # 帧移
     parser.add_argument(
         '--window_stride_ms',
         type=float,
-        default=10.0,
+        default=20.0,
         help='How long each spectrogram timeslice is', )
     # MFCC系数
     parser.add_argument(
         '--dct_coefficient_count',
         type=int,
-        default=40,
+        default=10,
         help='How many bins to use for the MFCC fingerprint', )
     # 分阶段训练步数
     parser.add_argument(
@@ -511,7 +511,8 @@ if __name__ == '__main__':
     parser.add_argument(
         '--summaries_dir',
         type=str,
-        default='/Users/zoutai/ML_KWS/retrain_logs',
+        # default='/Users/zoutai/ML_KWS/retrain_logs',
+        default='work/tcres/tcres1/retrain_logs',
         help='Where to save summary logs for TensorBoard.')
     # 关键词标签
     parser.add_argument(
@@ -523,7 +524,7 @@ if __name__ == '__main__':
     parser.add_argument(
         '--train_dir',
         type=str,
-        default='',
+        default='work/tcres/tcres1/training',
         help='Directory to write event logs and checkpoint.')
     # 多少步保存一次模型
     parser.add_argument(
@@ -541,7 +542,8 @@ if __name__ == '__main__':
     parser.add_argument(
         '--model_architecture',
         type=str,
-        default='cnn_attention',
+        default='tcres',
+        # default='single_fc',
         help='What model architecture to use')
     # 模型对应的模型参数
     parser.add_argument(

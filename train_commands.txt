@@ -34,7 +34,9 @@ python train.py --model_architecture ds_cnn --model_size_info 5 172 10 4 2 1 172
 python train.py --model_architecture ds_cnn --model_size_info 6 276 10 4 2 1 276 3 3 2 2 276 3 3 1 1 276 3 3 1 1 276 3 3 1 1 276 3 3 1 1 --dct_coefficient_count 10 --window_size_ms 40 --window_stride_ms 20 --learning_rate 0.0005,0.0001,0.00002 --how_many_training_steps 10000,10000,10000 --summaries_dir work/DS_CNN/DS_CNN3/retrain_logs --train_dir work/DS_CNN/DS_CNN3/training 
 
 #resnet
-python train.py --model_architecture resnet --dct_coefficient_count 10 --window_size_ms 40 --window_stride_ms 40 --learning_rate 0.0005,0.0001,0.00002 --how_many_training_steps 10000,10000,10000 --summaries_dir work/resnet/resnet1/retrain_logs --train_dir work/resnet/resnet1/training
+python train.py --model_architecture tcres --dct_coefficient_count 10 --window_size_ms 40 --window_stride_ms 20 --learning_rate 0.0005,0.0001,0.00002 --how_many_training_steps 10000,10000,10000 --summaries_dir work/tcres/tcres1/retrain_logs --train_dir work/tcres/tcres1/training --start_checkpoint work/tcres/tcres3/training/best/tcres_9449.ckpt-23600
+python train.py --model_architecture tcres --dct_coefficient_count 10 --window_size_ms 40 --window_stride_ms 20 --learning_rate 0.0005,0.0001,0.00002 --how_many_training_steps 10000,10000,10000 --summaries_dir work/tcres/tcres2/retrain_logs --train_dir work/tcres/tcres2/training
+python train.py --model_architecture tcres --dct_coefficient_count 10 --window_size_ms 40 --window_stride_ms 20 --learning_rate 0.0005,0.0001,0.00002 --how_many_training_steps 10000,10000,10000 --summaries_dir work/tcres/tcres3/retrain_logs --train_dir work/tcres/tcres3/training
 
 #attention
 python train.py --model_architecture attention --model_size_info 1 154 --dct_coefficient_count 10 --window_size_ms 40 --window_stride_ms 20 --learning_rate 0.0005,0.0001,0.00002 --how_many_training_steps 10000,10000,10000 --summaries_dir work/attention/attention1/retrain_logs --train_dir work/attention/attention1/training

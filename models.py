@@ -30,6 +30,7 @@ import math
 
 import tensorflow as tf
 import tensorflow.contrib.slim as slim
+from pasta.base import scope
 from tensorflow.contrib.layers.python.layers import layers
 from tensorflow.contrib.seq2seq import *
 from tensorflow.python.layers.core import Dense
@@ -80,6 +81,92 @@ def prepare_model_settings(label_count, sample_rate, clip_duration_ms,
         'sample_rate': sample_rate,
     }
 
+def create_tcRes_model(fingerprint_input, model_settings, model_size_info,
+                               is_training, pool=None):
+    """Builds a model with a lstm layer (with output projection layer and
+         peep-hole connections)
+    Based on model described in https://arxiv.org/abs/1705.02411
+    model_size_info: [projection size, memory cells in LSTM]
+    """
+    # endpoints = dict()
+    if is_training:
+        dropout_prob = tf.placeholder(tf.float32, name='dropout_prob')
+    input_frequency_size = model_settings['dct_coefficient_count']
+    input_time_size = model_settings['spectrogram_length']
+    fingerprint_4d = tf.reshape(fingerprint_input,
+                                [-1, input_time_size, 1, input_frequency_size])
+
+    first_conv_kernel = [3, 1]
+    conv_kernel = [9, 1]
+    # 97*40
+    num_classes = model_settings['label_count']
+    projection_units = model_size_info[0]
+    LSTM_units = model_size_info[1]
+    use_cnn = False
+    num_channel = 16
+    cnn_dropout_keep_prob = 0.5
+
+    with tf.variable_scope("tcres8"):
+        width_multiplier=1.0
+        # # 1
+        # # 层数
+        n_blocks = 3
+        # 每层的通道数
+        n_channels = [16, 24, 32, 48]
+        n_channels = [int(x * width_multiplier) for x in n_channels]
+
+        # # 2
+        # n_blocks = 6
+        # # n_channels = [16, 24, 24, 32, 32, 48, 48]
+        # n_channels = [int(x * 1.0) for x in n_channels]
+
+        # 3
+        # n_blocks = 3
+        # n_channels = [16, 24, 32, 48]
+        # n_channels = [int(x * 1.0) for x in n_channels]
+        # # inputs: [N, L, C, 1]
+        # f = fingerprint_input.get_shape().as_list()[1]
+        # c1, c2 = n_channels[0:2]
+        # first_c = int((3 * f * c1 + 10 * c1 * c2) / (9 + 10 * c2))
+        # n_channels[0] = first_c
+
+        net = slim.conv2d(fingerprint_4d, num_outputs=n_channels[0], kernel_size=first_conv_kernel, stride=1, scope="conv0")
+
+        if pool is not None:
+            net = slim.avg_pool2d(net, kernel_size=pool[0], stride=pool[1], scope="avg_pool_0")
+
+        n_channels = n_channels[1:]
+
+        for i, n in zip(range(n_blocks), n_channels):
+            with tf.variable_scope(f"block{i}"):
+                if n != net.shape[-1]:
+                    stride = 2
+                    layer_in = slim.conv2d(net, num_outputs=n, kernel_size=1, stride=stride, scope=f"down")
+                else:
+                    layer_in = net
+                    stride = 1
+
+                net = slim.conv2d(net, num_outputs=n, kernel_size=conv_kernel, stride=stride, scope=f"conv{i}_0")
+                net = slim.conv2d(net, num_outputs=n, kernel_size=conv_kernel, stride=1, scope=f"conv{i}_1",
+                                  activation_fn=None)
+                net += layer_in
+                net = tf.nn.relu(net)
+
+        net = slim.avg_pool2d(net, kernel_size=net.shape[1:3], stride=1, scope="avg_pool")
+
+        net = slim.dropout(net)
+
+        logits = slim.conv2d(net, num_classes, 1, activation_fn=None, normalizer_fn=None, scope="fc")
+        # logits = tf.reshape(logits, shape=(-1, logits.shape[3]), name="squeeze_logit")
+
+        # ranges = slim.conv2d(net, 2, 1, activation_fn=None, normalizer_fn=None, scope="fc2")
+        # ranges = tf.reshape(ranges, shape=(-1, ranges.shape[3]), name="squeeze_logit2")
+        # endpoints["ranges"] = tf.sigmoid(ranges)
+    logits = tf.reshape(logits, shape=(-1, num_classes), name="squeeze_logit")
+    if is_training:
+        return logits, dropout_prob
+    else:
+        return logits
 
 def create_attention_model(fingerprint_input, model_settings, model_size_info,
                            is_training):
@@ -240,9 +327,9 @@ def tc_resnet(fingerprint_input, model_settings, num_classes, n_blocks, n_channe
 
         ranges = slim.conv2d(net, 2, 1, activation_fn=None, normalizer_fn=None, scope="fc2")
         ranges = tf.reshape(ranges, shape=(-1, ranges.shape[3]), name="squeeze_logit2")
-        endpoints["ranges"] = tf.sigmoid(ranges)
+        # endpoints["ranges"] = tf.sigmoid(ranges)
 
-    return logits, endpoints
+    return logits
 
 
 def create_model(fingerprint_input, model_settings, model_architecture,
@@ -290,10 +377,6 @@ def create_model(fingerprint_input, model_settings, model_architecture,
     elif model_architecture == 'low_latency_svdf':
         return create_low_latency_svdf_model(fingerprint_input, model_settings,
                                              is_training, runtime_settings)
-
-    elif model_architecture == 'attention':
-        return create_attention_model(fingerprint_input, model_settings,
-                                      model_size_info, is_training)
     elif model_architecture == 'cnn_attention':
         return create_attention_model(fingerprint_input, model_settings,
                                       model_size_info, is_training)
@@ -321,8 +404,14 @@ def create_model(fingerprint_input, model_settings, model_architecture,
     elif model_architecture == 'ctc':
         return create_ctc_model(fingerprint_input, model_settings,
                                 model_size_info, is_training)
-    elif model_architecture == 'resnet':
+    elif model_architecture == 'attention':
+        return create_attention_model(fingerprint_input, model_settings,
+                                      model_size_info, is_training)
+    elif model_architecture == 'ctc':
         return create_ctc_model(fingerprint_input, model_settings,
+                                model_size_info, is_training)
+    elif model_architecture == 'tcres':
+        return create_tcRes_model(fingerprint_input, model_settings,
                                 model_size_info, is_training)
     else:
         raise Exception('model_architecture argument "' + model_architecture +
@@ -334,7 +423,6 @@ def create_model(fingerprint_input, model_settings, model_architecture,
 
 def load_variables_from_checkpoint(sess, start_checkpoint):
     """Utility function to centralize checkpoint restoration.
-
     Args:
       sess: TensorFlow session.
       start_checkpoint: Path to saved checkpoint on disk.
